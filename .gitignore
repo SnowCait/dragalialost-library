@@ -1,6 +1,6 @@
 .DS_Store
 node_modules
-/dist
+#/dist # change directory name to /docs and push for GitHub Pages
 
 # local env files
 .env.local
