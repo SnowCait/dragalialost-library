@@ -47,23 +47,3 @@ export default {
     }
 }
 </script>
-
-<style>
-.thumbnails {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-.thumbnails > li {
-    display: inline-block;
-    height: 50px;
-    width: 50px;
-    margin: 0;
-    padding: 0;
-}
-.thumbnails > li > img {
-    height: 50px;
-    width: 50px;
-}
-</style>
-
