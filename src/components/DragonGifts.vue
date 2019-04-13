@@ -1,7 +1,7 @@
 <template>
     <section>
         <h2>ドラゴンの好物</h2>
-        <div v-if="todayGifts.length > 0">
+        <div v-if="todayGifts[0].FavoriteType != 99">
             <ul class="thumbnails">
                 <li v-for="dragon in todayDragons" :key="dragon.Id">
                     <img :src="dragon.Image">
@@ -24,7 +24,8 @@ export default {
     data () {
         const date = new Date();
         date.setHours(date.getHours() - 15);
-        const favoriteType = date.getDay();
+        const day = date.getDay();
+        const favoriteType = (day == 0 || day == 6) ? 99 : day;
         dragons.sort((x, y) => {
                 if (x.Rarity == y.Rarity) {
                     return 0;
@@ -35,7 +36,7 @@ export default {
                 }
             });
         return {
-            todayGifts: gifts.filter(gift => favoriteType != 0 && gift.FavoriteType == favoriteType),
+            todayGifts: gifts.filter(gift => gift.FavoriteType == favoriteType),
             favoriteType: favoriteType,
             todayDragons: dragons
                 .filter(dragon => dragon.FavoriteType == favoriteType)
