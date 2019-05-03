@@ -3,37 +3,50 @@
         <h1>ステータスシミュレーター</h1>
 
         <section class="equipments">
-            <h2>装備</h2>
+            <ul>
+                <li>
+                    <img class="adventurer" src="@/assets/img/adventurer/110043_02_r05.png" alt="キャラクター" />
+                    <div>Lv </div>
+                    <div>マナサ</div>
+                    <div>レアリティ</div>
+                    <div>EX</div>
+                </li>
 
-            <h3>キャラ</h3>
-            <img class="adventurer" src="@/assets/img/adventurer/110043_02_r05.png" />
-            <div>Lv </div>
-            <div>マナサ</div>
-            <div>レアリティ</div>
-            <div>EX</div>
+                <li>
+                    <img src="" alt="武器" />
+                    <div>Lv</div>
+                    <div>上限解放</div>
+                </li>
 
-            <h3>武器</h3>
-            <img src="" />
-            <div>Lv</div>
-            <div>上限解放</div>
+                <li>
+                    <img src="" alt="護符1" />
+                    <div>Lv</div>
+                    <div>上限解放</div>
+                </li>
 
-            <h3>護符1</h3>
-            <img src="" />
-            <div>Lv</div>
-            <div>上限解放</div>
+                <li>
+                    <img src="" alt="護符2" />
+                    <div>Lv</div>
+                    <div>上限解放</div>
+                </li>
 
-            <h3>護符2</h3>
-            <img src="" />
-            <div>Lv</div>
-            <div>上限解放</div>
+                <li>
+                    <img src="@/assets/img/dragon/210001_01.png" alt="ドラゴン" />
+                    <div>Lv</div>
+                    <div>上限解放</div>
+                    <div>信頼度 {{dragonBond}}</div>
+                </li>
+            </ul>
 
-            <h3>ドラゴン</h3>
-            <img src="" />
-            <div>Lv</div>
-            <div>上限解放</div>
-            <div>信頼度</div>
+            <div>
+                <h3>施設</h3>
+            </div>
+        </section>
 
-            <h3>施設</h3>
+        <section class="dragons">
+            <ul>
+                <li v-for="dragon in dragons" :key="dragon.BaseId"><img :src="dragon.Image" :alt="dragon.Name" /></li>
+            </ul>
         </section>
 
         <section class="status">
@@ -95,6 +108,22 @@
 </template>
 
 <script>
+import dragons from '../assets/json/Dragons.json';
+
+dragons.sort((a, b) => {
+    // できれば属性→レアリティ順にしたい
+    // if (a.ElementalType == b.ElementalType) {
+    //     return b.Rarity - a.Rarity;  // 降順
+    // } else {
+    //     return a.ElementalType - b.ElementalType;  // 昇順
+    // }
+    return a.BaseId - b.BaseId;
+});
+console.log(dragons);
+dragons.forEach(dragon => {
+    dragon.Image = require('@/assets/img/dragon/' + dragon.BaseId + '_01.png');
+});
+
 export default {
     data () {
         // キャラクター
@@ -147,15 +176,16 @@ export default {
         const wyrmprintMight = wyrmprint1Might + wyrmprint2Might;
 
         // ドラゴン
+        const dragonBond = 30;
         const dragonHp = 369;
         const dragonStr = 127;
         const dragonSkillMight = 100;
         const dragonAbilityMight = 100;
         const dragonAbilityHpRate = 0;
         const dragonAbilityStrRate = 0.6;
-        const bondMight = 300;  // Lv * 10
+        const dragonBondMight = dragonBond * 10;
         // Max HP + Max Str + Lv. 2 Skill Might + Lv. 2 Ability Might + Lv. 30 Bond (* Elemental Matching Bonus)
-        const dragonMight = dragonHp + dragonStr + dragonSkillMight + dragonAbilityMight + bondMight;
+        const dragonMight = dragonHp + dragonStr + dragonSkillMight + dragonAbilityMight + dragonBondMight;
         const castleDragonHpRate = 0.08;
         const castleDragonStrRate = 0.08;
         const castleDragonHp = Math.ceil(dragonHp * castleDragonHpRate);
@@ -212,9 +242,11 @@ export default {
             wyrmprintMight,
 
             // ドラゴン
+            dragons,
             dragonHp,
             dragonStr,
             dragonMight,
+            dragonBond,
             castleDragonHp,
             castleDragonStr,
             dragonCastleMight,
@@ -245,9 +277,31 @@ export default {
 
 
 <style>
-    img.adventurer {
-        width: 100px;
-        height: 100px;
+    .equipments > ul {
+        list-style: none;
+        display: flex;
+        padding: 0;
+        margin: 0 auto;
+        max-width: 600px;
+    }
+    .equipments > ul > li {
+        width: 20%;
+    }
+    .equipments > ul > li > img {
+        width: 80px;
+        height: 80px;
+    }
+    .dragons > ul {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+        margin: 0 auto;
+        max-width: 600px;
+    }
+    .dragons > ul > li > img {
+        width: 48px;
+        height: 48px;
     }
     .status > table {
         margin: 0 auto;
