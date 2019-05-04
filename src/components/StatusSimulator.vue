@@ -30,7 +30,7 @@
                     <div>上限解放</div>
                 </li>
 
-                <li>
+                <li v-on:click="selectDragon">
                     <img src="@/assets/img/dragon/210001_01.png" alt="ドラゴン" />
                     <div>Lv</div>
                     <div>上限解放</div>
@@ -43,9 +43,9 @@
             </div>
         </section>
 
-        <section class="dragons">
+        <section class="dragons" v-show="showDragonList">
             <ul>
-                <li v-for="dragon in dragons" :key="dragon.BaseId"><img :src="dragon.Image" :alt="dragon.Name" /></li>
+                <li v-for="dragon in dragonsMaster" :key="dragon.BaseId" v-on:click="showDragonList = false"><img :src="dragon.Image" :alt="dragon.Name" /></li>
             </ul>
         </section>
 
@@ -108,9 +108,9 @@
 </template>
 
 <script>
-import dragons from '../assets/json/Dragons.json';
+import dragonsMaster from '../assets/json/Dragons.json';
 
-dragons.sort((a, b) => {
+dragonsMaster.sort((a, b) => {
     // できれば属性→レアリティ順にしたい
     // if (a.ElementalType == b.ElementalType) {
     //     return b.Rarity - a.Rarity;  // 降順
@@ -119,12 +119,17 @@ dragons.sort((a, b) => {
     // }
     return a.BaseId - b.BaseId;
 });
-console.log(dragons);
-dragons.forEach(dragon => {
+// console.log(dragons);
+dragonsMaster.forEach(dragon => {
     dragon.Image = require('@/assets/img/dragon/' + dragon.BaseId + '_01.png');
 });
 
 export default {
+    methods: {
+        selectDragon: function (event) {
+            this.showDragonList = !this.showDragonList;
+        }
+    },
     data () {
         // キャラクター
         /// 5★ Max + Mana Circle Node Stats + Mana Circle Bonus
@@ -134,7 +139,7 @@ export default {
         const forceStrikeMight = 120;
         const coAbilityMight = 320;
         const abilityMight = 100 + 100 + 100;
-        const adventurerDefense = 8;
+        // const adventurerDefense = 8;
         /// Max 5★ HP + Max 5★ Str + Total Skill Might + Force Strike Lv. 2 Might + Co-Ability Might + Total Ability Might
         const adventurerMight = adventurerHp + adventurerStr + skillMight + forceStrikeMight + coAbilityMight + abilityMight;
         const castleAdventurerHpRate = 0.20;
@@ -176,6 +181,7 @@ export default {
         const wyrmprintMight = wyrmprint1Might + wyrmprint2Might;
 
         // ドラゴン
+        let selectedDragon = dragonsMaster[0];
         const dragonBond = 30;
         const dragonHp = 369;
         const dragonStr = 127;
@@ -242,7 +248,8 @@ export default {
             wyrmprintMight,
 
             // ドラゴン
-            dragons,
+            selectedDragon,
+            dragonsMaster,
             dragonHp,
             dragonStr,
             dragonMight,
@@ -269,7 +276,10 @@ export default {
             // 合計
             sumHp,
             sumStr,
-            sumMight
+            sumMight,
+
+            // UI
+            showDragonList: false
         }
     }
 }
