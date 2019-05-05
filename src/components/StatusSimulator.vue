@@ -30,10 +30,10 @@
                     <div>上限解放</div>
                 </li>
 
-                <li v-on:click="selectDragon">
-                    <img src="@/assets/img/dragon/210001_01.png" alt="ドラゴン" />
-                    <div>Lv</div>
-                    <div>上限解放</div>
+                <li v-on:click="showDragonList = !showDragonList">
+                    <img :src="selectedDragon.Image" :alt="selectedDragon.Name" />
+                    <div>Lv{{dragonLv}}</div>
+                    <div>完凸<input type="checkbox" v-model="dragonUnbind" /></div>
                     <div>信頼度 {{dragonBond}}</div>
                 </li>
             </ul>
@@ -45,7 +45,7 @@
 
         <section class="dragons" v-show="showDragonList">
             <ul>
-                <li v-for="dragon in dragonsMaster" :key="dragon.BaseId" v-on:click="showDragonList = false"><img :src="dragon.Image" :alt="dragon.Name" /></li>
+                <li v-for="dragon in dragonsMaster" :key="dragon.BaseId" v-on:click="selectDragon(dragon)"><img :src="dragon.Image" :alt="dragon.Name" /></li>
             </ul>
         </section>
 
@@ -92,9 +92,9 @@
                 </tr>
                 <tr>
                     <td>聖城</td>
-                    <td>+{{castconstotalHp}}</td>
-                    <td>+{{castconstotalStr}}</td>
-                    <td>+{{castconstotalMight}}</td>
+                    <td>+{{castleTotalHp}}</td>
+                    <td>+{{castleTotalStr}}</td>
+                    <td>+{{castleTotalMight}}</td>
                 </tr>
                 <tr>
                     <td>合計</td>
@@ -109,6 +109,11 @@
 
 <script>
 import dragonsMaster from '../assets/json/Dragons.json';
+const dragonLevelsMaster = {
+    5: 100,
+    4: 80,
+    3: 60
+};
 
 dragonsMaster.sort((a, b) => {
     // できれば属性→レアリティ順にしたい
@@ -124,13 +129,17 @@ dragonsMaster.forEach(dragon => {
     dragon.Image = require('@/assets/img/dragon/' + dragon.BaseId + '_01.png');
 });
 
+let selectedDragon = dragonsMaster[0];
+
 export default {
     methods: {
-        selectDragon: function (event) {
-            this.showDragonList = !this.showDragonList;
+        selectDragon: function (dragon) {
+            this.selectedDragon = dragon;
+            this.showDragonList = false;
         }
     },
     data () {
+        console.log('data()');
         // キャラクター
         /// 5★ Max + Mana Circle Node Stats + Mana Circle Bonus
         const adventurerHp = 805;
@@ -140,147 +149,262 @@ export default {
         const coAbilityMight = 320;
         const abilityMight = 100 + 100 + 100;
         // const adventurerDefense = 8;
-        /// Max 5★ HP + Max 5★ Str + Total Skill Might + Force Strike Lv. 2 Might + Co-Ability Might + Total Ability Might
-        const adventurerMight = adventurerHp + adventurerStr + skillMight + forceStrikeMight + coAbilityMight + abilityMight;
-        const castleAdventurerHpRate = 0.20;
-        const castleAdventurerStrRate = 0.19;
-        const castleWeaponHpRate = 0.23;
-        const castleWeaponStrRate = 0.23;
-        const castleAdventurerHp = Math.ceil(adventurerHp * (castleAdventurerHpRate + castleWeaponHpRate));
-        const castleAdventurerStr = Math.ceil(adventurerStr * (castleAdventurerStrRate + castleWeaponStrRate));
-        const adventurerTotalMight = adventurerMight + castleAdventurerHp + castleAdventurerStr;
-
-        // 武器
-        const weaponHp = 178;
-        const weaponStr = 487;
-        const weaponSkillMight = 100;
-        const weaponAbilityMight = 0;
-        const weaponMight = weaponHp + weaponStr + weaponSkillMight + weaponAbilityMight;
-        const weaponBonusRate = 0.5;  // 同属性は 0.5, 他は 0
-        const weaponBonusHp = Math.ceil(weaponHp * weaponBonusRate);
-        const weaponBonusStr = Math.ceil(weaponStr * weaponBonusRate);
-        const weaponTotalHp = weaponHp + weaponBonusHp;
-        const weaponTotalStr = weaponStr + weaponBonusStr;
-        const weaponTotalMight = weaponMight + weaponBonusHp + weaponBonusStr;
-
-        // 竜輝の護符
-        const wyrmprint1Hp = 176;
-        const wyrmprint1Str = 65;
-        const wyrmprint1AbilityMight = 100 + 80;
-        const wyrmprint1Might = wyrmprint1Hp + wyrmprint1Str + wyrmprint1AbilityMight;
-        const wyrmprint1AbilityHpRate = 0;
-        const wyrmprint1AbilityStrRate = 0.15;
-        const wyrmprint2Hp = 183;
-        const wyrmprint2Str = 57;
-        const wyrmprint2AbilityHpRate = 0;
-        const wyrmprint2AbilityStrRate = 0.13;
-        const wyrmprint2AbilityMight = 100 + 80;
-        const wyrmprint2Might = wyrmprint2Hp + wyrmprint2Str + wyrmprint2AbilityMight;
-        const wyrmprintHp = wyrmprint1Hp + wyrmprint2Hp;
-        const wyrmprintStr = wyrmprint1Str + wyrmprint2Str;
-        const wyrmprintMight = wyrmprint1Might + wyrmprint2Might;
-
-        // ドラゴン
-        let selectedDragon = dragonsMaster[0];
-        const dragonBond = 30;
-        const dragonHp = 369;
-        const dragonStr = 127;
-        const dragonSkillMight = 100;
-        const dragonAbilityMight = 100;
-        const dragonAbilityHpRate = 0;
-        const dragonAbilityStrRate = 0.6;
-        const dragonBondMight = dragonBond * 10;
-        // Max HP + Max Str + Lv. 2 Skill Might + Lv. 2 Ability Might + Lv. 30 Bond (* Elemental Matching Bonus)
-        const dragonMight = dragonHp + dragonStr + dragonSkillMight + dragonAbilityMight + dragonBondMight;
-        const castleDragonHpRate = 0.08;
-        const castleDragonStrRate = 0.08;
-        const castleDragonHp = Math.ceil(dragonHp * castleDragonHpRate);
-        const castleDragonStr = Math.ceil(dragonStr * castleDragonStrRate);
-        const dragonCastleMight = dragonMight + castleDragonHp + castleDragonStr;
-        const dragonBonusRate = 0.5;  // 同属性は 0.5, 他は 0
-        const dragonBonusHp = Math.ceil(dragonHp * dragonBonusRate);
-        const dragonBonusStr = Math.ceil(dragonStr * dragonBonusRate);
-        const dragonTotalHp = dragonHp + dragonBonusHp;
-        const dragonTotalStr = dragonStr + dragonBonusStr;
-        const dragonTotalMight = dragonMight + dragonBonusHp + dragonBonusStr;
-
-        // 聖城
-        const castconstotalHp = castleAdventurerHp + castleDragonHp;
-        const castconstotalStr = castleAdventurerStr + castleDragonStr;
-        const castconstotalMight = castconstotalHp + castconstotalStr;
-
-        // アビリティ
-        const totalHp = adventurerHp + weaponTotalHp + wyrmprintHp + dragonTotalHp + castconstotalHp;
-        const totalStr = adventurerStr + weaponTotalStr + wyrmprintStr + dragonTotalStr + castconstotalStr;
-        const wyrmprintAbilityHp = Math.ceil(totalHp * (wyrmprint1AbilityHpRate + wyrmprint2AbilityHpRate));  // 本来上限値があるはずだが現状反映されていない
-        const wyrmprintAbilityStr = Math.ceil(totalStr * (wyrmprint1AbilityStrRate + wyrmprint2AbilityStrRate));
-        const dragonAbilityHp = Math.ceil((totalHp) * dragonAbilityHpRate);
-        const dragonAbilityStr = Math.ceil((totalStr) * dragonAbilityStrRate);
-        const abilityTotalHp = wyrmprintAbilityHp + dragonAbilityHp;
-        const abilityTotalStr = wyrmprintAbilityStr + dragonAbilityStr;
-        const abilityTotalMight = 0;  // アビリティUP分は戦力としてカウントしない
-
-        // 合計
-        const sumHp = adventurerHp + weaponTotalHp + wyrmprintHp + dragonTotalHp + abilityTotalHp + castconstotalHp;
-        const sumStr = adventurerStr + weaponTotalStr + wyrmprintStr + dragonTotalStr + abilityTotalStr + castconstotalStr;
-        const sumMight = adventurerMight + weaponTotalMight + wyrmprintMight + dragonTotalMight + abilityTotalMight + castconstotalMight;
 
         return {
             // キャラクター
             adventurerHp,
             adventurerStr,
-            adventurerMight,
-            castleAdventurerHp,
-            castleAdventurerStr,
-            adventurerTotalMight,
+            skillMight,
+            forceStrikeMight,
+            coAbilityMight,
+            abilityMight,
             
-            // 武器
-            weaponHp,
-            weaponStr,
-            weaponMight,
-            weaponTotalHp,
-            weaponTotalStr,
-            weaponTotalMight,
-
-            // 竜輝の護符
-            wyrmprintHp,
-            wyrmprintStr,
-            wyrmprintMight,
-
             // ドラゴン
             selectedDragon,
             dragonsMaster,
-            dragonHp,
-            dragonStr,
-            dragonMight,
-            dragonBond,
-            castleDragonHp,
-            castleDragonStr,
-            dragonCastleMight,
-            dragonBonusHp,
-            dragonBonusStr,
-            dragonTotalHp,
-            dragonTotalStr,
-            dragonTotalMight,
+            dragonLevelsMaster,
+            castleDragonHpRate: 0.08,
+            castleDragonStrRate: 0.08,
 
-            // 聖城
-            castconstotalHp,
-            castconstotalStr,
-            castconstotalMight,
-
-            // アビリティ
-            abilityTotalHp,
-            abilityTotalStr,
-            abilityTotalMight,
-
-            // 合計
-            sumHp,
-            sumStr,
-            sumMight,
+            // ドラゴンのスキルマスターなさそうだから自分で定義する？
+            dragonSkillMight: 100,
+            dragonAbilityMight: 100,
+            dragonAbilityHpRate: 0,
+            dragonAbilityStrRate: 0.6,
 
             // UI
             showDragonList: false
         }
+    },
+    computed: {
+        // キャラクター
+        adventurerMight: function () {
+            // Max 5★ HP + Max 5★ Str + Total Skill Might + Force Strike Lv. 2 Might + Co-Ability Might + Total Ability Might
+            return this.adventurerHp + this.adventurerStr + this.skillMight + this.forceStrikeMight + this.coAbilityMight + this.abilityMight;
+        },
+        castleAdventurerHpRate: function () {
+            return 0.20;
+        },
+        castleAdventurerStrRate: function () {
+            return 0.19;
+        },
+        castleWeaponHpRate: function () {
+            return 0.23;
+        },
+        castleWeaponStrRate: function () {
+            return 0.23;
+        },
+        castleAdventurerHp: function () {
+            return Math.ceil(this.adventurerHp * (this.castleAdventurerHpRate + this.castleWeaponHpRate));
+        },
+        castleAdventurerStr: function () {
+            return Math.ceil(this.adventurerStr * (this.castleAdventurerStrRate + this.castleWeaponStrRate));
+        },
+        adventurerTotalMight: function () {
+            return this.adventurerMight + this.castleAdventurerHp + this.castleAdventurerStr;
+        },
+
+        // 武器
+        weaponHp: function () {
+            return 178;
+        },
+        weaponStr: function () {
+            return 487;
+        },
+        weaponSkillMight: function () {
+            return 100;
+        },
+        weaponAbilityMight: function () {
+            return 0;
+        },
+        weaponMight: function () {
+            return this.weaponHp + this.weaponStr + this.weaponSkillMight + this.weaponAbilityMight;
+        },
+        weaponBonusRate: function () {
+            return 0.5;  // 同属性は 0.5, 他は 0
+        },
+        weaponBonusHp: function () {
+            return Math.ceil(this.weaponHp * this.weaponBonusRate);
+        },
+        weaponBonusStr: function () {
+            return Math.ceil(this.weaponStr * this.weaponBonusRate);
+        },
+        weaponTotalHp: function () {
+            return this.weaponHp + this.weaponBonusHp;
+        },
+        weaponTotalStr: function () {
+            return this.weaponStr + this.weaponBonusStr;
+        },
+        weaponTotalMight: function () {
+            return this.weaponMight + this.weaponBonusHp + this.weaponBonusStr;
+        },
+
+        // 竜輝の護符
+        wyrmprint1Hp: function () {
+            return 176;
+        },
+        wyrmprint1Str: function () {
+            return 65;
+        },
+        wyrmprint1AbilityMight: function () {
+            return 100 + 80;
+        },
+        wyrmprint1AbilityHpRate: function () {
+            return 0;
+        },
+        wyrmprint1AbilityStrRate: function () {
+            return 0.15;
+        },
+        wyrmprint2Hp: function () {
+            return 183;
+        },
+        wyrmprint2Str: function () {
+            return 57;
+        },
+        wyrmprint2AbilityMight: function () {
+            return 100 + 80;
+        },
+        wyrmprint2AbilityHpRate: function () {
+            return 0;
+        },
+        wyrmprint2AbilityStrRate: function () {
+            return 0.13;
+        },
+        wyrmprint1Might: function () {
+            return this.wyrmprint1Hp + this.wyrmprint1Str + this.wyrmprint1AbilityMight;
+        },
+        wyrmprint2Might: function () {
+            return this.wyrmprint2Hp + this.wyrmprint2Str + this.wyrmprint2AbilityMight;
+        },
+        wyrmprintHp: function () {
+            return this.wyrmprint1Hp + this.wyrmprint2Hp;
+        },
+        wyrmprintStr: function () {
+            return this.wyrmprint1Str + this.wyrmprint2Str;
+        },
+        wyrmprintMight: function () {
+            return this.wyrmprint1Might + this.wyrmprint2Might;
+        },
+
+        // ドラゴン
+        dragonLv: function () {
+            return this.dragonLevelsMaster[this.selectedDragon.Rarity];  // とりあえずMAX
+        },
+        dragonUnbind: function () {
+            return true;  // とりあえず固定
+        },
+        dragonBond: function () {
+            return 30;  // とりあえず固定
+        },
+        dragonHp: function () {
+            return this.selectedDragon.MaxHp;
+        },
+        dragonStr: function () {
+            return this.selectedDragon.MaxAtk;
+        },
+        castleDragonHp: function () {
+            return Math.ceil(this.dragonHp * this.castleDragonHpRate);
+        },
+        castleDragonStr: function () {
+            return Math.ceil(this.dragonStr * this.castleDragonStrRate);
+        },
+        dragonBondMight: function () {
+            return this.dragonBond * 10;
+        },
+        dragonMight: function () {
+            // Max HP + Max Str + Lv. 2 Skill Might + Lv. 2 Ability Might + Lv. 30 Bond (* Elemental Matching Bonus)
+            return this.dragonHp + this.dragonStr + this.dragonSkillMight + this.dragonAbilityMight + this.dragonBondMight;
+        },
+        dragonCastleMight: function () {  // 変数名再検討したい
+            return this.dragonMight + this.castleDragonHp + this.castleDragonStr;
+        },
+        dragonBonusRate: function () {
+            // 同属性は 0.5, 他は 0
+            return 0.5;  // TODO キャラクターと比較
+        },
+        dragonBonusHp: function () {
+            return Math.ceil(this.dragonHp * this.dragonBonusRate);
+        },
+        dragonBonusStr: function () {
+            return Math.ceil(this.dragonStr * this.dragonBonusRate);
+        },
+        dragonTotalHp: function () {
+            return this.dragonHp + this.dragonBonusHp;
+        },
+        dragonTotalStr: function () {
+            return this.dragonStr + this.dragonBonusStr;
+        },
+        dragonTotalMight: function () {
+            return this.dragonMight + this.dragonBonusHp + this.dragonBonusStr;
+        },
+
+        // 聖城
+        castleTotalHp: function () {
+            return this.castleAdventurerHp + this.castleDragonHp;
+        },
+        castleTotalStr: function () {
+            return this.castleAdventurerStr + this.castleDragonStr;
+        },
+        castleTotalMight: function () {
+            return this.castleTotalHp + this.castleTotalStr;
+        },
+
+        // アビリティ
+        totalHp: function () {
+            return this.adventurerHp + this.weaponTotalHp + this.wyrmprintHp + this.dragonTotalHp + this.castleTotalHp;
+        },
+        totalStr: function () {
+            return this.adventurerStr + this.weaponTotalStr + this.wyrmprintStr + this.dragonTotalStr + this.castleTotalStr;
+        },
+        wyrmprintAbilityHp: function () {
+            // 本来上限値があるはずだが現状反映されていない
+            return Math.ceil(this.totalHp * (this.wyrmprint1AbilityHpRate + this.wyrmprint2AbilityHpRate));
+        },
+        wyrmprintAbilityStr: function () {
+            // 本来上限値があるはずだが現状反映されていない
+            return Math.ceil(this.totalStr * (this.wyrmprint1AbilityStrRate + this.wyrmprint2AbilityStrRate));
+        },
+        dragonAbilityHp: function () {
+            return Math.ceil(this.totalHp * this.dragonAbilityHpRate);
+        },
+        dragonAbilityStr: function () {
+            return Math.ceil(this.totalStr * this.dragonAbilityStrRate);
+        },
+        abilityTotalHp: function () {
+            return this.wyrmprintAbilityHp + this.dragonAbilityHp;
+        },
+        abilityTotalStr: function () {
+            return this.wyrmprintAbilityStr + this.dragonAbilityStr;
+        },
+        abilityTotalMight: function () {
+            return 0;  // アビリティUP分は戦力としてカウントしない
+        },
+
+        // 合計
+        sumHp: function () {
+            return this.adventurerHp
+                 + this.weaponTotalHp
+                 + this.wyrmprintHp
+                 + this.dragonTotalHp
+                 + this.abilityTotalHp
+                 + this.castleTotalHp;
+        },
+        sumStr: function () {
+            return this.adventurerStr
+                 + this.weaponTotalStr
+                 + this.wyrmprintStr
+                 + this.dragonTotalStr
+                 + this.abilityTotalStr
+                 + this.castleTotalStr;
+        },
+        sumMight: function () {
+            return this.adventurerMight
+                 + this.weaponTotalMight
+                 + this.wyrmprintMight
+                 + this.dragonTotalMight
+                 + this.abilityTotalMight
+                 + this.castleTotalMight;
+        },
     }
 }
 </script>
