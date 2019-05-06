@@ -4,11 +4,11 @@
 
         <section class="equipments">
             <ul>
-                <li>
-                    <img class="adventurer" src="@/assets/img/adventurer/110043_02_r05.png" alt="キャラクター" />
-                    <div>Lv </div>
-                    <div>マナサ</div>
-                    <div>レアリティ</div>
+                <li v-on:click="showAdventurerList = !showAdventurerList">
+                    <img :src="selectedAdventurer.Image" :alt="selectedAdventurer.Name" />
+                    <div>Lv {{adventurerLv}}</div>
+                    <div>マナサ 50</div>
+                    <div>レア {{selectedAdventurer.Rarity}}</div>
                     <div>EX</div>
                 </li>
 
@@ -43,9 +43,19 @@
             </div>
         </section>
 
-        <section class="dragons" v-show="showDragonList">
+        <section class="adventurers select-list" v-show="showAdventurerList">
             <ul>
-                <li v-for="dragon in dragonsMaster" :key="dragon.BaseId" v-on:click="selectDragon(dragon)"><img :src="dragon.Image" :alt="dragon.Name" /></li>
+                <li v-for="adventurer in adventurersMaster" :key="adventurer.BaseId" v-on:click="selectAdventurer(adventurer)">
+                    <img :src="adventurer.Image" :alt="adventurer.Name" />
+                </li>
+            </ul>
+        </section>
+
+        <section class="dragons select-list" v-show="showDragonList">
+            <ul>
+                <li v-for="dragon in dragonsMaster" :key="dragon.BaseId" v-on:click="selectDragon(dragon)">
+                    <img :src="dragon.Image" :alt="dragon.Name" />
+                </li>
             </ul>
         </section>
 
@@ -108,63 +118,65 @@
 </template>
 
 <script>
+import adventurersMaster from '../assets/json/Adventurers.json';
 import dragonsMaster from '../assets/json/Dragons.json';
+import coAbilitiesMaster from '../assets/json/CoAbilities.json';
 const dragonLevelsMaster = {
     5: 100,
     4: 80,
     3: 60
 };
 
-dragonsMaster.sort((a, b) => {
-    // できれば属性→レアリティ順にしたい
-    // if (a.ElementalType == b.ElementalType) {
-    //     return b.Rarity - a.Rarity;  // 降順
-    // } else {
-    //     return a.ElementalType - b.ElementalType;  // 昇順
-    // }
-    return a.BaseId - b.BaseId;
+adventurersMaster.sort((a, b) => {
+    // 属性順、レアリティ降順、同レアリティ同士は未定義
+    if (a.ElementalTypeId == b.ElementalTypeId) {
+        return b.Rarity - a.Rarity;  // 降順
+    } else {
+        return a.ElementalTypeId - b.ElementalTypeId;  // 昇順
+    }
 });
-// console.log(dragons);
+adventurersMaster.forEach(adventurer => {
+    adventurer.Image = require('@/assets/img/adventurer/' + adventurer.Id + '_' + ('0' + adventurer.VariationId).slice(-2) + '_r' + ('0' + adventurer.Rarity).slice(-2) + '.png');
+});
+
+dragonsMaster.sort((a, b) => {
+    // 属性順、レアリティ降順、同レアリティ同士は未定義
+    if (a.ElementalTypeId == b.ElementalTypeId) {
+        return b.Rarity - a.Rarity;  // 降順
+    } else {
+        return a.ElementalTypeId - b.ElementalTypeId;  // 昇順
+    }
+});
 dragonsMaster.forEach(dragon => {
     dragon.Image = require('@/assets/img/dragon/' + dragon.BaseId + '_01.png');
 });
 
-let selectedDragon = dragonsMaster[0];
-
 export default {
     methods: {
+        selectAdventurer: function (adventurer) {
+            this.selectedAdventurer = adventurer;
+            this.showAdventurerList = false;
+            console.log(`select adventurer: [${adventurer.Id}] ${adventurer.Name}`);
+        },
         selectDragon: function (dragon) {
             this.selectedDragon = dragon;
             this.showDragonList = false;
+            console.log(`select dragon: [${dragon.BaseId}] ${dragon.Name}`);
         }
     },
     data () {
-        console.log('data()');
-        // キャラクター
-        /// 5★ Max + Mana Circle Node Stats + Mana Circle Bonus
-        const adventurerHp = 805;
-        const adventurerStr = 469;
-        const skillMight = 300 + 200;
-        const forceStrikeMight = 120;
-        const coAbilityMight = 320;
-        const abilityMight = 100 + 100 + 100;
-        // const adventurerDefense = 8;
-
         return {
             // キャラクター
-            adventurerHp,
-            adventurerStr,
-            skillMight,
-            forceStrikeMight,
-            coAbilityMight,
-            abilityMight,
+            adventurersMaster,
+            coAbilitiesMaster,
+            selectedAdventurer: adventurersMaster.filter(adventurer => {
+                return adventurer.Id == 110043;
+            }).shift(),
             
             // ドラゴン
-            selectedDragon,
+            selectedDragon: dragonsMaster[0],
             dragonsMaster,
             dragonLevelsMaster,
-            castleDragonHpRate: 0.08,
-            castleDragonStrRate: 0.08,
 
             // ドラゴンのスキルマスターなさそうだから自分で定義する？
             dragonSkillMight: 100,
@@ -173,14 +185,17 @@ export default {
             dragonAbilityStrRate: 0.6,
 
             // UI
+            showAdventurerList: false,
             showDragonList: false
         }
     },
     computed: {
-        // キャラクター
-        adventurerMight: function () {
-            // Max 5★ HP + Max 5★ Str + Total Skill Might + Force Strike Lv. 2 Might + Co-Ability Might + Total Ability Might
-            return this.adventurerHp + this.adventurerStr + this.skillMight + this.forceStrikeMight + this.coAbilityMight + this.abilityMight;
+        // 聖城
+        castleDragonHpRate: function () {
+            return 0.08;
+        },
+        castleDragonStrRate: function () {
+            return 0.08;
         },
         castleAdventurerHpRate: function () {
             return 0.20;
@@ -193,6 +208,53 @@ export default {
         },
         castleWeaponStrRate: function () {
             return 0.23;
+        },
+
+        // キャラクター
+        adventurerLv: function () {
+            return 80;
+        },
+        adventurerRarity: function () {
+            return 5;
+        },
+        adventurerHp: function () {
+            // 5★ Max + Mana Circle Node Stats + Mana Circle Bonus
+            return this.selectedAdventurer.MaxHp
+                 + this.selectedAdventurer.PlusHp0
+                 + this.selectedAdventurer.PlusHp1
+                 + this.selectedAdventurer.PlusHp2
+                 + this.selectedAdventurer.PlusHp3
+                 + this.selectedAdventurer.PlusHp4
+                 + this.selectedAdventurer.McFullBonusHp5;
+        },
+        adventurerStr: function () {
+            // 5★ Max + Mana Circle Node Stats + Mana Circle Bonus
+            return this.selectedAdventurer.MaxAtk
+                 + this.selectedAdventurer.PlusAtk0
+                 + this.selectedAdventurer.PlusAtk1
+                 + this.selectedAdventurer.PlusAtk2
+                 + this.selectedAdventurer.PlusAtk3
+                 + this.selectedAdventurer.PlusAtk4
+                 + this.selectedAdventurer.McFullBonusAtk5;
+        },
+        skillMight: function () {
+            return 300 + 200;
+        },
+        forceStrikeMight: function () {
+            return 120;
+        },
+        coAbilityMight: function () {
+            // TODO: Lvで変動させる
+            return this.coAbilitiesMaster.filter(ability => {
+                return ability.Id == this.selectedAdventurer.ExAbilityData5;
+            }).shift().PartyPowerWeight;
+        },
+        abilityMight: function () {
+            return 100 + 100 + 100;
+        },
+        adventurerMight: function () {
+            // Max 5★ HP + Max 5★ Str + Total Skill Might + Force Strike Lv. 2 Might + Co-Ability Might + Total Ability Might
+            return this.adventurerHp + this.adventurerStr + this.skillMight + this.forceStrikeMight + this.coAbilityMight + this.abilityMight;
         },
         castleAdventurerHp: function () {
             return Math.ceil(this.adventurerHp * (this.castleAdventurerHpRate + this.castleWeaponHpRate));
@@ -425,7 +487,7 @@ export default {
         width: 80px;
         height: 80px;
     }
-    .dragons > ul {
+    .select-list > ul {
         list-style: none;
         display: flex;
         flex-wrap: wrap;
@@ -433,7 +495,7 @@ export default {
         margin: 0 auto;
         max-width: 600px;
     }
-    .dragons > ul > li > img {
+    .select-list > ul > li > img {
         width: 48px;
         height: 48px;
     }
