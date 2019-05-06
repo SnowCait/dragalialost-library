@@ -6,16 +6,16 @@
             <ul>
                 <li v-on:click="showAdventurerList = !showAdventurerList">
                     <img :src="selectedAdventurer.Image" :alt="selectedAdventurer.Name" />
-                    <div>Lv {{adventurerLv}}</div>
+                    <div>Lv{{adventurerLv}}</div>
                     <div>マナサ 50</div>
                     <div>レア {{selectedAdventurer.Rarity}}</div>
                     <div>EX</div>
                 </li>
 
-                <li>
-                    <img src="" alt="武器" />
-                    <div>Lv</div>
-                    <div>上限解放</div>
+                <li v-on:click="showWeaponList = !showWeaponList">
+                    <img :src="selectedWeapon.Image" :alt="selectedWeapon.Name" />
+                    <div>Lv{{weaponLv}}</div>
+                    <div>完凸<input type="checkbox" v-model="weaponUnbind" /></div>
                 </li>
 
                 <li>
@@ -47,6 +47,14 @@
             <ul>
                 <li v-for="adventurer in adventurersMaster" :key="adventurer.BaseId" v-on:click="selectAdventurer(adventurer)">
                     <img :src="adventurer.Image" :alt="adventurer.Name" />
+                </li>
+            </ul>
+        </section>
+
+        <section class="weapons select-list" v-show="showWeaponList">
+            <ul>
+                <li v-for="weapon in selectWeaponList" :key="weapon.Id" v-on:click="selectWeapon(weapon)">
+                    <img :src="weapon.Image" :alt="weapon.Name" />
                 </li>
             </ul>
         </section>
@@ -119,8 +127,16 @@
 
 <script>
 import adventurersMaster from '../assets/json/Adventurers.json';
+import weaponsMaster from '../assets/json/Weapons.json';
 import dragonsMaster from '../assets/json/Dragons.json';
 import coAbilitiesMaster from '../assets/json/CoAbilities.json';
+const weaponLevelsMaster = {
+    5: 100,
+    4: 70,
+    3: 40,
+    2: 30,
+    1: 1
+};
 const dragonLevelsMaster = {
     5: 100,
     4: 80,
@@ -139,6 +155,10 @@ adventurersMaster.forEach(adventurer => {
     adventurer.Image = require('@/assets/img/adventurer/' + adventurer.Id + '_' + ('0' + adventurer.VariationId).slice(-2) + '_r' + ('0' + adventurer.Rarity).slice(-2) + '.png');
 });
 
+weaponsMaster.forEach(weapon => {
+    weapon.Image = require('@/assets/img/weapon/' + weapon.BaseId + '_01_' + weapon.FormId + '.png');
+});
+
 dragonsMaster.sort((a, b) => {
     // 属性順、レアリティ降順、同レアリティ同士は未定義
     if (a.ElementalTypeId == b.ElementalTypeId) {
@@ -154,9 +174,26 @@ dragonsMaster.forEach(dragon => {
 export default {
     methods: {
         selectAdventurer: function (adventurer) {
+            const beforeAdventurer = this.selectedAdventurer;
             this.selectedAdventurer = adventurer;
             this.showAdventurerList = false;
             console.log(`select adventurer: [${adventurer.Id}] ${adventurer.Name}`);
+
+            if (beforeAdventurer.WeaponTypeId != adventurer.WeaponTypeId) {
+                this.selectWeapon(this.weaponsMaster.filter(weapon => {
+                    return weapon.TypeId == adventurer.WeaponTypeId
+                        && weapon.ElementalTypeId == adventurer.ElementalTypeId
+                        && weapon.Rarity == 5
+                        && weapon.Skill != 0;
+                }).shift());
+            }
+        },
+        selectWeapon: function (weapon) {
+            this.selectedWeapon = weapon;
+            this.weaponLv = this.weaponLevelsMaster[weapon.Rarity];
+            this.weaponUnbind = true;
+            this.showWeaponList = false;
+            console.log(`select weapon: [${weapon.Id}] ${weapon.WeaponName}`);
         },
         selectDragon: function (dragon) {
             this.selectedDragon = dragon;
@@ -172,6 +209,15 @@ export default {
             selectedAdventurer: adventurersMaster.filter(adventurer => {
                 return adventurer.Id == 110043;
             }).shift(),
+
+            // 武器
+            weaponsMaster,
+            weaponLevelsMaster,
+            selectedWeapon: weaponsMaster.filter(weapon => {
+                return weapon.Id == 30850101;
+            }).shift(),
+            weaponLv: 100,
+            weaponUnbind: true,
             
             // ドラゴン
             selectedDragon: dragonsMaster[0],
@@ -186,10 +232,24 @@ export default {
 
             // UI
             showAdventurerList: false,
+            showWeaponList: false,
             showDragonList: false
         }
     },
     computed: {
+        // 選択リスト
+        selectWeaponList: function () {
+            return this.weaponsMaster.filter(weapon => {
+                return weapon.TypeId == this.selectedAdventurer.WeaponTypeId;
+            }).sort((a, b) => {
+                if (a.Rarity == b.Rarity) {
+                    return a.ElementalTypeId - b.ElementalTypeId;
+                } else {
+                    return b.Rarity - a.Rarity;
+                }
+            });
+        },
+
         // 聖城
         castleDragonHpRate: function () {
             return 0.08;
@@ -268,10 +328,10 @@ export default {
 
         // 武器
         weaponHp: function () {
-            return 178;
+            return this.selectedWeapon.MaxHp;
         },
         weaponStr: function () {
-            return 487;
+            return this.selectedWeapon.MaxAtk;
         },
         weaponSkillMight: function () {
             return 100;
