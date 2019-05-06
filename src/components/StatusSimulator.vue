@@ -40,6 +40,9 @@
 
             <div>
                 <h3>施設</h3>
+                <div>属性{{castleAdventurerHpRate * 100}}%/{{castleAdventurerStrRate * 100}}%</div>
+                <div>武器{{castleWeaponHpRate * 100}}%/{{castleWeaponHpRate * 100}}%</div>
+                <div>ドラゴン{{castleDragonHpRate * 100}}%/{{castleDragonHpRate * 100}}%</div>
             </div>
         </section>
 
@@ -80,15 +83,15 @@
                 </tr>
                 <tr>
                     <td>キャラクター</td>
-                    <td>{{adventurerHp}}<br>({{adventurerHp + castleAdventurerHp}})</td>
-                    <td>{{adventurerStr}}<br>({{adventurerStr + castleAdventurerStr}})</td>
-                    <td>{{adventurerMight}}<br>({{adventurerTotalMight}})</td>
+                    <td>{{adventurerHp}}</td>
+                    <td>{{adventurerStr}}</td>
+                    <td>{{adventurerMight}}</td>
                 </tr>
                 <tr>
                     <td>武器</td>
-                    <td>+{{weaponTotalHp}}<br>({{weaponHp}})</td>
-                    <td>+{{weaponTotalStr}}<br>({{weaponStr}})</td>
-                    <td>+{{weaponTotalMight}}<br>({{weaponMight}})</td>
+                    <td>+{{weaponTotalHp}}</td>
+                    <td>+{{weaponTotalStr}}</td>
+                    <td>+{{weaponTotalMight}}</td>
                 </tr>
                 <tr>
                     <td>竜輝の護符</td>
@@ -98,9 +101,9 @@
                 </tr>
                 <tr>
                     <td>ドラゴン</td>
-                    <td>+{{dragonTotalHp}}<br>({{dragonHp}})<br>({{dragonHp + castleDragonHp}})</td>
-                    <td>+{{dragonTotalStr}}<br>({{dragonStr}})<br>({{dragonStr + castleDragonStr}})</td>
-                    <td>+{{dragonTotalMight}}<br>({{dragonMight}})<br>({{dragonCastleMight}})</td>
+                    <td>+{{dragonTotalHp}}</td>
+                    <td>+{{dragonTotalStr}}</td>
+                    <td>+{{dragonTotalMight}}</td>
                 </tr>
                 <tr>
                     <td>アビリティ</td>
@@ -119,6 +122,84 @@
                     <td>{{sumHp}}</td>
                     <td>{{sumStr}}</td>
                     <td>{{sumMight}}</td>
+                </tr>
+            </table>
+
+            <h3>キャラクター</h3>
+            <table>
+                <tr>
+                    <td></td>
+                    <td class="status-value">HP</td>
+                    <td class="status-value">攻撃力</td>
+                    <td class="status-value">戦力</td>
+                </tr>
+                <tr>
+                    <td>キャラクター</td>
+                    <td>{{adventurerHp}}</td>
+                    <td>{{adventurerStr}}</td>
+                    <td>{{adventurerMight}}</td>
+                </tr>
+                <tr>
+                    <td>アビリティ</td>
+                    <td>+0</td>
+                    <td>+0</td>
+                    <td>+0</td>
+                </tr>
+                <tr>
+                    <td>聖城</td>
+                    <td>+{{castleAdventurerHp}}</td>
+                    <td>+{{castleAdventurerStr}}</td>
+                    <td>+{{castleAdventurerHp + castleAdventurerStr}}</td>
+                </tr>
+                <tr>
+                    <td>合計</td>
+                    <td>{{adventurerHp + castleAdventurerHp}}</td>
+                    <td>{{adventurerStr + castleAdventurerStr}}</td>
+                    <td>{{adventurerTotalMight}}</td>
+                </tr>
+            </table>
+
+            <h3>武器</h3>
+            <table>
+                <tr>
+                    <td></td>
+                    <td class="status-value">HP</td>
+                    <td class="status-value">攻撃力</td>
+                    <td class="status-value">戦力</td>
+                </tr>
+                <tr>
+                    <td>武器</td>
+                    <td>{{weaponHp}}</td>
+                    <td>{{weaponStr}}</td>
+                    <td>{{weaponMight}}</td>
+                </tr>
+            </table>
+
+            <h3>ドラゴン</h3>
+            <table>
+                <tr>
+                    <td></td>
+                    <td class="status-value">HP</td>
+                    <td class="status-value">攻撃力</td>
+                    <td class="status-value">戦力</td>
+                </tr>
+                <tr>
+                    <td>ドラゴン</td>
+                    <td>{{dragonHp}}</td>
+                    <td>{{dragonStr}}</td>
+                    <td>{{dragonMight}}</td>
+                </tr>
+                <tr>
+                    <td>聖城</td>
+                    <td>+{{castleDragonHp}}</td>
+                    <td>+{{castleDragonStr}}</td>
+                    <td>+{{castleDragonHp + castleDragonStr}}</td>
+                </tr>
+                <tr>
+                    <td>合計</td>
+                    <td>{{dragonHp + castleDragonHp}}</td>
+                    <td>{{dragonStr + castleDragonStr}}</td>
+                    <td>{{dragonCastleMight}}</td>
                 </tr>
             </table>
         </section>
@@ -208,27 +289,23 @@ export default {
             coAbilitiesMaster,
             selectedAdventurer: adventurersMaster.filter(adventurer => {
                 return adventurer.Id == 110043;
-            }).shift(),
+            })[0],
 
             // 武器
             weaponsMaster,
             weaponLevelsMaster,
             selectedWeapon: weaponsMaster.filter(weapon => {
                 return weapon.Id == 30850101;
-            }).shift(),
+            })[0],
             weaponLv: 100,
             weaponUnbind: true,
             
             // ドラゴン
-            selectedDragon: dragonsMaster[0],
             dragonsMaster,
             dragonLevelsMaster,
-
-            // ドラゴンのスキルマスターなさそうだから自分で定義する？
-            dragonSkillMight: 100,
-            dragonAbilityMight: 100,
-            dragonAbilityHpRate: 0,
-            dragonAbilityStrRate: 0.6,
+            selectedDragon: dragonsMaster.filter(dragon => {
+                return dragon.Id == 20050104;
+            })[0],
 
             // UI
             showAdventurerList: false,
@@ -251,12 +328,6 @@ export default {
         },
 
         // 聖城
-        castleDragonHpRate: function () {
-            return 0.08;
-        },
-        castleDragonStrRate: function () {
-            return 0.08;
-        },
         castleAdventurerHpRate: function () {
             return 0.20;
         },
@@ -268,6 +339,12 @@ export default {
         },
         castleWeaponStrRate: function () {
             return 0.23;
+        },
+        castleDragonHpRate: function () {
+            return 0.085;
+        },
+        castleDragonStrRate: function () {
+            return 0.085;
         },
 
         // キャラクター
@@ -343,7 +420,8 @@ export default {
             return this.weaponHp + this.weaponStr + this.weaponSkillMight + this.weaponAbilityMight;
         },
         weaponBonusRate: function () {
-            return 0.5;  // 同属性は 0.5, 他は 0
+            // 同属性は 0.5, 他は 0
+            return (this.selectedWeapon.ElementalTypeId == this.selectedAdventurer.ElementalTypeId) ? 0.5 : 0;
         },
         weaponBonusHp: function () {
             return Math.ceil(this.weaponHp * this.weaponBonusRate);
@@ -424,7 +502,24 @@ export default {
         dragonStr: function () {
             return this.selectedDragon.MaxAtk;
         },
+        dragonAbilityHpRate: function () {
+            // ドラゴンのスキルマスターなさそうだから自分で定義する？
+            return 0;
+        },
+        dragonAbilityStrRate: function () {
+            // ドラゴンのスキルマスターなさそうだから自分で定義する？
+            return 0.6;
+        },
+        dragonSkillMight: function () {
+            // ドラゴンのスキルマスターなさそうだから自分で定義する？
+            return 100;
+        },
+        dragonAbilityMight: function () {
+            // ドラゴンのスキルマスターなさそうだから自分で定義する？
+            return 100;
+        },
         castleDragonHp: function () {
+            console.log(this.dragonHp, this.castleDragonHpRate);
             return Math.ceil(this.dragonHp * this.castleDragonHpRate);
         },
         castleDragonStr: function () {
@@ -442,7 +537,7 @@ export default {
         },
         dragonBonusRate: function () {
             // 同属性は 0.5, 他は 0
-            return 0.5;  // TODO キャラクターと比較
+            return (this.selectedDragon.ElementalTypeId == this.selectedAdventurer.ElementalTypeId) ? 0.5 : 0;
         },
         dragonBonusHp: function () {
             return Math.ceil(this.dragonHp * this.dragonBonusRate);
