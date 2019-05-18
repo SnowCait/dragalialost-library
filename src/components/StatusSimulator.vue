@@ -2,7 +2,7 @@
     <main>
         <h1>ステータスシミュレーター</h1>
 
-        <section class="equipments">
+        <section class="equipment">
             <ul>
                 <li v-on:click="showAdventurerList = !showAdventurerList">
                     <img :src="selectedAdventurer.Image" :alt="selectedAdventurer.Name" />
@@ -628,17 +628,17 @@ export default {
 
 
 <style>
-    .equipments > ul {
+    .equipment > ul {
         list-style: none;
         display: flex;
         padding: 0;
         margin: 0 auto;
         max-width: 600px;
     }
-    .equipments > ul > li {
+    .equipment > ul > li {
         width: 20%;
     }
-    .equipments > ul > li > img {
+    .equipment > ul > li > img {
         width: 80px;
         height: 80px;
     }
