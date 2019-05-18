@@ -18,16 +18,16 @@
                     <div>完凸<input type="checkbox" v-model="weaponUnbind" /></div>
                 </li>
 
-                <li>
-                    <img src="" alt="護符1" />
-                    <div>Lv</div>
-                    <div>上限解放</div>
+                <li v-on:click="showWyrmprint1List = !showWyrmprint1List">
+                    <img :src="selectedWyrmprint1.Image02" :alt="selectedWyrmprint1.NameJP" />
+                    <div>Lv{{wyrmprint1Lv}}</div>
+                    <div>完凸<input type="checkbox" v-model="wyrmprint1Unbind" /></div>
                 </li>
 
-                <li>
-                    <img src="" alt="護符2" />
-                    <div>Lv</div>
-                    <div>上限解放</div>
+                <li v-on:click="showWyrmprint2List = !showWyrmprint2List">
+                    <img :src="selectedWyrmprint2.Image02" :alt="selectedWyrmprint2.NameJP" />
+                    <div>Lv{{wyrmprint2Lv}}</div>
+                    <div>完凸<input type="checkbox" v-model="wyrmprint2Unbind" /></div>
                 </li>
 
                 <li v-on:click="showDragonList = !showDragonList">
@@ -41,8 +41,8 @@
             <div>
                 <h3>施設</h3>
                 <div>属性{{castleAdventurerHpRate * 100}}%/{{castleAdventurerStrRate * 100}}%</div>
-                <div>武器{{castleWeaponHpRate * 100}}%/{{castleWeaponHpRate * 100}}%</div>
-                <div>ドラゴン{{castleDragonHpRate * 100}}%/{{castleDragonHpRate * 100}}%</div>
+                <div>武器{{castleWeaponHpRate * 100}}%/{{castleWeaponStrRate * 100}}%</div>
+                <div>ドラゴン{{castleDragonHpRate * 100}}%/{{castleDragonStrRate * 100}}%</div>
             </div>
         </section>
 
@@ -58,6 +58,22 @@
             <ul>
                 <li v-for="weapon in selectWeaponList" :key="weapon.Id" v-on:click="selectWeapon(weapon)">
                     <img :src="weapon.Image" :alt="weapon.Name" />
+                </li>
+            </ul>
+        </section>
+
+        <section class="wyrmprints select-list" v-show="showWyrmprint1List">
+            <ul>
+                <li v-for="wyrmprint in wyrmprintsMaster" :key="wyrmprint.Id" v-on:click="selectWyrmprint1(wyrmprint)">
+                    <img :src="wyrmprint.Image02" :alt="wyrmprint.NameJP" />
+                </li>
+            </ul>
+        </section>
+
+        <section class="wyrmprints select-list" v-show="showWyrmprint2List">
+            <ul>
+                <li v-for="wyrmprint in wyrmprintsMaster" :key="wyrmprint.Id" v-on:click="selectWyrmprint2(wyrmprint)">
+                    <img :src="wyrmprint.Image02" :alt="wyrmprint.NameJP" />
                 </li>
             </ul>
         </section>
@@ -175,6 +191,38 @@
                 </tr>
             </table>
 
+            <h3>護符1</h3>
+            <table>
+                <tr>
+                    <td></td>
+                    <td class="status-value">HP</td>
+                    <td class="status-value">攻撃力</td>
+                    <td class="status-value">戦力</td>
+                </tr>
+                <tr>
+                    <td>護符1</td>
+                    <td>{{wyrmprint1Hp}}</td>
+                    <td>{{wyrmprint1Str}}</td>
+                    <td>{{wyrmprint1Might}}</td>
+                </tr>
+            </table>
+
+            <h3>護符2</h3>
+            <table>
+                <tr>
+                    <td></td>
+                    <td class="status-value">HP</td>
+                    <td class="status-value">攻撃力</td>
+                    <td class="status-value">戦力</td>
+                </tr>
+                <tr>
+                    <td>護符1</td>
+                    <td>{{wyrmprint2Hp}}</td>
+                    <td>{{wyrmprint2Str}}</td>
+                    <td>{{wyrmprint2Might}}</td>
+                </tr>
+            </table>
+
             <h3>ドラゴン</h3>
             <table>
                 <tr>
@@ -209,14 +257,27 @@
 <script>
 import adventurersMaster from '../assets/json/Adventurers.json';
 import weaponsMaster from '../assets/json/Weapons.json';
+import wyrmprintsMaster from '../assets/json/Wyrmprints.json';
 import dragonsMaster from '../assets/json/Dragons.json';
+import abilitiesMaster from '../assets/json/Abilities.json';
 import coAbilitiesMaster from '../assets/json/CoAbilities.json';
+const adventurerLevelsMaster = {
+    5: 80,
+    4: 70,
+    3: 60
+};
 const weaponLevelsMaster = {
     5: 100,
     4: 70,
     3: 40,
     2: 30,
     1: 1
+};
+const wyrmprintLevelsMaster = {
+    5: 100,
+    4: 80,
+    3: 60,
+    2: 40
 };
 const dragonLevelsMaster = {
     5: 100,
@@ -240,6 +301,11 @@ weaponsMaster.forEach(weapon => {
     weapon.Image = require('@/assets/img/weapon/' + weapon.BaseId + '_01_' + weapon.FormId + '.png');
 });
 
+wyrmprintsMaster.forEach(wyrmprint => {
+    wyrmprint.Image01 = require('@/assets/img/wyrmprint/' + wyrmprint.BaseId + '_01.png');
+    wyrmprint.Image02 = require('@/assets/img/wyrmprint/' + wyrmprint.BaseId + '_02.png');
+});
+
 dragonsMaster.sort((a, b) => {
     // 属性順、レアリティ降順、同レアリティ同士は未定義
     if (a.ElementalTypeId == b.ElementalTypeId) {
@@ -251,6 +317,10 @@ dragonsMaster.sort((a, b) => {
 dragonsMaster.forEach(dragon => {
     dragon.Image = require('@/assets/img/dragon/' + dragon.BaseId + '_01.png');
 });
+
+function commaSeparatedValue(number) {
+  return String(number).replace(/(\d)(?=(\d{3})+$)/g, '$1,');
+}
 
 export default {
     methods: {
@@ -276,8 +346,24 @@ export default {
             this.showWeaponList = false;
             console.log(`select weapon: [${weapon.Id}] ${weapon.WeaponName}`);
         },
+        selectWyrmprint1: function (wyrmprint) {
+            this.selectedWyrmprint1 = wyrmprint;
+            this.wyrmprint1Lv = this.wyrmprintLevelsMaster[wyrmprint.Rarity];
+            this.wyrmprint1Unbind = true;
+            this.showWyrmprint1List = false;
+            console.log(`select wyrmprint1: [${wyrmprint.BaseId}] ${wyrmprint.NameJP}`);
+        },
+        selectWyrmprint2: function (wyrmprint) {
+            this.selectedWyrmprint2 = wyrmprint;
+            this.wyrmprint2Lv = this.wyrmprintLevelsMaster[wyrmprint.Rarity];
+            this.wyrmprint2Unbind = true;
+            this.showWyrmprint2List = false;
+            console.log(`select wyrmprint2: [${wyrmprint.BaseId}] ${wyrmprint.NameJP}`);
+        },
         selectDragon: function (dragon) {
             this.selectedDragon = dragon;
+            this.dragonLv = this.dragonLevelsMaster[dragon.Rarity];
+            this.dragonUnbind = true;
             this.showDragonList = false;
             console.log(`select dragon: [${dragon.BaseId}] ${dragon.Name}`);
         }
@@ -287,29 +373,52 @@ export default {
             // キャラクター
             adventurersMaster,
             coAbilitiesMaster,
+            adventurerLevelsMaster,
             selectedAdventurer: adventurersMaster.filter(adventurer => {
-                return adventurer.Id == 110043;
+                return adventurer.Id == 110043;  // ヒルデガルド（バレンタインVer）
             })[0],
+            adventurerRarity: 5,  // 覚醒済み
+            adventurerLv: 80,
 
             // 武器
             weaponsMaster,
             weaponLevelsMaster,
             selectedWeapon: weaponsMaster.filter(weapon => {
-                return weapon.Id == 30850101;
+                return weapon.Id == 30850101;  // 赤帝の炎杖
             })[0],
             weaponLv: 100,
             weaponUnbind: true,
+
+            // 護符
+            wyrmprintsMaster,
+            wyrmprintLevelsMaster,
+            abilitiesMaster,
+            selectedWyrmprint1: wyrmprintsMaster.filter(wyrmprint => {
+                return wyrmprint.BaseId == 400072;  // テンペストグローリー
+            })[0],
+            wyrmprint1Lv: 100,
+            wyrmprint1Unbind: true,
+            selectedWyrmprint2: wyrmprintsMaster.filter(wyrmprint => {
+                return wyrmprint.BaseId == 400052;  // ケガは私が治します
+            })[0],
+            wyrmprint2Lv: 100,
+            wyrmprint2Unbind: true,
             
             // ドラゴン
             dragonsMaster,
             dragonLevelsMaster,
             selectedDragon: dragonsMaster.filter(dragon => {
-                return dragon.Id == 20050104;
+                return dragon.Id == 20050104;  // ケルベロス
             })[0],
+            dragonLv: 100,
+            dragonUnbind: true,
+            dragonBond: 30,
 
             // UI
             showAdventurerList: false,
             showWeaponList: false,
+            showWyrmprint1List: false,
+            showWyrmprint2List: false,
             showDragonList: false
         }
     },
@@ -341,19 +450,13 @@ export default {
             return 0.23;
         },
         castleDragonHpRate: function () {
-            return 0.085;
+            return 0.090;
         },
         castleDragonStrRate: function () {
-            return 0.085;
+            return 0.095;
         },
 
         // キャラクター
-        adventurerLv: function () {
-            return 80;
-        },
-        adventurerRarity: function () {
-            return 5;
-        },
         adventurerHp: function () {
             // 5★ Max + Mana Circle Node Stats + Mana Circle Bonus
             return this.selectedAdventurer.MaxHp
@@ -441,34 +544,68 @@ export default {
 
         // 竜輝の護符
         wyrmprint1Hp: function () {
-            return 176;
+            return this.selectedWyrmprint1.MaxHp;
         },
         wyrmprint1Str: function () {
-            return 65;
+            return this.selectedWyrmprint1.MaxAtk;
         },
         wyrmprint1AbilityMight: function () {
-            return 100 + 80;
+            let abilities = [];
+            const wyrmprint = this.selectedWyrmprint1;
+            if (wyrmprint.Abilities13 > 0) {
+                abilities.push(this.abilitiesMaster.filter(ability => {
+                    return ability.Id == commaSeparatedValue(wyrmprint.Abilities13);
+                })[0]);
+            }
+            if (wyrmprint.Abilities23 > 0) {
+                abilities.push(this.abilitiesMaster.filter(ability => {
+                    return ability.Id == commaSeparatedValue(wyrmprint.Abilities23);
+                })[0]);
+            }
+            if (wyrmprint.Abilities33 > 0) {
+                abilities.push(this.abilitiesMaster.filter(ability => {
+                    return ability.Id == commaSeparatedValue(wyrmprint.Abilities33);
+                })[0]);
+            }
+            return abilities.reduce((accumulator, currentValue) => accumulator + currentValue.PartyPowerWeight, 0);
         },
         wyrmprint1AbilityHpRate: function () {
             return 0;
         },
         wyrmprint1AbilityStrRate: function () {
-            return 0.15;
+            return 0;
         },
         wyrmprint2Hp: function () {
-            return 183;
+            return this.selectedWyrmprint2.MaxHp;
         },
         wyrmprint2Str: function () {
-            return 57;
+            return this.selectedWyrmprint2.MaxAtk;
         },
         wyrmprint2AbilityMight: function () {
-            return 100 + 80;
+            let abilities = [];
+            const wyrmprint = this.selectedWyrmprint2;
+            if (wyrmprint.Abilities13 > 0) {
+                abilities.push(this.abilitiesMaster.filter(ability => {
+                    return ability.Id == commaSeparatedValue(wyrmprint.Abilities13);
+                })[0]);
+            }
+            if (wyrmprint.Abilities23 > 0) {
+                abilities.push(this.abilitiesMaster.filter(ability => {
+                    return ability.Id == commaSeparatedValue(wyrmprint.Abilities23);
+                })[0]);
+            }
+            if (wyrmprint.Abilities33 > 0) {
+                abilities.push(this.abilitiesMaster.filter(ability => {
+                    return ability.Id == commaSeparatedValue(wyrmprint.Abilities33);
+                })[0]);
+            }
+            return abilities.reduce((accumulator, currentValue) => accumulator + currentValue.PartyPowerWeight, 0);
         },
         wyrmprint2AbilityHpRate: function () {
             return 0;
         },
         wyrmprint2AbilityStrRate: function () {
-            return 0.13;
+            return 0;
         },
         wyrmprint1Might: function () {
             return this.wyrmprint1Hp + this.wyrmprint1Str + this.wyrmprint1AbilityMight;
@@ -487,15 +624,6 @@ export default {
         },
 
         // ドラゴン
-        dragonLv: function () {
-            return this.dragonLevelsMaster[this.selectedDragon.Rarity];  // とりあえずMAX
-        },
-        dragonUnbind: function () {
-            return true;  // とりあえず固定
-        },
-        dragonBond: function () {
-            return 30;  // とりあえず固定
-        },
         dragonHp: function () {
             return this.selectedDragon.MaxHp;
         },
@@ -519,7 +647,6 @@ export default {
             return 100;
         },
         castleDragonHp: function () {
-            console.log(this.dragonHp, this.castleDragonHpRate);
             return Math.ceil(this.dragonHp * this.castleDragonHpRate);
         },
         castleDragonStr: function () {
