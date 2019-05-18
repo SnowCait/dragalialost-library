@@ -448,6 +448,96 @@ export default {
             showDragonList: false
         }
     },
+    mounted () {
+        if (localStorage.adventurerId) {
+            this.selectedAdventurer = this.adventurersMaster.filter(adventurer => {
+                return adventurer.Id == localStorage.adventurerId;
+            })[0];
+            this.selectAdventurer(this.selectedAdventurer);
+        }
+        if (localStorage.weaponId) {
+            this.selectedWeapon = this.weaponsMaster.filter(weapon => {
+                return weapon.Id == localStorage.weaponId;
+            })[0];
+            this.selectWeapon(this.selectedWeapon);
+        }
+        if (localStorage.wyrmprint1Id) {
+            this.selectedWyrmprint1 = this.wyrmprintsMaster.filter(wyrmprint => {
+                return wyrmprint.BaseId == localStorage.wyrmprint1Id;
+            })[0];
+            this.selectWyrmprint1(this.selectedWyrmprint1);
+        }
+        if (localStorage.wyrmprint2Id) {
+            this.selectedWyrmprint2 = this.wyrmprintsMaster.filter(wyrmprint => {
+                return wyrmprint.BaseId == localStorage.wyrmprint2Id;
+            })[0];
+            this.selectWyrmprint1(this.selectedWyrmprint1);
+        }
+        if (localStorage.dragonId) {
+            this.selectedDragon = this.dragonsMaster.filter(dragon => {
+                return dragon.Id == localStorage.dragonId;
+            })[0];
+            this.selectDragon(this.selectedDragon);
+        }
+
+        // 聖城
+        // TODO: 施設ごとに設定できるようにして JSON で保存する
+        if (localStorage.getItem('castleAdventurerHpRate') !== null) {
+            this.castleAdventurerHpRate = localStorage.getItem('castleAdventurerHpRate');
+        }
+        if (localStorage.getItem('castleAdventurerStrRate') !== null) {
+            this.castleAdventurerStrRate = localStorage.getItem('castleAdventurerStrRate');
+        }
+        if (localStorage.getItem('castleWeaponHpRate') !== null) {
+            this.castleWeaponHpRate = localStorage.getItem('castleWeaponHpRate');
+        }
+        if (localStorage.getItem('castleWeaponStrRate') !== null) {
+            this.castleWeaponStrRate = localStorage.getItem('castleWeaponStrRate');
+        }
+        if (localStorage.getItem('castleDragonHpRate') !== null) {
+            this.castleDragonHpRate = localStorage.getItem('castleDragonHpRate');
+        }
+        if (localStorage.getItem('castleDragonStrRate') !== null) {
+            this.castleDragonStrRate = localStorage.getItem('castleDragonStrRate');
+        }
+    },
+    watch: {
+        selectedAdventurer(newAdventurer) {
+            localStorage.adventurerId = newAdventurer.Id;
+        },
+        selectedWeapon(newWeapon) {
+            localStorage.weaponId = newWeapon.Id;
+        },
+        selectedWyrmprint1(newWyrmprint1) {
+            localStorage.wyrmprint1Id = newWyrmprint1.BaseId;
+        },
+        selectedWyrmprint2(newWyrmprint2) {
+            localStorage.wyrmprint2Id = newWyrmprint2.BaseId;
+        },
+        selectedDragon(newDragon) {
+            localStorage.dragonId = newDragon.Id;
+        },
+
+        // 聖城
+        castleAdventurerHpRate(newRate) {
+            localStorage.setItem('castleAdventurerHpRate', newRate);
+        },
+        castleAdventurerStrRate(newRate) {
+            localStorage.setItem('castleAdventurerStrRate', newRate);
+        },
+        castleWeaponHpRate(newRate) {
+            localStorage.setItem('castleWeaponHpRate', newRate);
+        },
+        castleWeaponStrRate(newRate) {
+            localStorage.setItem('castleWeaponStrRate', newRate);
+        },
+        castleDragonHpRate(newRate) {
+            localStorage.setItem('castleDragonHpRate', newRate);
+        },
+        castleDragonStrRate(newRate) {
+            localStorage.setItem('castleDragonStrRate', newRate);
+        }
+    },
     computed: {
         // 選択リスト
         selectWeaponList: function () {
