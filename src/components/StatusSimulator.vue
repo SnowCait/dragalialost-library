@@ -354,7 +354,7 @@ export default {
                         && weapon.ElementalTypeId == adventurer.ElementalTypeId
                         && weapon.Rarity == 5
                         && weapon.Skill != 0;
-                }).shift());
+                })[0]);
             }
         },
         selectWeapon: function (weapon) {
@@ -449,33 +449,33 @@ export default {
         }
     },
     mounted () {
-        if (localStorage.adventurerId) {
+        if (localStorage.getItem('adventurerId') !== null && localStorage.getItem('adventurerVariationId') !== null) {
             this.selectedAdventurer = this.adventurersMaster.filter(adventurer => {
-                return adventurer.Id == localStorage.adventurerId;
+                return adventurer.Id == Number(localStorage.getItem('adventurerId')) && adventurer.VariationId == Number(localStorage.getItem('adventurerVariationId'));
             })[0];
             this.selectAdventurer(this.selectedAdventurer);
         }
-        if (localStorage.weaponId) {
+        if (localStorage.getItem('weaponId') !== null) {
             this.selectedWeapon = this.weaponsMaster.filter(weapon => {
-                return weapon.Id == localStorage.weaponId;
+                return weapon.Id == Number(localStorage.getItem('weaponId'));
             })[0];
             this.selectWeapon(this.selectedWeapon);
         }
-        if (localStorage.wyrmprint1Id) {
+        if (localStorage.getItem('wyrmprint1Id') !== null) {
             this.selectedWyrmprint1 = this.wyrmprintsMaster.filter(wyrmprint => {
-                return wyrmprint.BaseId == localStorage.wyrmprint1Id;
+                return wyrmprint.BaseId == Number(localStorage.getItem('wyrmprint1Id'));
             })[0];
             this.selectWyrmprint1(this.selectedWyrmprint1);
         }
-        if (localStorage.wyrmprint2Id) {
+        if (localStorage.getItem('wyrmprint2Id') !== null) {
             this.selectedWyrmprint2 = this.wyrmprintsMaster.filter(wyrmprint => {
-                return wyrmprint.BaseId == localStorage.wyrmprint2Id;
+                return wyrmprint.BaseId == Number(localStorage.getItem('wyrmprint2Id'));
             })[0];
             this.selectWyrmprint1(this.selectedWyrmprint1);
         }
-        if (localStorage.dragonId) {
+        if (localStorage.getItem('dragonId') !== null) {
             this.selectedDragon = this.dragonsMaster.filter(dragon => {
-                return dragon.Id == localStorage.dragonId;
+                return dragon.Id == Number(localStorage.getItem('dragonId'));
             })[0];
             this.selectDragon(this.selectedDragon);
         }
@@ -483,39 +483,40 @@ export default {
         // 聖城
         // TODO: 施設ごとに設定できるようにして JSON で保存する
         if (localStorage.getItem('castleAdventurerHpRate') !== null) {
-            this.castleAdventurerHpRate = localStorage.getItem('castleAdventurerHpRate');
+            this.castleAdventurerHpRate = Number(localStorage.getItem('castleAdventurerHpRate'));
         }
         if (localStorage.getItem('castleAdventurerStrRate') !== null) {
-            this.castleAdventurerStrRate = localStorage.getItem('castleAdventurerStrRate');
+            this.castleAdventurerStrRate = Number(localStorage.getItem('castleAdventurerStrRate'));
         }
         if (localStorage.getItem('castleWeaponHpRate') !== null) {
-            this.castleWeaponHpRate = localStorage.getItem('castleWeaponHpRate');
+            this.castleWeaponHpRate = Number(localStorage.getItem('castleWeaponHpRate'));
         }
         if (localStorage.getItem('castleWeaponStrRate') !== null) {
-            this.castleWeaponStrRate = localStorage.getItem('castleWeaponStrRate');
+            this.castleWeaponStrRate = Number(localStorage.getItem('castleWeaponStrRate'));
         }
         if (localStorage.getItem('castleDragonHpRate') !== null) {
-            this.castleDragonHpRate = localStorage.getItem('castleDragonHpRate');
+            this.castleDragonHpRate = Number(localStorage.getItem('castleDragonHpRate'));
         }
         if (localStorage.getItem('castleDragonStrRate') !== null) {
-            this.castleDragonStrRate = localStorage.getItem('castleDragonStrRate');
+            this.castleDragonStrRate = Number(localStorage.getItem('castleDragonStrRate'));
         }
     },
     watch: {
         selectedAdventurer(newAdventurer) {
-            localStorage.adventurerId = newAdventurer.Id;
+            localStorage.setItem('adventurerId', newAdventurer.Id);
+            localStorage.setItem('adventurerVariationId', newAdventurer.VariationId);
         },
         selectedWeapon(newWeapon) {
-            localStorage.weaponId = newWeapon.Id;
+            localStorage.setItem('weaponId', newWeapon.Id);
         },
         selectedWyrmprint1(newWyrmprint1) {
-            localStorage.wyrmprint1Id = newWyrmprint1.BaseId;
+            localStorage.setItem('wyrmprint1Id', newWyrmprint1.BaseId);
         },
         selectedWyrmprint2(newWyrmprint2) {
-            localStorage.wyrmprint2Id = newWyrmprint2.BaseId;
+            localStorage.setItem('wyrmprint2Id', newWyrmprint2.BaseId);
         },
         selectedDragon(newDragon) {
-            localStorage.dragonId = newDragon.Id;
+            localStorage.setItem('dragonId', newDragon.Id);
         },
 
         // 聖城
@@ -583,10 +584,39 @@ export default {
             // TODO: Lvで変動させる
             return this.coAbilitiesMaster.filter(ability => {
                 return ability.Id == this.selectedAdventurer.ExAbilityData5;
-            }).shift().PartyPowerWeight;
+            })[0].PartyPowerWeight;
         },
         abilityMight: function () {
-            return 100 + 100 + 100;
+            let abilities = [];
+            const adventurer = this.selectedAdventurer;
+            if (adventurer.Abilities12 > 0) {
+                abilities.push(this.abilitiesMaster.filter(ability => {
+                    return ability.Id == commaSeparatedValue(adventurer.Abilities12);
+                })[0]);
+            } else if (adventurer.Abilities11 > 0) {
+                abilities.push(this.abilitiesMaster.filter(ability => {
+                    return ability.Id == commaSeparatedValue(adventurer.Abilities11);
+                })[0]);
+            }
+            if (adventurer.Abilities22 > 0) {
+                abilities.push(this.abilitiesMaster.filter(ability => {
+                    return ability.Id == commaSeparatedValue(adventurer.Abilities22);
+                })[0]);
+            } else if (adventurer.Abilities21 > 0) {
+                abilities.push(this.abilitiesMaster.filter(ability => {
+                    return ability.Id == commaSeparatedValue(adventurer.Abilities21);
+                })[0]);
+            }
+            if (adventurer.Abilities32 > 0) {
+                abilities.push(this.abilitiesMaster.filter(ability => {
+                    return ability.Id == commaSeparatedValue(adventurer.Abilities32);
+                })[0]);
+            } else if (adventurer.Abilities31 > 0) {
+                abilities.push(this.abilitiesMaster.filter(ability => {
+                    return ability.Id == commaSeparatedValue(adventurer.Abilities31);
+                })[0]);
+            }
+            return abilities.reduce((accumulator, currentValue) => accumulator + currentValue.PartyPowerWeight, 0);
         },
         adventurerMight: function () {
             // Max 5★ HP + Max 5★ Str + Total Skill Might + Force Strike Lv. 2 Might + Co-Ability Might + Total Ability Might
