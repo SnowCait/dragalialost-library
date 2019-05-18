@@ -4,45 +4,64 @@
 
         <section class="equipment">
             <ul>
-                <li v-on:click="showAdventurerList = !showAdventurerList">
-                    <img :src="selectedAdventurer.Image" :alt="selectedAdventurer.Name" />
+                <li>
+                    <img :src="selectedAdventurer.Image" :alt="selectedAdventurer.Name" v-on:click="showAdventurerList = !showAdventurerList" />
                     <div>Lv{{adventurerLv}}</div>
                     <div>マナサ 50</div>
                     <div>レア {{selectedAdventurer.Rarity}}</div>
-                    <div>EX</div>
+                    <div>EX 4</div>
                 </li>
 
-                <li v-on:click="showWeaponList = !showWeaponList">
-                    <img :src="selectedWeapon.Image" :alt="selectedWeapon.Name" />
+                <li>
+                    <img :src="selectedWeapon.Image" :alt="selectedWeapon.Name" v-on:click="showWeaponList = !showWeaponList" />
                     <div>Lv{{weaponLv}}</div>
                     <div>完凸<input type="checkbox" v-model="weaponUnbind" /></div>
                 </li>
 
-                <li v-on:click="showWyrmprint1List = !showWyrmprint1List">
-                    <img :src="selectedWyrmprint1.Image02" :alt="selectedWyrmprint1.NameJP" />
+                <li>
+                    <img :src="selectedWyrmprint1.Image02" :alt="selectedWyrmprint1.NameJP" v-on:click="showWyrmprint1List = !showWyrmprint1List" />
                     <div>Lv{{wyrmprint1Lv}}</div>
                     <div>完凸<input type="checkbox" v-model="wyrmprint1Unbind" /></div>
                 </li>
 
-                <li v-on:click="showWyrmprint2List = !showWyrmprint2List">
-                    <img :src="selectedWyrmprint2.Image02" :alt="selectedWyrmprint2.NameJP" />
+                <li>
+                    <img :src="selectedWyrmprint2.Image02" :alt="selectedWyrmprint2.NameJP" v-on:click="showWyrmprint2List = !showWyrmprint2List" />
                     <div>Lv{{wyrmprint2Lv}}</div>
                     <div>完凸<input type="checkbox" v-model="wyrmprint2Unbind" /></div>
                 </li>
 
-                <li v-on:click="showDragonList = !showDragonList">
-                    <img :src="selectedDragon.Image" :alt="selectedDragon.Name" />
+                <li>
+                    <img :src="selectedDragon.Image" :alt="selectedDragon.Name" v-on:click="showDragonList = !showDragonList" />
                     <div>Lv{{dragonLv}}</div>
                     <div>完凸<input type="checkbox" v-model="dragonUnbind" /></div>
-                    <div>信頼度 {{dragonBond}}</div>
+                    <div>♪<input type="number" step="1" min="1" max="30" v-model.number="dragonBond" /></div>
                 </li>
             </ul>
 
             <div>
                 <h3>施設</h3>
-                <div>属性{{castleAdventurerHpRate * 100}}%/{{castleAdventurerStrRate * 100}}%</div>
-                <div>武器{{castleWeaponHpRate * 100}}%/{{castleWeaponStrRate * 100}}%</div>
-                <div>ドラゴン{{castleDragonHpRate * 100}}%/{{castleDragonStrRate * 100}}%</div>
+                <table>
+                    <tr>
+                        <td></td>
+                        <td>HP</td>
+                        <td>攻撃力</td>
+                    </tr>
+                    <tr>
+                        <td>属性</td>
+                        <td><input type="number" step="0.5" min="0" v-model.number="castleAdventurerHpRate" />%</td>
+                        <td><input type="number" step="0.5" min="0" v-model.number="castleAdventurerStrRate" />%</td>
+                    </tr>
+                    <tr>
+                        <td>武器</td>
+                        <td><input type="number" step="0.5" min="0" v-model.number="castleWeaponHpRate" />%</td>
+                        <td><input type="number" step="0.5" min="0" v-model.number="castleWeaponStrRate" />%</td>
+                    </tr>
+                    <tr>
+                        <td>ドラゴン</td>
+                        <td><input type="number" step="0.5" min="0" v-model.number="castleDragonHpRate" />%</td>
+                        <td><input type="number" step="0.5" min="0" v-model.number="castleDragonStrRate" />%</td>
+                    </tr>
+                </table>
             </div>
         </section>
 
@@ -88,7 +107,6 @@
 
         <section class="status">
             <h2>ステータス</h2>
-            <p>( ) 内は個別に見たときのステータス。</p>
 
             <table>
                 <tr>
@@ -414,6 +432,14 @@ export default {
             dragonUnbind: true,
             dragonBond: 30,
 
+            // 聖城
+            castleAdventurerHpRate: 20,
+            castleAdventurerStrRate: 19,
+            castleWeaponHpRate: 23,
+            castleWeaponStrRate: 23,
+            castleDragonHpRate: 9,
+            castleDragonStrRate: 9.5,
+
             // UI
             showAdventurerList: false,
             showWeaponList: false,
@@ -434,26 +460,6 @@ export default {
                     return b.Rarity - a.Rarity;
                 }
             });
-        },
-
-        // 聖城
-        castleAdventurerHpRate: function () {
-            return 0.20;
-        },
-        castleAdventurerStrRate: function () {
-            return 0.19;
-        },
-        castleWeaponHpRate: function () {
-            return 0.23;
-        },
-        castleWeaponStrRate: function () {
-            return 0.23;
-        },
-        castleDragonHpRate: function () {
-            return 0.090;
-        },
-        castleDragonStrRate: function () {
-            return 0.095;
         },
 
         // キャラクター
@@ -497,10 +503,10 @@ export default {
             return this.adventurerHp + this.adventurerStr + this.skillMight + this.forceStrikeMight + this.coAbilityMight + this.abilityMight;
         },
         castleAdventurerHp: function () {
-            return Math.ceil(this.adventurerHp * (this.castleAdventurerHpRate + this.castleWeaponHpRate));
+            return Math.ceil(this.adventurerHp * (this.castleAdventurerHpRate + this.castleWeaponHpRate) / 100);
         },
         castleAdventurerStr: function () {
-            return Math.ceil(this.adventurerStr * (this.castleAdventurerStrRate + this.castleWeaponStrRate));
+            return Math.ceil(this.adventurerStr * (this.castleAdventurerStrRate + this.castleWeaponStrRate) / 100);
         },
         adventurerTotalMight: function () {
             return this.adventurerMight + this.castleAdventurerHp + this.castleAdventurerStr;
@@ -647,10 +653,10 @@ export default {
             return 100;
         },
         castleDragonHp: function () {
-            return Math.ceil(this.dragonHp * this.castleDragonHpRate);
+            return Math.ceil(this.dragonHp * this.castleDragonHpRate / 100);
         },
         castleDragonStr: function () {
-            return Math.ceil(this.dragonStr * this.castleDragonStrRate);
+            return Math.ceil(this.dragonStr * this.castleDragonStrRate / 100);
         },
         dragonBondMight: function () {
             return this.dragonBond * 10;
@@ -768,6 +774,12 @@ export default {
     .equipment > ul > li > img {
         width: 80px;
         height: 80px;
+    }
+    .equipment table {
+        margin: 0 auto;
+    }
+    .equipment input[type="number"] {
+        width: 5em;
     }
     .select-list > ul {
         list-style: none;
