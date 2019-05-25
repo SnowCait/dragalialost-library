@@ -1,1 +1,434 @@
-[{"Id":103000001,"AbilityIconName":"Icon_Ability_1020010","Category":7,"PartyPowerWeight":50},{"Id":103000010,"AbilityIconName":"Icon_Ability_1020010","Category":7,"PartyPowerWeight":320},{"Id":103000002,"AbilityIconName":"Icon_Ability_1020010","Category":7,"PartyPowerWeight":80},{"Id":103000003,"AbilityIconName":"Icon_Ability_1020010","Category":7,"PartyPowerWeight":110},{"Id":103000004,"AbilityIconName":"Icon_Ability_1020010","Category":7,"PartyPowerWeight":140},{"Id":103000005,"AbilityIconName":"Icon_Ability_1020010","Category":7,"PartyPowerWeight":170},{"Id":103000006,"AbilityIconName":"Icon_Ability_1020010","Category":7,"PartyPowerWeight":200},{"Id":103000007,"AbilityIconName":"Icon_Ability_1020010","Category":7,"PartyPowerWeight":230},{"Id":103000008,"AbilityIconName":"Icon_Ability_1020010","Category":7,"PartyPowerWeight":260},{"Id":101030006,"AbilityIconName":"Icon_Ability_1020003","Category":3,"PartyPowerWeight":200},{"Id":101030007,"AbilityIconName":"Icon_Ability_1020003","Category":3,"PartyPowerWeight":230},{"Id":101030008,"AbilityIconName":"Icon_Ability_1020003","Category":3,"PartyPowerWeight":260},{"Id":101030010,"AbilityIconName":"Icon_Ability_1020003","Category":3,"PartyPowerWeight":320},{"Id":101030001,"AbilityIconName":"Icon_Ability_1020003","Category":3,"PartyPowerWeight":50},{"Id":101030002,"AbilityIconName":"Icon_Ability_1020003","Category":3,"PartyPowerWeight":80},{"Id":101030003,"AbilityIconName":"Icon_Ability_1020003","Category":3,"PartyPowerWeight":110},{"Id":101030004,"AbilityIconName":"Icon_Ability_1020003","Category":3,"PartyPowerWeight":140},{"Id":101030005,"AbilityIconName":"Icon_Ability_1020003","Category":3,"PartyPowerWeight":170},{"Id":101050007,"AbilityIconName":"Icon_Ability_1020005","Category":5,"PartyPowerWeight":230},{"Id":101050008,"AbilityIconName":"Icon_Ability_1020005","Category":5,"PartyPowerWeight":260},{"Id":101050010,"AbilityIconName":"Icon_Ability_1020005","Category":5,"PartyPowerWeight":320},{"Id":101050001,"AbilityIconName":"Icon_Ability_1020005","Category":5,"PartyPowerWeight":50},{"Id":101050002,"AbilityIconName":"Icon_Ability_1020005","Category":5,"PartyPowerWeight":80},{"Id":101050003,"AbilityIconName":"Icon_Ability_1020005","Category":5,"PartyPowerWeight":110},{"Id":101050004,"AbilityIconName":"Icon_Ability_1020005","Category":5,"PartyPowerWeight":140},{"Id":101050005,"AbilityIconName":"Icon_Ability_1020005","Category":5,"PartyPowerWeight":170},{"Id":101050006,"AbilityIconName":"Icon_Ability_1020005","Category":5,"PartyPowerWeight":200},{"Id":101010006,"AbilityIconName":"Icon_Ability_1020001","Category":1,"PartyPowerWeight":200},{"Id":101010007,"AbilityIconName":"Icon_Ability_1020001","Category":1,"PartyPowerWeight":230},{"Id":101010008,"AbilityIconName":"Icon_Ability_1020001","Category":1,"PartyPowerWeight":260},{"Id":101010010,"AbilityIconName":"Icon_Ability_1020001","Category":1,"PartyPowerWeight":320},{"Id":101010001,"AbilityIconName":"Icon_Ability_1020001","Category":1,"PartyPowerWeight":50},{"Id":101010002,"AbilityIconName":"Icon_Ability_1020001","Category":1,"PartyPowerWeight":80},{"Id":101010003,"AbilityIconName":"Icon_Ability_1020001","Category":1,"PartyPowerWeight":110},{"Id":101010004,"AbilityIconName":"Icon_Ability_1020001","Category":1,"PartyPowerWeight":140},{"Id":101010005,"AbilityIconName":"Icon_Ability_1020001","Category":1,"PartyPowerWeight":170},{"Id":104000005,"AbilityIconName":"Icon_Ability_1020009","Category":8,"PartyPowerWeight":170},{"Id":104000006,"AbilityIconName":"Icon_Ability_1020009","Category":8,"PartyPowerWeight":200},{"Id":104000007,"AbilityIconName":"Icon_Ability_1020009","Category":8,"PartyPowerWeight":230},{"Id":104000008,"AbilityIconName":"Icon_Ability_1020009","Category":8,"PartyPowerWeight":260},{"Id":104000001,"AbilityIconName":"Icon_Ability_1020009","Category":8,"PartyPowerWeight":50},{"Id":104000010,"AbilityIconName":"Icon_Ability_1020009","Category":8,"PartyPowerWeight":320},{"Id":104000002,"AbilityIconName":"Icon_Ability_1020009","Category":8,"PartyPowerWeight":80},{"Id":104000003,"AbilityIconName":"Icon_Ability_1020009","Category":8,"PartyPowerWeight":110},{"Id":104000004,"AbilityIconName":"Icon_Ability_1020009","Category":8,"PartyPowerWeight":140},{"Id":102000007,"AbilityIconName":"Icon_Ability_1010002","Category":6,"PartyPowerWeight":230},{"Id":102000008,"AbilityIconName":"Icon_Ability_1010002","Category":6,"PartyPowerWeight":260},{"Id":102000010,"AbilityIconName":"Icon_Ability_1010002","Category":6,"PartyPowerWeight":320},{"Id":102000001,"AbilityIconName":"Icon_Ability_1010002","Category":6,"PartyPowerWeight":50},{"Id":102000002,"AbilityIconName":"Icon_Ability_1010002","Category":6,"PartyPowerWeight":80},{"Id":102000003,"AbilityIconName":"Icon_Ability_1010002","Category":6,"PartyPowerWeight":110},{"Id":102000004,"AbilityIconName":"Icon_Ability_1010002","Category":6,"PartyPowerWeight":140},{"Id":102000005,"AbilityIconName":"Icon_Ability_1010002","Category":6,"PartyPowerWeight":170},{"Id":102000006,"AbilityIconName":"Icon_Ability_1010002","Category":6,"PartyPowerWeight":200},{"Id":101040007,"AbilityIconName":"Icon_Ability_1020004","Category":4,"PartyPowerWeight":230},{"Id":101040008,"AbilityIconName":"Icon_Ability_1020004","Category":4,"PartyPowerWeight":260},{"Id":101040010,"AbilityIconName":"Icon_Ability_1020004","Category":4,"PartyPowerWeight":320},{"Id":101040001,"AbilityIconName":"Icon_Ability_1020004","Category":4,"PartyPowerWeight":50},{"Id":101040002,"AbilityIconName":"Icon_Ability_1020004","Category":4,"PartyPowerWeight":80},{"Id":101040003,"AbilityIconName":"Icon_Ability_1020004","Category":4,"PartyPowerWeight":110},{"Id":101040004,"AbilityIconName":"Icon_Ability_1020004","Category":4,"PartyPowerWeight":140},{"Id":101040005,"AbilityIconName":"Icon_Ability_1020004","Category":4,"PartyPowerWeight":170},{"Id":101040006,"AbilityIconName":"Icon_Ability_1020004","Category":4,"PartyPowerWeight":200},{"Id":101020001,"AbilityIconName":"Icon_Ability_1020002","Category":2,"PartyPowerWeight":50},{"Id":101020010,"AbilityIconName":"Icon_Ability_1020002","Category":2,"PartyPowerWeight":320},{"Id":101020002,"AbilityIconName":"Icon_Ability_1020002","Category":2,"PartyPowerWeight":80},{"Id":101020003,"AbilityIconName":"Icon_Ability_1020002","Category":2,"PartyPowerWeight":110},{"Id":101020004,"AbilityIconName":"Icon_Ability_1020002","Category":2,"PartyPowerWeight":140},{"Id":101020005,"AbilityIconName":"Icon_Ability_1020002","Category":2,"PartyPowerWeight":170},{"Id":101020006,"AbilityIconName":"Icon_Ability_1020002","Category":2,"PartyPowerWeight":200},{"Id":101020007,"AbilityIconName":"Icon_Ability_1020002","Category":2,"PartyPowerWeight":230},{"Id":101020008,"AbilityIconName":"Icon_Ability_1020002","Category":2,"PartyPowerWeight":260}]
+[
+    {
+        "Id": 103000001,
+        "AbilityIconName": "Icon_Ability_1020010",
+        "Category": 7,
+        "PartyPowerWeight": 50
+    },
+    {
+        "Id": 103000010,
+        "AbilityIconName": "Icon_Ability_1020010",
+        "Category": 7,
+        "PartyPowerWeight": 320
+    },
+    {
+        "Id": 103000002,
+        "AbilityIconName": "Icon_Ability_1020010",
+        "Category": 7,
+        "PartyPowerWeight": 80
+    },
+    {
+        "Id": 103000003,
+        "AbilityIconName": "Icon_Ability_1020010",
+        "Category": 7,
+        "PartyPowerWeight": 110
+    },
+    {
+        "Id": 103000004,
+        "AbilityIconName": "Icon_Ability_1020010",
+        "Category": 7,
+        "PartyPowerWeight": 140
+    },
+    {
+        "Id": 103000005,
+        "AbilityIconName": "Icon_Ability_1020010",
+        "Category": 7,
+        "PartyPowerWeight": 170
+    },
+    {
+        "Id": 103000006,
+        "AbilityIconName": "Icon_Ability_1020010",
+        "Category": 7,
+        "PartyPowerWeight": 200
+    },
+    {
+        "Id": 103000007,
+        "AbilityIconName": "Icon_Ability_1020010",
+        "Category": 7,
+        "PartyPowerWeight": 230
+    },
+    {
+        "Id": 103000008,
+        "AbilityIconName": "Icon_Ability_1020010",
+        "Category": 7,
+        "PartyPowerWeight": 260
+    },
+    {
+        "Id": 101030006,
+        "AbilityIconName": "Icon_Ability_1020003",
+        "Category": 3,
+        "PartyPowerWeight": 200
+    },
+    {
+        "Id": 101030007,
+        "AbilityIconName": "Icon_Ability_1020003",
+        "Category": 3,
+        "PartyPowerWeight": 230
+    },
+    {
+        "Id": 101030008,
+        "AbilityIconName": "Icon_Ability_1020003",
+        "Category": 3,
+        "PartyPowerWeight": 260
+    },
+    {
+        "Id": 101030010,
+        "AbilityIconName": "Icon_Ability_1020003",
+        "Category": 3,
+        "PartyPowerWeight": 320
+    },
+    {
+        "Id": 101030001,
+        "AbilityIconName": "Icon_Ability_1020003",
+        "Category": 3,
+        "PartyPowerWeight": 50
+    },
+    {
+        "Id": 101030002,
+        "AbilityIconName": "Icon_Ability_1020003",
+        "Category": 3,
+        "PartyPowerWeight": 80
+    },
+    {
+        "Id": 101030003,
+        "AbilityIconName": "Icon_Ability_1020003",
+        "Category": 3,
+        "PartyPowerWeight": 110
+    },
+    {
+        "Id": 101030004,
+        "AbilityIconName": "Icon_Ability_1020003",
+        "Category": 3,
+        "PartyPowerWeight": 140
+    },
+    {
+        "Id": 101030005,
+        "AbilityIconName": "Icon_Ability_1020003",
+        "Category": 3,
+        "PartyPowerWeight": 170
+    },
+    {
+        "Id": 101050007,
+        "AbilityIconName": "Icon_Ability_1020005",
+        "Category": 5,
+        "PartyPowerWeight": 230
+    },
+    {
+        "Id": 101050008,
+        "AbilityIconName": "Icon_Ability_1020005",
+        "Category": 5,
+        "PartyPowerWeight": 260
+    },
+    {
+        "Id": 101050010,
+        "AbilityIconName": "Icon_Ability_1020005",
+        "Category": 5,
+        "PartyPowerWeight": 320
+    },
+    {
+        "Id": 101050001,
+        "AbilityIconName": "Icon_Ability_1020005",
+        "Category": 5,
+        "PartyPowerWeight": 50
+    },
+    {
+        "Id": 101050002,
+        "AbilityIconName": "Icon_Ability_1020005",
+        "Category": 5,
+        "PartyPowerWeight": 80
+    },
+    {
+        "Id": 101050003,
+        "AbilityIconName": "Icon_Ability_1020005",
+        "Category": 5,
+        "PartyPowerWeight": 110
+    },
+    {
+        "Id": 101050004,
+        "AbilityIconName": "Icon_Ability_1020005",
+        "Category": 5,
+        "PartyPowerWeight": 140
+    },
+    {
+        "Id": 101050005,
+        "AbilityIconName": "Icon_Ability_1020005",
+        "Category": 5,
+        "PartyPowerWeight": 170
+    },
+    {
+        "Id": 101050006,
+        "AbilityIconName": "Icon_Ability_1020005",
+        "Category": 5,
+        "PartyPowerWeight": 200
+    },
+    {
+        "Id": 101010006,
+        "AbilityIconName": "Icon_Ability_1020001",
+        "Category": 1,
+        "PartyPowerWeight": 200
+    },
+    {
+        "Id": 101010007,
+        "AbilityIconName": "Icon_Ability_1020001",
+        "Category": 1,
+        "PartyPowerWeight": 230
+    },
+    {
+        "Id": 101010008,
+        "AbilityIconName": "Icon_Ability_1020001",
+        "Category": 1,
+        "PartyPowerWeight": 260
+    },
+    {
+        "Id": 101010010,
+        "AbilityIconName": "Icon_Ability_1020001",
+        "Category": 1,
+        "PartyPowerWeight": 320
+    },
+    {
+        "Id": 101010001,
+        "AbilityIconName": "Icon_Ability_1020001",
+        "Category": 1,
+        "PartyPowerWeight": 50
+    },
+    {
+        "Id": 101010002,
+        "AbilityIconName": "Icon_Ability_1020001",
+        "Category": 1,
+        "PartyPowerWeight": 80
+    },
+    {
+        "Id": 101010003,
+        "AbilityIconName": "Icon_Ability_1020001",
+        "Category": 1,
+        "PartyPowerWeight": 110
+    },
+    {
+        "Id": 101010004,
+        "AbilityIconName": "Icon_Ability_1020001",
+        "Category": 1,
+        "PartyPowerWeight": 140
+    },
+    {
+        "Id": 101010005,
+        "AbilityIconName": "Icon_Ability_1020001",
+        "Category": 1,
+        "PartyPowerWeight": 170
+    },
+    {
+        "Id": 104000005,
+        "AbilityIconName": "Icon_Ability_1020009",
+        "Category": 8,
+        "PartyPowerWeight": 170
+    },
+    {
+        "Id": 104000006,
+        "AbilityIconName": "Icon_Ability_1020009",
+        "Category": 8,
+        "PartyPowerWeight": 200
+    },
+    {
+        "Id": 104000007,
+        "AbilityIconName": "Icon_Ability_1020009",
+        "Category": 8,
+        "PartyPowerWeight": 230
+    },
+    {
+        "Id": 104000008,
+        "AbilityIconName": "Icon_Ability_1020009",
+        "Category": 8,
+        "PartyPowerWeight": 260
+    },
+    {
+        "Id": 104000001,
+        "AbilityIconName": "Icon_Ability_1020009",
+        "Category": 8,
+        "PartyPowerWeight": 50
+    },
+    {
+        "Id": 104000010,
+        "AbilityIconName": "Icon_Ability_1020009",
+        "Category": 8,
+        "PartyPowerWeight": 320
+    },
+    {
+        "Id": 104000002,
+        "AbilityIconName": "Icon_Ability_1020009",
+        "Category": 8,
+        "PartyPowerWeight": 80
+    },
+    {
+        "Id": 104000003,
+        "AbilityIconName": "Icon_Ability_1020009",
+        "Category": 8,
+        "PartyPowerWeight": 110
+    },
+    {
+        "Id": 104000004,
+        "AbilityIconName": "Icon_Ability_1020009",
+        "Category": 8,
+        "PartyPowerWeight": 140
+    },
+    {
+        "Id": 102000007,
+        "AbilityIconName": "Icon_Ability_1010002",
+        "Category": 6,
+        "PartyPowerWeight": 230
+    },
+    {
+        "Id": 102000008,
+        "AbilityIconName": "Icon_Ability_1010002",
+        "Category": 6,
+        "PartyPowerWeight": 260
+    },
+    {
+        "Id": 102000010,
+        "AbilityIconName": "Icon_Ability_1010002",
+        "Category": 6,
+        "PartyPowerWeight": 320
+    },
+    {
+        "Id": 102000001,
+        "AbilityIconName": "Icon_Ability_1010002",
+        "Category": 6,
+        "PartyPowerWeight": 50
+    },
+    {
+        "Id": 102000002,
+        "AbilityIconName": "Icon_Ability_1010002",
+        "Category": 6,
+        "PartyPowerWeight": 80
+    },
+    {
+        "Id": 102000003,
+        "AbilityIconName": "Icon_Ability_1010002",
+        "Category": 6,
+        "PartyPowerWeight": 110
+    },
+    {
+        "Id": 102000004,
+        "AbilityIconName": "Icon_Ability_1010002",
+        "Category": 6,
+        "PartyPowerWeight": 140
+    },
+    {
+        "Id": 102000005,
+        "AbilityIconName": "Icon_Ability_1010002",
+        "Category": 6,
+        "PartyPowerWeight": 170
+    },
+    {
+        "Id": 102000006,
+        "AbilityIconName": "Icon_Ability_1010002",
+        "Category": 6,
+        "PartyPowerWeight": 200
+    },
+    {
+        "Id": 101040007,
+        "AbilityIconName": "Icon_Ability_1020004",
+        "Category": 4,
+        "PartyPowerWeight": 230
+    },
+    {
+        "Id": 101040008,
+        "AbilityIconName": "Icon_Ability_1020004",
+        "Category": 4,
+        "PartyPowerWeight": 260
+    },
+    {
+        "Id": 101040010,
+        "AbilityIconName": "Icon_Ability_1020004",
+        "Category": 4,
+        "PartyPowerWeight": 320
+    },
+    {
+        "Id": 101040001,
+        "AbilityIconName": "Icon_Ability_1020004",
+        "Category": 4,
+        "PartyPowerWeight": 50
+    },
+    {
+        "Id": 101040002,
+        "AbilityIconName": "Icon_Ability_1020004",
+        "Category": 4,
+        "PartyPowerWeight": 80
+    },
+    {
+        "Id": 101040003,
+        "AbilityIconName": "Icon_Ability_1020004",
+        "Category": 4,
+        "PartyPowerWeight": 110
+    },
+    {
+        "Id": 101040004,
+        "AbilityIconName": "Icon_Ability_1020004",
+        "Category": 4,
+        "PartyPowerWeight": 140
+    },
+    {
+        "Id": 101040005,
+        "AbilityIconName": "Icon_Ability_1020004",
+        "Category": 4,
+        "PartyPowerWeight": 170
+    },
+    {
+        "Id": 101040006,
+        "AbilityIconName": "Icon_Ability_1020004",
+        "Category": 4,
+        "PartyPowerWeight": 200
+    },
+    {
+        "Id": 101020001,
+        "AbilityIconName": "Icon_Ability_1020002",
+        "Category": 2,
+        "PartyPowerWeight": 50
+    },
+    {
+        "Id": 101020010,
+        "AbilityIconName": "Icon_Ability_1020002",
+        "Category": 2,
+        "PartyPowerWeight": 320
+    },
+    {
+        "Id": 101020002,
+        "AbilityIconName": "Icon_Ability_1020002",
+        "Category": 2,
+        "PartyPowerWeight": 80
+    },
+    {
+        "Id": 101020003,
+        "AbilityIconName": "Icon_Ability_1020002",
+        "Category": 2,
+        "PartyPowerWeight": 110
+    },
+    {
+        "Id": 101020004,
+        "AbilityIconName": "Icon_Ability_1020002",
+        "Category": 2,
+        "PartyPowerWeight": 140
+    },
+    {
+        "Id": 101020005,
+        "AbilityIconName": "Icon_Ability_1020002",
+        "Category": 2,
+        "PartyPowerWeight": 170
+    },
+    {
+        "Id": 101020006,
+        "AbilityIconName": "Icon_Ability_1020002",
+        "Category": 2,
+        "PartyPowerWeight": 200
+    },
+    {
+        "Id": 101020007,
+        "AbilityIconName": "Icon_Ability_1020002",
+        "Category": 2,
+        "PartyPowerWeight": 230
+    },
+    {
+        "Id": 101020008,
+        "AbilityIconName": "Icon_Ability_1020002",
+        "Category": 2,
+        "PartyPowerWeight": 260
+    }
+]

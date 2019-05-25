@@ -1,1 +1,647 @@
-[{"Id":1,"IsEffectMix":"No","MaxLimitedValue":25},{"Id":2,"IsEffectMix":"No","MaxLimitedValue":30},{"Id":3,"IsEffectMix":"No","MaxLimitedValue":25},{"Id":4,"IsEffectMix":"No","MaxLimitedValue":25},{"Id":5,"IsEffectMix":"No","MaxLimitedValue":25},{"Id":6,"IsEffectMix":"No","MaxLimitedValue":25},{"Id":7,"IsEffectMix":"No","MaxLimitedValue":25},{"Id":8,"IsEffectMix":"No","MaxLimitedValue":25},{"Id":9,"IsEffectMix":"No","MaxLimitedValue":25},{"Id":10,"IsEffectMix":"No","MaxLimitedValue":20},{"Id":11,"IsEffectMix":"No","MaxLimitedValue":20},{"Id":12,"IsEffectMix":"No","MaxLimitedValue":20},{"Id":13,"IsEffectMix":"No","MaxLimitedValue":20},{"Id":14,"IsEffectMix":"No","MaxLimitedValue":20},{"Id":15,"IsEffectMix":"No","MaxLimitedValue":20},{"Id":16,"IsEffectMix":"No","MaxLimitedValue":20},{"Id":17,"IsEffectMix":"No","MaxLimitedValue":20},{"Id":18,"IsEffectMix":"No","MaxLimitedValue":25},{"Id":19,"IsEffectMix":"No","MaxLimitedValue":35},{"Id":20,"IsEffectMix":"No","MaxLimitedValue":25},{"Id":21,"IsEffectMix":"No","MaxLimitedValue":15},{"Id":22,"IsEffectMix":"No","MaxLimitedValue":15},{"Id":23,"IsEffectMix":"No","MaxLimitedValue":15},{"Id":24,"IsEffectMix":"No","MaxLimitedValue":15},{"Id":25,"IsEffectMix":"No","MaxLimitedValue":15},{"Id":26,"IsEffectMix":"No","MaxLimitedValue":15},{"Id":27,"IsEffectMix":"No","MaxLimitedValue":15},{"Id":28,"IsEffectMix":"No","MaxLimitedValue":15},{"Id":29,"IsEffectMix":"No","MaxLimitedValue":20},{"Id":30,"IsEffectMix":"No","MaxLimitedValue":100},{"Id":31,"IsEffectMix":"No","MaxLimitedValue":15},{"Id":32,"IsEffectMix":"No","MaxLimitedValue":40},{"Id":33,"IsEffectMix":"No","MaxLimitedValue":40},{"Id":34,"IsEffectMix":"No","MaxLimitedValue":40},{"Id":35,"IsEffectMix":"No","MaxLimitedValue":40},{"Id":36,"IsEffectMix":"No","MaxLimitedValue":40},{"Id":37,"IsEffectMix":"No","MaxLimitedValue":40},{"Id":38,"IsEffectMix":"No","MaxLimitedValue":40},{"Id":39,"IsEffectMix":"No","MaxLimitedValue":40},{"Id":40,"IsEffectMix":"No","MaxLimitedValue":15},{"Id":41,"IsEffectMix":"No","MaxLimitedValue":0},{"Id":42,"IsEffectMix":"No","MaxLimitedValue":20},{"Id":43,"IsEffectMix":"No","MaxLimitedValue":20},{"Id":44,"IsEffectMix":"No","MaxLimitedValue":0},{"Id":45,"IsEffectMix":"No","MaxLimitedValue":20},{"Id":46,"IsEffectMix":"No","MaxLimitedValue":30},{"Id":47,"IsEffectMix":"No","MaxLimitedValue":50},{"Id":48,"IsEffectMix":"No","MaxLimitedValue":15},{"Id":49,"IsEffectMix":"No","MaxLimitedValue":15},{"Id":50,"IsEffectMix":"No","MaxLimitedValue":30},{"Id":51,"IsEffectMix":"No","MaxLimitedValue":35},{"Id":52,"IsEffectMix":"No","MaxLimitedValue":10},{"Id":53,"IsEffectMix":"Yes","MaxLimitedValue":3},{"Id":54,"IsEffectMix":"Yes","MaxLimitedValue":6},{"Id":55,"IsEffectMix":"Yes","MaxLimitedValue":6},{"Id":56,"IsEffectMix":"Yes","MaxLimitedValue":15},{"Id":57,"IsEffectMix":"Yes","MaxLimitedValue":60},{"Id":58,"IsEffectMix":"Yes","MaxLimitedValue":20},{"Id":59,"IsEffectMix":"Yes","MaxLimitedValue":15},{"Id":60,"IsEffectMix":"Yes","MaxLimitedValue":3},{"Id":61,"IsEffectMix":"Yes","MaxLimitedValue":20},{"Id":62,"IsEffectMix":"Yes","MaxLimitedValue":100},{"Id":63,"IsEffectMix":"Yes","MaxLimitedValue":15},{"Id":64,"IsEffectMix":"Yes","MaxLimitedValue":20},{"Id":65,"IsEffectMix":"Yes","MaxLimitedValue":25},{"Id":66,"IsEffectMix":"Yes","MaxLimitedValue":3},{"Id":67,"IsEffectMix":"Yes","MaxLimitedValue":4},{"Id":68,"IsEffectMix":"Yes","MaxLimitedValue":20},{"Id":69,"IsEffectMix":"Yes","MaxLimitedValue":15},{"Id":70,"IsEffectMix":"Yes","MaxLimitedValue":1},{"Id":71,"IsEffectMix":"Yes","MaxLimitedValue":2},{"Id":73,"IsEffectMix":"Yes","MaxLimitedValue":1},{"Id":74,"IsEffectMix":"Yes","MaxLimitedValue":3},{"Id":75,"IsEffectMix":"Yes","MaxLimitedValue":2},{"Id":76,"IsEffectMix":"No","MaxLimitedValue":15},{"Id":77,"IsEffectMix":"No","MaxLimitedValue":15},{"Id":78,"IsEffectMix":"No","MaxLimitedValue":15},{"Id":79,"IsEffectMix":"No","MaxLimitedValue":15},{"Id":80,"IsEffectMix":"No","MaxLimitedValue":15},{"Id":81,"IsEffectMix":"No","MaxLimitedValue":25},{"Id":82,"IsEffectMix":"No","MaxLimitedValue":25},{"Id":83,"IsEffectMix":"No","MaxLimitedValue":25},{"Id":84,"IsEffectMix":"No","MaxLimitedValue":25},{"Id":85,"IsEffectMix":"No","MaxLimitedValue":25},{"Id":86,"IsEffectMix":"No","MaxLimitedValue":25},{"Id":87,"IsEffectMix":"No","MaxLimitedValue":25},{"Id":88,"IsEffectMix":"No","MaxLimitedValue":25},{"Id":89,"IsEffectMix":"No","MaxLimitedValue":25},{"Id":90,"IsEffectMix":"No","MaxLimitedValue":25},{"Id":91,"IsEffectMix":"Yes","MaxLimitedValue":0},{"Id":92,"IsEffectMix":"No","MaxLimitedValue":0},{"Id":93,"IsEffectMix":"Yes","MaxLimitedValue":0},{"Id":94,"IsEffectMix":"No","MaxLimitedValue":25},{"Id":95,"IsEffectMix":"No","MaxLimitedValue":0},{"Id":96,"IsEffectMix":"No","MaxLimitedValue":0},{"Id":97,"IsEffectMix":"No","MaxLimitedValue":0},{"Id":98,"IsEffectMix":"No","MaxLimitedValue":0},{"Id":99,"IsEffectMix":"No","MaxLimitedValue":150},{"Id":100,"IsEffectMix":"No","MaxLimitedValue":100},{"Id":101,"IsEffectMix":"No","MaxLimitedValue":150},{"Id":102,"IsEffectMix":"No","MaxLimitedValue":150},{"Id":103,"IsEffectMix":"No","MaxLimitedValue":150},{"Id":104,"IsEffectMix":"No","MaxLimitedValue":75},{"Id":105,"IsEffectMix":"No","MaxLimitedValue":50},{"Id":106,"IsEffectMix":"No","MaxLimitedValue":75},{"Id":107,"IsEffectMix":"No","MaxLimitedValue":75},{"Id":108,"IsEffectMix":"No","MaxLimitedValue":75},{"Id":109,"IsEffectMix":"No","MaxLimitedValue":50},{"Id":110,"IsEffectMix":"No","MaxLimitedValue":50},{"Id":111,"IsEffectMix":"No","MaxLimitedValue":10},{"Id":112,"IsEffectMix":"No","MaxLimitedValue":50},{"Id":113,"IsEffectMix":"No","MaxLimitedValue":15},{"Id":114,"IsEffectMix":"No","MaxLimitedValue":0},{"Id":115,"IsEffectMix":"No","MaxLimitedValue":0},{"Id":116,"IsEffectMix":"No","MaxLimitedValue":0},{"Id":117,"IsEffectMix":"No","MaxLimitedValue":15},{"Id":118,"IsEffectMix":"No","MaxLimitedValue":100},{"Id":119,"IsEffectMix":"No","MaxLimitedValue":100},{"Id":120,"IsEffectMix":"No","MaxLimitedValue":100},{"Id":121,"IsEffectMix":"No","MaxLimitedValue":100},{"Id":122,"IsEffectMix":"No","MaxLimitedValue":100},{"Id":123,"IsEffectMix":"No","MaxLimitedValue":100},{"Id":124,"IsEffectMix":"No","MaxLimitedValue":100},{"Id":125,"IsEffectMix":"No","MaxLimitedValue":100},{"Id":126,"IsEffectMix":"No","MaxLimitedValue":100},{"Id":127,"IsEffectMix":"No","MaxLimitedValue":250},{"Id":128,"IsEffectMix":"No","MaxLimitedValue":125},{"Id":129,"IsEffectMix":"No","MaxLimitedValue":3},{"Id":130,"IsEffectMix":"No","MaxLimitedValue":100}]
+[
+    {
+        "Id": 1,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 25
+    },
+    {
+        "Id": 2,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 30
+    },
+    {
+        "Id": 3,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 25
+    },
+    {
+        "Id": 4,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 25
+    },
+    {
+        "Id": 5,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 25
+    },
+    {
+        "Id": 6,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 25
+    },
+    {
+        "Id": 7,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 25
+    },
+    {
+        "Id": 8,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 25
+    },
+    {
+        "Id": 9,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 25
+    },
+    {
+        "Id": 10,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 20
+    },
+    {
+        "Id": 11,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 20
+    },
+    {
+        "Id": 12,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 20
+    },
+    {
+        "Id": 13,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 20
+    },
+    {
+        "Id": 14,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 20
+    },
+    {
+        "Id": 15,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 20
+    },
+    {
+        "Id": 16,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 20
+    },
+    {
+        "Id": 17,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 20
+    },
+    {
+        "Id": 18,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 25
+    },
+    {
+        "Id": 19,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 35
+    },
+    {
+        "Id": 20,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 25
+    },
+    {
+        "Id": 21,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 15
+    },
+    {
+        "Id": 22,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 15
+    },
+    {
+        "Id": 23,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 15
+    },
+    {
+        "Id": 24,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 15
+    },
+    {
+        "Id": 25,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 15
+    },
+    {
+        "Id": 26,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 15
+    },
+    {
+        "Id": 27,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 15
+    },
+    {
+        "Id": 28,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 15
+    },
+    {
+        "Id": 29,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 20
+    },
+    {
+        "Id": 30,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 100
+    },
+    {
+        "Id": 31,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 15
+    },
+    {
+        "Id": 32,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 40
+    },
+    {
+        "Id": 33,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 40
+    },
+    {
+        "Id": 34,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 40
+    },
+    {
+        "Id": 35,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 40
+    },
+    {
+        "Id": 36,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 40
+    },
+    {
+        "Id": 37,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 40
+    },
+    {
+        "Id": 38,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 40
+    },
+    {
+        "Id": 39,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 40
+    },
+    {
+        "Id": 40,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 15
+    },
+    {
+        "Id": 41,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 0
+    },
+    {
+        "Id": 42,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 20
+    },
+    {
+        "Id": 43,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 20
+    },
+    {
+        "Id": 44,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 0
+    },
+    {
+        "Id": 45,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 20
+    },
+    {
+        "Id": 46,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 30
+    },
+    {
+        "Id": 47,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 50
+    },
+    {
+        "Id": 48,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 15
+    },
+    {
+        "Id": 49,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 15
+    },
+    {
+        "Id": 50,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 30
+    },
+    {
+        "Id": 51,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 35
+    },
+    {
+        "Id": 52,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 10
+    },
+    {
+        "Id": 53,
+        "IsEffectMix": "Yes",
+        "MaxLimitedValue": 3
+    },
+    {
+        "Id": 54,
+        "IsEffectMix": "Yes",
+        "MaxLimitedValue": 6
+    },
+    {
+        "Id": 55,
+        "IsEffectMix": "Yes",
+        "MaxLimitedValue": 6
+    },
+    {
+        "Id": 56,
+        "IsEffectMix": "Yes",
+        "MaxLimitedValue": 15
+    },
+    {
+        "Id": 57,
+        "IsEffectMix": "Yes",
+        "MaxLimitedValue": 60
+    },
+    {
+        "Id": 58,
+        "IsEffectMix": "Yes",
+        "MaxLimitedValue": 20
+    },
+    {
+        "Id": 59,
+        "IsEffectMix": "Yes",
+        "MaxLimitedValue": 15
+    },
+    {
+        "Id": 60,
+        "IsEffectMix": "Yes",
+        "MaxLimitedValue": 3
+    },
+    {
+        "Id": 61,
+        "IsEffectMix": "Yes",
+        "MaxLimitedValue": 20
+    },
+    {
+        "Id": 62,
+        "IsEffectMix": "Yes",
+        "MaxLimitedValue": 100
+    },
+    {
+        "Id": 63,
+        "IsEffectMix": "Yes",
+        "MaxLimitedValue": 15
+    },
+    {
+        "Id": 64,
+        "IsEffectMix": "Yes",
+        "MaxLimitedValue": 20
+    },
+    {
+        "Id": 65,
+        "IsEffectMix": "Yes",
+        "MaxLimitedValue": 25
+    },
+    {
+        "Id": 66,
+        "IsEffectMix": "Yes",
+        "MaxLimitedValue": 3
+    },
+    {
+        "Id": 67,
+        "IsEffectMix": "Yes",
+        "MaxLimitedValue": 4
+    },
+    {
+        "Id": 68,
+        "IsEffectMix": "Yes",
+        "MaxLimitedValue": 20
+    },
+    {
+        "Id": 69,
+        "IsEffectMix": "Yes",
+        "MaxLimitedValue": 15
+    },
+    {
+        "Id": 70,
+        "IsEffectMix": "Yes",
+        "MaxLimitedValue": 1
+    },
+    {
+        "Id": 71,
+        "IsEffectMix": "Yes",
+        "MaxLimitedValue": 2
+    },
+    {
+        "Id": 73,
+        "IsEffectMix": "Yes",
+        "MaxLimitedValue": 1
+    },
+    {
+        "Id": 74,
+        "IsEffectMix": "Yes",
+        "MaxLimitedValue": 3
+    },
+    {
+        "Id": 75,
+        "IsEffectMix": "Yes",
+        "MaxLimitedValue": 2
+    },
+    {
+        "Id": 76,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 15
+    },
+    {
+        "Id": 77,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 15
+    },
+    {
+        "Id": 78,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 15
+    },
+    {
+        "Id": 79,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 15
+    },
+    {
+        "Id": 80,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 15
+    },
+    {
+        "Id": 81,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 25
+    },
+    {
+        "Id": 82,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 25
+    },
+    {
+        "Id": 83,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 25
+    },
+    {
+        "Id": 84,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 25
+    },
+    {
+        "Id": 85,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 25
+    },
+    {
+        "Id": 86,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 25
+    },
+    {
+        "Id": 87,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 25
+    },
+    {
+        "Id": 88,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 25
+    },
+    {
+        "Id": 89,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 25
+    },
+    {
+        "Id": 90,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 25
+    },
+    {
+        "Id": 91,
+        "IsEffectMix": "Yes",
+        "MaxLimitedValue": 0
+    },
+    {
+        "Id": 92,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 0
+    },
+    {
+        "Id": 93,
+        "IsEffectMix": "Yes",
+        "MaxLimitedValue": 0
+    },
+    {
+        "Id": 94,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 25
+    },
+    {
+        "Id": 95,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 0
+    },
+    {
+        "Id": 96,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 0
+    },
+    {
+        "Id": 97,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 0
+    },
+    {
+        "Id": 98,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 0
+    },
+    {
+        "Id": 99,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 150
+    },
+    {
+        "Id": 100,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 100
+    },
+    {
+        "Id": 101,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 150
+    },
+    {
+        "Id": 102,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 150
+    },
+    {
+        "Id": 103,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 150
+    },
+    {
+        "Id": 104,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 75
+    },
+    {
+        "Id": 105,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 50
+    },
+    {
+        "Id": 106,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 75
+    },
+    {
+        "Id": 107,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 75
+    },
+    {
+        "Id": 108,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 75
+    },
+    {
+        "Id": 109,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 50
+    },
+    {
+        "Id": 110,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 50
+    },
+    {
+        "Id": 111,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 10
+    },
+    {
+        "Id": 112,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 50
+    },
+    {
+        "Id": 113,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 15
+    },
+    {
+        "Id": 114,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 0
+    },
+    {
+        "Id": 115,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 0
+    },
+    {
+        "Id": 116,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 0
+    },
+    {
+        "Id": 117,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 15
+    },
+    {
+        "Id": 118,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 100
+    },
+    {
+        "Id": 119,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 100
+    },
+    {
+        "Id": 120,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 100
+    },
+    {
+        "Id": 121,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 100
+    },
+    {
+        "Id": 122,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 100
+    },
+    {
+        "Id": 123,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 100
+    },
+    {
+        "Id": 124,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 100
+    },
+    {
+        "Id": 125,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 100
+    },
+    {
+        "Id": 126,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 100
+    },
+    {
+        "Id": 127,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 250
+    },
+    {
+        "Id": 128,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 125
+    },
+    {
+        "Id": 129,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 3
+    },
+    {
+        "Id": 130,
+        "IsEffectMix": "No",
+        "MaxLimitedValue": 100
+    }
+]
