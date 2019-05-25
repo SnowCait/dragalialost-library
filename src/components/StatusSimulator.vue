@@ -814,6 +814,11 @@ export default {
                 }
             }
 
+            // ジャンヌダルク（星竜祭）
+            if (ability1.GenericName.match(/Dragonyule Blessing/) !== null) {
+                return 0;
+            }
+
             // ability2 が必要そうなら実装する
 
             return 0;
@@ -829,6 +834,11 @@ export default {
                 if (elementType == this.selectedAdventurer.ElementalType) {
                     return value;
                 }
+            }
+
+            // ジャンヌダルク（星竜祭）
+            if (ability1.GenericName.match(/Dragonyule Blessing/) !== null) {
+                return 45;
             }
 
             // ability2 が必要そうなら実装する
