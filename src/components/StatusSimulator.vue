@@ -16,7 +16,7 @@
                 <li>
                     <img :src="selectedWeapon.Image" :alt="selectedWeapon.Name" v-on:click="showWeaponList = !showWeaponList" />
                     <div>{{selectedWeapon.Name}}</div>
-                    <div>Lv{{weaponLv}}</div>
+                    <div>Lv<input type="number" min="1" max="100" v-model.number="weaponLv" /></div>
                     <div>完凸<input type="checkbox" v-model="weaponUnbind" /></div>
                 </li>
 
@@ -685,10 +685,16 @@ export default {
 
         // 武器
         weaponHp: function () {
-            return this.selectedWeapon.MaxHp;
+            const weapon = this.selectedWeapon;
+            const maxLv = this.weaponLevelsMaster[weapon.Rarity];
+            const minLv = 1;
+            return weapon.MinHp + Math.ceil((weapon.MaxHp - weapon.MinHp) * (this.weaponLv - minLv) / (maxLv - minLv));
         },
         weaponStr: function () {
-            return this.selectedWeapon.MaxAtk;
+            const weapon = this.selectedWeapon;
+            const maxLv = this.weaponLevelsMaster[weapon.Rarity];
+            const minLv = 1;
+            return weapon.MinAtk + Math.ceil((weapon.MaxAtk - weapon.MinAtk) * (this.weaponLv - minLv) / (maxLv - minLv));
         },
         weaponSkillMight: function () {
             return 100;
