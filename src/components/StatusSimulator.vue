@@ -697,9 +697,11 @@ export default {
             return abilities.reduce((accumulator, currentValue) => accumulator + currentValue.PartyPowerWeight, 0);
         },
         wyrmprint1AbilityHpRate: function () {
+            // TODO
             return 0;
         },
         wyrmprint1AbilityStrRate: function () {
+            // TODO
             return 0;
         },
         wyrmprint2Hp: function () {
@@ -729,9 +731,11 @@ export default {
             return abilities.reduce((accumulator, currentValue) => accumulator + currentValue.PartyPowerWeight, 0);
         },
         wyrmprint2AbilityHpRate: function () {
+            // TODO
             return 0;
         },
         wyrmprint2AbilityStrRate: function () {
+            // TODO
             return 0;
         },
         wyrmprint1Might: function () {
@@ -757,21 +761,58 @@ export default {
         dragonStr: function () {
             return this.selectedDragon.MaxAtk;
         },
+        dragonAbility1: function () {
+            return this.abilitiesMaster.filter(ability => {
+                return ability.Id == this.selectedDragon.Abilities12;
+            })[0];
+        },
+        dragonAbility2: function () {
+            return this.abilitiesMaster.filter(ability => {
+                return ability.Id == this.selectedDragon.Abilities22;
+            })[0];
+        },
         dragonAbilityHpRate: function () {
-            // ドラゴンのスキルマスターなさそうだから自分で定義する？
+            const ability1 = this.dragonAbility1;
+            console.log('dragon ability1 name: ', ability1.Name);
+            const matched = ability1.Name.match(/\((.+)\) HP(?: & Strength)* \+([0-9]+)%/);
+            console.log(matched);
+            if (matched != null) {
+                const elementType = matched[1];
+                const value = Number(matched[2]);
+                if (elementType == this.selectedAdventurer.ElementalType) {
+                    return value;
+                }
+            }
+
+            // ability2 が必要そうなら実装する
+
             return 0;
         },
         dragonAbilityStrRate: function () {
-            // ドラゴンのスキルマスターなさそうだから自分で定義する？
-            return 0.6;
+            const ability1 = this.dragonAbility1;
+            console.log('dragon ability1 name: ', ability1.Name);
+            const matched = ability1.Name.match(/\((.+)\) (?:HP & )*Strength \+([0-9]+)%/);
+            console.log(matched);
+            if (matched != null) {
+                const elementType = matched[1];
+                const value = Number(matched[2]);
+                if (elementType == this.selectedAdventurer.ElementalType) {
+                    return value;
+                }
+            }
+
+            // ability2 が必要そうなら実装する
+
+            return 0;
         },
         dragonSkillMight: function () {
-            // ドラゴンのスキルマスターなさそうだから自分で定義する？
-            return 100;
+            return 100;  // レア度に限らず固定
         },
         dragonAbilityMight: function () {
-            // ドラゴンのスキルマスターなさそうだから自分で定義する？
-            return 100;
+            let might = 0;
+            might += this.dragonAbility1 ? this.dragonAbility1.PartyPowerWeight : 0;
+            might += this.dragonAbility2 ? this.dragonAbility2.PartyPowerWeight : 0;
+            return might;
         },
         castleDragonHp: function () {
             return Math.ceil(this.dragonHp * this.castleDragonHpRate / 100);
@@ -836,10 +877,10 @@ export default {
             return Math.ceil(this.totalStr * (this.wyrmprint1AbilityStrRate + this.wyrmprint2AbilityStrRate));
         },
         dragonAbilityHp: function () {
-            return Math.ceil(this.totalHp * this.dragonAbilityHpRate);
+            return Math.ceil(this.totalHp * this.dragonAbilityHpRate / 100);
         },
         dragonAbilityStr: function () {
-            return Math.ceil(this.totalStr * this.dragonAbilityStrRate);
+            return Math.ceil(this.totalStr * this.dragonAbilityStrRate / 100);
         },
         abilityTotalHp: function () {
             return this.wyrmprintAbilityHp + this.dragonAbilityHp;
