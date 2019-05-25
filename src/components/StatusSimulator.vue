@@ -728,32 +728,53 @@ export default {
         wyrmprint1Str: function () {
             return this.selectedWyrmprint1.MaxAtk;
         },
+        wyrmprint1Ability1: function () {
+            if (this.selectedWyrmprint1.Abilities13 > 0) {
+                return this.abilitiesMaster.filter(ability => {
+                    return ability.Id == this.selectedWyrmprint1.Abilities13;
+                })[0];
+            }
+            return null;
+        },
+        wyrmprint1Ability2: function () {
+            if (this.selectedWyrmprint1.Abilities23 > 0) {
+                return this.abilitiesMaster.filter(ability => {
+                    return ability.Id == this.selectedWyrmprint1.Abilities23;
+                })[0];
+            }
+            return null;
+        },
+        wyrmprint1Ability3: function () {
+            if (this.selectedWyrmprint1.Abilities33 > 0) {
+                return this.abilitiesMaster.filter(ability => {
+                    return ability.Id == this.selectedWyrmprint1.Abilities33;
+                })[0];
+            }
+            return null;
+        },
         wyrmprint1AbilityMight: function () {
             let abilities = [];
-            const wyrmprint = this.selectedWyrmprint1;
-            if (wyrmprint.Abilities13 > 0) {
-                abilities.push(this.abilitiesMaster.filter(ability => {
-                    return ability.Id == wyrmprint.Abilities13;
-                })[0]);
+            if (this.wyrmprint1Ability1 !== null) {
+                abilities.push(this.wyrmprint1Ability1);
             }
-            if (wyrmprint.Abilities23 > 0) {
-                abilities.push(this.abilitiesMaster.filter(ability => {
-                    return ability.Id == wyrmprint.Abilities23;
-                })[0]);
+            if (this.wyrmprint1Ability2 !== null) {
+                abilities.push(this.wyrmprint1Ability2);
             }
-            if (wyrmprint.Abilities33 > 0) {
-                abilities.push(this.abilitiesMaster.filter(ability => {
-                    return ability.Id == wyrmprint.Abilities33;
-                })[0]);
+            if (this.wyrmprint1Ability3 !== null) {
+                abilities.push(this.wyrmprint1Ability3);
             }
             return abilities.reduce((accumulator, currentValue) => accumulator + currentValue.PartyPowerWeight, 0);
         },
         wyrmprint1AbilityHpRate: function () {
-            // TODO
             return 0;
         },
         wyrmprint1AbilityStrRate: function () {
-            // TODO
+            const ability1 = this.wyrmprint1Ability1;
+            const matched = ability1.Name.match(/(?:Full HP|HP 70%) = Strength \+([0-9]+)%/);
+            if (matched != null) {
+                const value = Number(matched[1]);
+                return value;
+            }
             return 0;
         },
         wyrmprint2Hp: function () {
@@ -762,32 +783,53 @@ export default {
         wyrmprint2Str: function () {
             return this.selectedWyrmprint2.MaxAtk;
         },
+        wyrmprint2Ability1: function () {
+            if (this.selectedWyrmprint2.Abilities13 > 0) {
+                return this.abilitiesMaster.filter(ability => {
+                    return ability.Id == this.selectedWyrmprint2.Abilities13;
+                })[0];
+            }
+            return null;
+        },
+        wyrmprint2Ability2: function () {
+            if (this.selectedWyrmprint2.Abilities23 > 0) {
+                return this.abilitiesMaster.filter(ability => {
+                    return ability.Id == this.selectedWyrmprint2.Abilities23;
+                })[0];
+            }
+            return null;
+        },
+        wyrmprint2Ability3: function () {
+            if (this.selectedWyrmprint2.Abilities33 > 0) {
+                return this.abilitiesMaster.filter(ability => {
+                    return ability.Id == this.selectedWyrmprint2.Abilities33;
+                })[0];
+            }
+            return null;
+        },
         wyrmprint2AbilityMight: function () {
             let abilities = [];
-            const wyrmprint = this.selectedWyrmprint2;
-            if (wyrmprint.Abilities13 > 0) {
-                abilities.push(this.abilitiesMaster.filter(ability => {
-                    return ability.Id == wyrmprint.Abilities13;
-                })[0]);
+            if (this.wyrmprint2Ability1 !== null) {
+                abilities.push(this.wyrmprint2Ability1);
             }
-            if (wyrmprint.Abilities23 > 0) {
-                abilities.push(this.abilitiesMaster.filter(ability => {
-                    return ability.Id == wyrmprint.Abilities23;
-                })[0]);
+            if (this.wyrmprint2Ability2 !== null) {
+                abilities.push(this.wyrmprint2Ability2);
             }
-            if (wyrmprint.Abilities33 > 0) {
-                abilities.push(this.abilitiesMaster.filter(ability => {
-                    return ability.Id == wyrmprint.Abilities33;
-                })[0]);
+            if (this.wyrmprint2Ability3 !== null) {
+                abilities.push(this.wyrmprint2Ability3);
             }
             return abilities.reduce((accumulator, currentValue) => accumulator + currentValue.PartyPowerWeight, 0);
         },
         wyrmprint2AbilityHpRate: function () {
-            // TODO
             return 0;
         },
         wyrmprint2AbilityStrRate: function () {
-            // TODO
+            const ability1 = this.wyrmprint2Ability1;
+            const matched = ability1.Name.match(/(?:Full HP|HP 70%) = Strength \+([0-9]+)%/);
+            if (matched != null) {
+                const value = Number(matched[1]);
+                return value;
+            }
             return 0;
         },
         wyrmprint1Might: function () {
@@ -931,24 +973,31 @@ export default {
             return this.adventurerStr + this.weaponTotalStr + this.wyrmprintStr + this.dragonTotalStr + this.castleTotalStr;
         },
         wyrmprintAbilityHp: function () {
+            // 実際には使われない検算用プロパティ
             // 本来上限値があるはずだが現状反映されていない
-            return Math.ceil(this.totalHp * (this.wyrmprint1AbilityHpRate + this.wyrmprint2AbilityHpRate));
+            return Math.ceil(this.totalHp * (this.wyrmprint1AbilityHpRate + this.wyrmprint2AbilityHpRate) / 10) / 10;
         },
         wyrmprintAbilityStr: function () {
+            // 実際には使われない検算用プロパティ
             // 本来上限値があるはずだが現状反映されていない
-            return Math.ceil(this.totalStr * (this.wyrmprint1AbilityStrRate + this.wyrmprint2AbilityStrRate));
+            console.log(this.totalStr, this.wyrmprint2AbilityStrRate, this.dragonAbilityStrRate)
+            return Math.ceil(this.totalStr * (this.wyrmprint1AbilityStrRate + this.wyrmprint2AbilityStrRate) / 10) / 10;
         },
         dragonAbilityHp: function () {
-            return Math.ceil(this.totalHp * this.dragonAbilityHpRate / 100);
+            // 実際には使われない検算用プロパティ
+            return Math.ceil(this.totalHp * this.dragonAbilityHpRate / 10) / 10;
         },
         dragonAbilityStr: function () {
-            return Math.ceil(this.totalStr * this.dragonAbilityStrRate / 100);
+            // 実際には使われない検算用プロパティ
+            return Math.ceil(this.totalStr * this.dragonAbilityStrRate / 10) / 10;
         },
         abilityTotalHp: function () {
-            return this.wyrmprintAbilityHp + this.dragonAbilityHp;
+            const rate = this.wyrmprint1AbilityHpRate + this.wyrmprint2AbilityHpRate + this.dragonAbilityHpRate;
+            return Math.ceil(this.totalStr * rate / 100);
         },
         abilityTotalStr: function () {
-            return this.wyrmprintAbilityStr + this.dragonAbilityStr;
+            const rate = this.wyrmprint1AbilityStrRate + this.wyrmprint2AbilityStrRate + this.dragonAbilityStrRate;
+            return Math.ceil(this.totalStr * rate / 100);
         },
         abilityTotalMight: function () {
             return 0;  // アビリティUP分は戦力としてカウントしない
