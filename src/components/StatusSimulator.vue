@@ -357,6 +357,8 @@ export default {
                         && weapon.Skill != 0;
                 })[0]);
             }
+
+            this.updateCastle();
         },
         selectWeapon: function (weapon) {
             this.selectedWeapon = weapon;
@@ -385,6 +387,14 @@ export default {
             this.dragonUnbind = true;
             this.showDragonList = false;
             console.log(`select dragon: [${dragon.BaseId}] ${dragon.Name}`);
+        },
+        updateCastle: function () {
+            this.castleAdventurerHpRate = this.castle.adventurer[this.selectedAdventurer.ElementalType.toLowerCase()].hp;
+            this.castleAdventurerStrRate = this.castle.adventurer[this.selectedAdventurer.ElementalType.toLowerCase()].str;
+            this.castleWeaponHpRate = this.castle.weapon[this.selectedWeapon.ElementalType.toLowerCase()].hp;
+            this.castleWeaponStrRate = this.castle.weapon[this.selectedWeapon.ElementalType.toLowerCase()].str;
+            this.castleDragonHpRate = this.castle.dragon[this.selectedDragon.ElementalType.toLowerCase()].hp;
+            this.castleDragonStrRate = this.castle.dragon[this.selectedDragon.ElementalType.toLowerCase()].str;
         }
     },
     data () {
@@ -434,6 +444,29 @@ export default {
             dragonBond: 30,
 
             // 聖城
+            castle: {
+                adventurer: {
+                    flame: { hp: 0, str: 0 },
+                    water: { hp: 0, str: 0 },
+                    wind: { hp: 0, str: 0 },
+                    light: { hp: 0, str: 0 },
+                    shadow: { hp: 0, str: 0 },
+                },
+                weapon: {
+                    flame: { hp: 0, str: 0 },
+                    water: { hp: 0, str: 0 },
+                    wind: { hp: 0, str: 0 },
+                    light: { hp: 0, str: 0 },
+                    shadow: { hp: 0, str: 0 },
+                },
+                dragon: {
+                    flame: { hp: 0, str: 0 },
+                    water: { hp: 0, str: 0 },
+                    wind: { hp: 0, str: 0 },
+                    light: { hp: 0, str: 0 },
+                    shadow: { hp: 0, str: 0 },
+                },
+            },
             castleAdventurerHpRate: 20,
             castleAdventurerStrRate: 19,
             castleWeaponHpRate: 23,
@@ -482,24 +515,9 @@ export default {
         }
 
         // 聖城
-        // TODO: 施設ごとに設定できるようにして JSON で保存する
-        if (localStorage.getItem('castleAdventurerHpRate') !== null) {
-            this.castleAdventurerHpRate = Number(localStorage.getItem('castleAdventurerHpRate'));
-        }
-        if (localStorage.getItem('castleAdventurerStrRate') !== null) {
-            this.castleAdventurerStrRate = Number(localStorage.getItem('castleAdventurerStrRate'));
-        }
-        if (localStorage.getItem('castleWeaponHpRate') !== null) {
-            this.castleWeaponHpRate = Number(localStorage.getItem('castleWeaponHpRate'));
-        }
-        if (localStorage.getItem('castleWeaponStrRate') !== null) {
-            this.castleWeaponStrRate = Number(localStorage.getItem('castleWeaponStrRate'));
-        }
-        if (localStorage.getItem('castleDragonHpRate') !== null) {
-            this.castleDragonHpRate = Number(localStorage.getItem('castleDragonHpRate'));
-        }
-        if (localStorage.getItem('castleDragonStrRate') !== null) {
-            this.castleDragonStrRate = Number(localStorage.getItem('castleDragonStrRate'));
+        if (localStorage.getItem('castle') !== null) {
+            this.castle = JSON.parse(localStorage.getItem('castle'));
+            this.updateCastle();
         }
     },
     watch: {
@@ -523,21 +541,33 @@ export default {
         // 聖城
         castleAdventurerHpRate(newRate) {
             localStorage.setItem('castleAdventurerHpRate', newRate);
+            this.castle.adventurer[this.selectedAdventurer.ElementalType.toLowerCase()].hp = newRate;
+            localStorage.setItem('castle', JSON.stringify(this.castle));
         },
         castleAdventurerStrRate(newRate) {
             localStorage.setItem('castleAdventurerStrRate', newRate);
+            this.castle.adventurer[this.selectedAdventurer.ElementalType.toLowerCase()].str = newRate;
+            localStorage.setItem('castle', JSON.stringify(this.castle));
         },
         castleWeaponHpRate(newRate) {
             localStorage.setItem('castleWeaponHpRate', newRate);
+            this.castle.weapon[this.selectedWeapon.ElementalType.toLowerCase()].hp = newRate;
+            localStorage.setItem('castle', JSON.stringify(this.castle));
         },
         castleWeaponStrRate(newRate) {
             localStorage.setItem('castleWeaponStrRate', newRate);
+            this.castle.weapon[this.selectedWeapon.ElementalType.toLowerCase()].str = newRate;
+            localStorage.setItem('castle', JSON.stringify(this.castle));
         },
         castleDragonHpRate(newRate) {
             localStorage.setItem('castleDragonHpRate', newRate);
+            this.castle.dragon[this.selectedDragon.ElementalType.toLowerCase()].hp = newRate;
+            localStorage.setItem('castle', JSON.stringify(this.castle));
         },
         castleDragonStrRate(newRate) {
             localStorage.setItem('castleDragonStrRate', newRate);
+            this.castle.dragon[this.selectedDragon.ElementalType.toLowerCase()].str = newRate;
+            localStorage.setItem('castle', JSON.stringify(this.castle));
         }
     },
     computed: {
