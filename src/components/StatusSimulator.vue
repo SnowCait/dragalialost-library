@@ -387,6 +387,7 @@ export default {
             this.weaponLv = this.weaponLevelsMaster[weapon.Rarity];
             this.weaponUnbind = true;
             this.showWeaponList = false;
+            this.updateCastle();
             console.log(`select weapon: [${weapon.Id}] ${weapon.WeaponName}`);
         },
         selectWyrmprint1: function (wyrmprint) {
@@ -408,6 +409,7 @@ export default {
             this.dragonLv = this.dragonLevelsMaster[dragon.Rarity];
             this.dragonUnbind = true;
             this.showDragonList = false;
+            this.updateCastle();
             console.log(`select dragon: [${dragon.BaseId}] ${dragon.Name}`);
         },
         updateCastle: function () {
