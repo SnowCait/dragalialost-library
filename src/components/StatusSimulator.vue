@@ -706,14 +706,14 @@ export default {
             return this.weaponHp + this.weaponStr + this.weaponSkillMight + this.weaponAbilityMight;
         },
         weaponBonusRate: function () {
-            // 同属性は 0.5, 他は 0
-            return (this.selectedWeapon.ElementalTypeId == this.selectedAdventurer.ElementalTypeId) ? 0.5 : 0;
+            // 同属性は 50%, 他は 0%
+            return (this.selectedWeapon.ElementalTypeId == this.selectedAdventurer.ElementalTypeId) ? 50 : 0;
         },
         weaponBonusHp: function () {
-            return Math.ceil(this.weaponHp * this.weaponBonusRate);
+            return Math.ceil(this.weaponHp * this.weaponBonusRate / 100);
         },
         weaponBonusStr: function () {
-            return Math.ceil(this.weaponStr * this.weaponBonusRate);
+            return Math.ceil(this.weaponStr * this.weaponBonusRate / 100);
         },
         weaponTotalHp: function () {
             return this.weaponHp + this.weaponBonusHp;
