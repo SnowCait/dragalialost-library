@@ -336,10 +336,6 @@ dragonsMaster.forEach(dragon => {
     dragon.Image = require('@/assets/img/dragon/' + dragon.BaseId + '_01.png');
 });
 
-function commaSeparatedValue(number) {
-  return String(number).replace(/(\d)(?=(\d{3})+$)/g, '$1,');
-}
-
 export default {
     methods: {
         selectAdventurer: function (adventurer) {
@@ -591,29 +587,29 @@ export default {
             const adventurer = this.selectedAdventurer;
             if (adventurer.Abilities12 > 0) {
                 abilities.push(this.abilitiesMaster.filter(ability => {
-                    return ability.Id == commaSeparatedValue(adventurer.Abilities12);
+                    return ability.Id == adventurer.Abilities12;
                 })[0]);
             } else if (adventurer.Abilities11 > 0) {
                 abilities.push(this.abilitiesMaster.filter(ability => {
-                    return ability.Id == commaSeparatedValue(adventurer.Abilities11);
+                    return ability.Id == adventurer.Abilities11;
                 })[0]);
             }
             if (adventurer.Abilities22 > 0) {
                 abilities.push(this.abilitiesMaster.filter(ability => {
-                    return ability.Id == commaSeparatedValue(adventurer.Abilities22);
+                    return ability.Id == adventurer.Abilities22;
                 })[0]);
             } else if (adventurer.Abilities21 > 0) {
                 abilities.push(this.abilitiesMaster.filter(ability => {
-                    return ability.Id == commaSeparatedValue(adventurer.Abilities21);
+                    return ability.Id == adventurer.Abilities21;
                 })[0]);
             }
             if (adventurer.Abilities32 > 0) {
                 abilities.push(this.abilitiesMaster.filter(ability => {
-                    return ability.Id == commaSeparatedValue(adventurer.Abilities32);
+                    return ability.Id == adventurer.Abilities32;
                 })[0]);
             } else if (adventurer.Abilities31 > 0) {
                 abilities.push(this.abilitiesMaster.filter(ability => {
-                    return ability.Id == commaSeparatedValue(adventurer.Abilities31);
+                    return ability.Id == adventurer.Abilities31;
                 })[0]);
             }
             return abilities.reduce((accumulator, currentValue) => accumulator + currentValue.PartyPowerWeight, 0);
@@ -680,17 +676,17 @@ export default {
             const wyrmprint = this.selectedWyrmprint1;
             if (wyrmprint.Abilities13 > 0) {
                 abilities.push(this.abilitiesMaster.filter(ability => {
-                    return ability.Id == commaSeparatedValue(wyrmprint.Abilities13);
+                    return ability.Id == wyrmprint.Abilities13;
                 })[0]);
             }
             if (wyrmprint.Abilities23 > 0) {
                 abilities.push(this.abilitiesMaster.filter(ability => {
-                    return ability.Id == commaSeparatedValue(wyrmprint.Abilities23);
+                    return ability.Id == wyrmprint.Abilities23;
                 })[0]);
             }
             if (wyrmprint.Abilities33 > 0) {
                 abilities.push(this.abilitiesMaster.filter(ability => {
-                    return ability.Id == commaSeparatedValue(wyrmprint.Abilities33);
+                    return ability.Id == wyrmprint.Abilities33;
                 })[0]);
             }
             return abilities.reduce((accumulator, currentValue) => accumulator + currentValue.PartyPowerWeight, 0);
@@ -712,17 +708,17 @@ export default {
             const wyrmprint = this.selectedWyrmprint2;
             if (wyrmprint.Abilities13 > 0) {
                 abilities.push(this.abilitiesMaster.filter(ability => {
-                    return ability.Id == commaSeparatedValue(wyrmprint.Abilities13);
+                    return ability.Id == wyrmprint.Abilities13;
                 })[0]);
             }
             if (wyrmprint.Abilities23 > 0) {
                 abilities.push(this.abilitiesMaster.filter(ability => {
-                    return ability.Id == commaSeparatedValue(wyrmprint.Abilities23);
+                    return ability.Id == wyrmprint.Abilities23;
                 })[0]);
             }
             if (wyrmprint.Abilities33 > 0) {
                 abilities.push(this.abilitiesMaster.filter(ability => {
-                    return ability.Id == commaSeparatedValue(wyrmprint.Abilities33);
+                    return ability.Id == wyrmprint.Abilities33;
                 })[0]);
             }
             return abilities.reduce((accumulator, currentValue) => accumulator + currentValue.PartyPowerWeight, 0);
