@@ -273,6 +273,28 @@
                     <td>{{dragonCastleMight}}</td>
                 </tr>
             </table>
+
+            <h3>アビリティ</h3>
+            <table>
+                <tr>
+                    <td></td>
+                    <td class="status-value">HP</td>
+                    <td class="status-value">攻撃力</td>
+                    <td class="status-value">戦力</td>
+                </tr>
+                <tr>
+                    <td>護符</td>
+                    <td>{{wyrmprintAbilityHp}}</td>
+                    <td>{{wyrmprintAbilityStr}}</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>ドラゴン</td>
+                    <td>{{dragonAbilityHp}}</td>
+                    <td>{{dragonAbilityStr}}</td>
+                    <td>0</td>
+                </tr>
+            </table>
         </section>
     </main>
 </template>
