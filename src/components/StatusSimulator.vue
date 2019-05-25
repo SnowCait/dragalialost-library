@@ -52,17 +52,17 @@
                         <td>攻撃力</td>
                     </tr>
                     <tr>
-                        <td>属性</td>
+                        <td>{{selectedAdventurer.ElementalType}}属性</td>
                         <td><input type="number" step="0.5" min="0" v-model.number="castleAdventurerHpRate" />%</td>
                         <td><input type="number" step="0.5" min="0" v-model.number="castleAdventurerStrRate" />%</td>
                     </tr>
                     <tr>
-                        <td>武器</td>
+                        <td>{{selectedWeapon.Type}}武器</td>
                         <td><input type="number" step="0.5" min="0" v-model.number="castleWeaponHpRate" />%</td>
                         <td><input type="number" step="0.5" min="0" v-model.number="castleWeaponStrRate" />%</td>
                     </tr>
                     <tr>
-                        <td>ドラゴン</td>
+                        <td>{{selectedDragon.ElementalType}}ドラゴン</td>
                         <td><input type="number" step="0.5" min="0" v-model.number="castleDragonHpRate" />%</td>
                         <td><input type="number" step="0.5" min="0" v-model.number="castleDragonStrRate" />%</td>
                     </tr>
@@ -862,6 +862,10 @@ export default {
             })[0];
         },
         dragonAbilityHpRate: function () {
+            if (this.selectedDragon.ElementalTypeId !== this.selectedAdventurer.ElementalTypeId) {
+                return 0;
+            }
+            
             const ability1 = this.dragonAbility1;
             console.log('dragon ability1 name: ', ability1.Name);
             const matched = ability1.Name.match(/\((.+)\) HP(?: & Strength)* \+([0-9]+)%/);
@@ -884,6 +888,10 @@ export default {
             return 0;
         },
         dragonAbilityStrRate: function () {
+            if (this.selectedDragon.ElementalTypeId !== this.selectedAdventurer.ElementalTypeId) {
+                return 0;
+            }
+
             const ability1 = this.dragonAbility1;
             console.log('dragon ability1 name: ', ability1.Name);
             const matched = ability1.Name.match(/\((.+)\) (?:HP & )*Strength \+([0-9]+)%/);
