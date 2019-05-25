@@ -6,6 +6,7 @@
             <ul>
                 <li>
                     <img :src="selectedAdventurer.Image" :alt="selectedAdventurer.Name" v-on:click="showAdventurerList = !showAdventurerList" />
+                    <div>{{selectedAdventurer.Name}}</div>
                     <div>Lv{{adventurerLv}}</div>
                     <div>マナサ 50</div>
                     <div>レア {{selectedAdventurer.Rarity}}</div>
@@ -14,24 +15,28 @@
 
                 <li>
                     <img :src="selectedWeapon.Image" :alt="selectedWeapon.Name" v-on:click="showWeaponList = !showWeaponList" />
+                    <div>{{selectedWeapon.Name}}</div>
                     <div>Lv{{weaponLv}}</div>
                     <div>完凸<input type="checkbox" v-model="weaponUnbind" /></div>
                 </li>
 
                 <li>
                     <img :src="selectedWyrmprint1.Image02" :alt="selectedWyrmprint1.NameJP" v-on:click="showWyrmprint1List = !showWyrmprint1List" />
+                    <div>{{selectedWyrmprint1.NameJP}}</div>
                     <div>Lv{{wyrmprint1Lv}}</div>
                     <div>完凸<input type="checkbox" v-model="wyrmprint1Unbind" /></div>
                 </li>
 
                 <li>
                     <img :src="selectedWyrmprint2.Image02" :alt="selectedWyrmprint2.NameJP" v-on:click="showWyrmprint2List = !showWyrmprint2List" />
+                    <div>{{selectedWyrmprint2.NameJP}}</div>
                     <div>Lv{{wyrmprint2Lv}}</div>
                     <div>完凸<input type="checkbox" v-model="wyrmprint2Unbind" /></div>
                 </li>
 
                 <li>
                     <img :src="selectedDragon.Image" :alt="selectedDragon.Name" v-on:click="showDragonList = !showDragonList" />
+                    <div>{{selectedDragon.Name}}</div>
                     <div>Lv{{dragonLv}}</div>
                     <div>完凸<input type="checkbox" v-model="dragonUnbind" /></div>
                     <div>♪<input type="number" step="1" min="1" max="30" v-model.number="dragonBond" /></div>
