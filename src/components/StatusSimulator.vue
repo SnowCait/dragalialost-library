@@ -986,7 +986,6 @@ export default {
         wyrmprintAbilityStr: function () {
             // 実際には使われない検算用プロパティ
             // 本来上限値があるはずだが現状反映されていない
-            console.log(this.totalStr, this.wyrmprint2AbilityStrRate, this.dragonAbilityStrRate)
             return Math.ceil(this.totalStr * (this.wyrmprint1AbilityStrRate + this.wyrmprint2AbilityStrRate) / 10) / 10;
         },
         dragonAbilityHp: function () {
