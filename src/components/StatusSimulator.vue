@@ -306,6 +306,7 @@ import wyrmprintsMaster from '../assets/json/Wyrmprints.json';
 import dragonsMaster from '../assets/json/Dragons.json';
 import abilitiesMaster from '../assets/json/Abilities.json';
 import coAbilitiesMaster from '../assets/json/CoAbilities.json';
+import skillsMaster from '../assets/json/Skills.json';
 const adventurerLevelsMaster = {
     5: 80,
     4: 70,
@@ -445,6 +446,7 @@ export default {
             // 武器
             weaponsMaster,
             weaponLevelsMaster,
+            skillsMaster,
             selectedWeapon: weaponsMaster.filter(weapon => {
                 return weapon.Id == 30850101;  // 赤帝の炎杖
             })[0],
@@ -708,8 +710,20 @@ export default {
             const minLv = 1;
             return weapon.MinAtk + Math.ceil((weapon.MaxAtk - weapon.MinAtk) * (this.weaponLv - minLv) / (maxLv - minLv));
         },
+        weaponSkill: function () {
+            if (this.selectedWeapon.Skill > 0) {
+                return this.skillsMaster.filter(skill => {
+                    return skill.SkillId === this.selectedWeapon.Skill;
+                })[0];
+            }
+
+            return null;
+        },
         weaponSkillMight: function () {
-            return 100;
+            if (this.weaponSkill === null) {
+                return 0;
+            }
+            return this.weaponUnbind ? 100 : 50;  // レア度に限らず固定
         },
         weaponAbilityMight: function () {
             return 0;
