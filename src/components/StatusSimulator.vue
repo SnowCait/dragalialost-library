@@ -343,7 +343,13 @@ adventurersMaster.forEach(adventurer => {
 });
 
 weaponsMaster.forEach(weapon => {
-    weapon.Image = require('@/assets/img/weapon/' + weapon.BaseId + '_01_' + weapon.FormId + '.png');
+    // 画像が存在しない武器を無視する
+    try {
+        weapon.Image = require('@/assets/img/weapon/' + weapon.BaseId + '_01_' + weapon.FormId + '.png');
+    }
+    catch (e) {
+        // do nothing
+    }
 });
 
 wyrmprintsMaster.forEach(wyrmprint => {
