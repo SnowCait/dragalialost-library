@@ -369,6 +369,7 @@ export default {
             const beforeAdventurer = this.selectedAdventurer;
             this.selectedAdventurer = adventurer;
             this.showAdventurerList = false;
+            this.updateCastleAdventurer();
             console.log(`select adventurer: [${adventurer.Id}] ${adventurer.Name}`);
 
             if (beforeAdventurer.WeaponTypeId != adventurer.WeaponTypeId) {
@@ -379,15 +380,13 @@ export default {
                         && weapon.Skill != 0;
                 })[0]);
             }
-
-            this.updateCastle();
         },
         selectWeapon: function (weapon) {
             this.selectedWeapon = weapon;
             this.weaponLv = this.weaponLevelsMaster[weapon.Rarity];
             this.weaponUnbind = true;
             this.showWeaponList = false;
-            this.updateCastle();
+            this.updateCastleWeapon();
             console.log(`select weapon: [${weapon.Id}] ${weapon.WeaponName}`);
         },
         selectWyrmprint1: function (wyrmprint) {
@@ -409,14 +408,18 @@ export default {
             this.dragonLv = this.dragonLevelsMaster[dragon.Rarity];
             this.dragonUnbind = true;
             this.showDragonList = false;
-            this.updateCastle();
+            this.updateCastleDragon();
             console.log(`select dragon: [${dragon.BaseId}] ${dragon.Name}`);
         },
-        updateCastle: function () {
+        updateCastleAdventurer: function () {
             this.castleAdventurerHpRate = this.castle.adventurer[this.selectedAdventurer.ElementalType.toLowerCase()].hp;
             this.castleAdventurerStrRate = this.castle.adventurer[this.selectedAdventurer.ElementalType.toLowerCase()].str;
+        },
+        updateCastleWeapon: function () {
             this.castleWeaponHpRate = this.castle.weapon[this.selectedWeapon.Type.toLowerCase()].hp;
             this.castleWeaponStrRate = this.castle.weapon[this.selectedWeapon.Type.toLowerCase()].str;
+        },
+        updateCastleDragon: function () {
             this.castleDragonHpRate = this.castle.dragon[this.selectedDragon.ElementalType.toLowerCase()].hp;
             this.castleDragonStrRate = this.castle.dragon[this.selectedDragon.ElementalType.toLowerCase()].str;
         }
@@ -480,8 +483,9 @@ export default {
                     sword: { hp: 0, str: 0 },
                     blade: { hp: 0, str: 0 },
                     dagger: { hp: 0, str: 0 },
-                    lance: { hp: 0, str: 0 },
                     axe: { hp: 0, str: 0 },
+                    lance: { hp: 0, str: 0 },
+                    bow: { hp: 0, str: 0 },
                     wand: { hp: 0, str: 0 },
                     staff: { hp: 0, str: 0 },
                 },
@@ -543,7 +547,9 @@ export default {
         // 聖城
         if (localStorage.getItem('castle') !== null) {
             this.castle = JSON.parse(localStorage.getItem('castle'));
-            this.updateCastle();
+            this.updateCastleAdventurer();
+            this.updateCastleWeapon();
+            this.updateCastleDragon();
         }
     },
     watch: {
