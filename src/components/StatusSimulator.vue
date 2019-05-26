@@ -543,7 +543,7 @@ export default {
             this.selectedWyrmprint2 = this.wyrmprintsMaster.filter(wyrmprint => {
                 return wyrmprint.BaseId == Number(localStorage.getItem('wyrmprint2Id'));
             })[0];
-            this.selectWyrmprint1(this.selectedWyrmprint1);
+            this.selectWyrmprint2(this.selectedWyrmprint2);
         }
         if (localStorage.getItem('dragonId') !== null) {
             this.selectedDragon = this.dragonsMaster.filter(dragon => {
