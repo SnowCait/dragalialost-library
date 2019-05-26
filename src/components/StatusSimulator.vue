@@ -725,8 +725,29 @@ export default {
             }
             return this.weaponUnbind ? 100 : 50;  // レア度に限らず固定
         },
+        weaponAbility1: function () {
+            if (this.selectedWeapon.Abilities11 > 0) {
+                return this.abilitiesMaster.filter(ability => {
+                    return ability.Id === this.selectedWeapon.Abilities11;
+                })[0];
+            }
+
+            return null;
+        },
+        weaponAbility2: function () {
+            if (this.selectedWeapon.Abilities21 > 0) {
+                return this.abilitiesMaster.filter(ability => {
+                    return ability.Id === this.selectedWeapon.Abilities21;
+                })[0];
+            }
+
+            return null;
+        },
         weaponAbilityMight: function () {
-            return 0;
+            let might = 0;
+            might += this.weaponAbility1 !== null ? this.weaponAbility1.PartyPowerWeight : 0;
+            might += this.weaponAbility2 !== null ? this.weaponAbility2.PartyPowerWeight : 0;
+            return might;
         },
         weaponMight: function () {
             return this.weaponHp + this.weaponStr + this.weaponSkillMight + this.weaponAbilityMight;
