@@ -288,24 +288,6 @@
         "FavoriteType": 3
     },
     {
-        "BaseId": 210041,
-        "Id": 20050402,
-        "Name": "",
-        "Rarity": 5,
-        "ElementalType": "Light",
-        "ElementalTypeId": 4,
-        "MinHp": "",
-        "MaxHp": "",
-        "MinAtk": "",
-        "MaxAtk": "",
-        "Skill1": "",
-        "Abilities11": "",
-        "Abilities12": "",
-        "Abilities21": 110010805,
-        "Abilities22": 110010806,
-        "FavoriteType": 2
-    },
-    {
         "BaseId": 210040,
         "Id": 20050202,
         "Name": "\u771f\u30de\u30fc\u30ad\u30e5\u30ea\u30fc",
@@ -340,24 +322,6 @@
         "Abilities21": 110010805,
         "Abilities22": 110010806,
         "FavoriteType": 4
-    },
-    {
-        "BaseId": 210042,
-        "Id": 20050502,
-        "Name": "",
-        "Rarity": 5,
-        "ElementalType": "Shadow",
-        "ElementalTypeId": 5,
-        "MinHp": "",
-        "MaxHp": "",
-        "MinAtk": "",
-        "MaxAtk": "",
-        "Skill1": "",
-        "Abilities11": "",
-        "Abilities12": "",
-        "Abilities21": 110010805,
-        "Abilities22": 110010806,
-        "FavoriteType": 1
     },
     {
         "BaseId": 210062,
