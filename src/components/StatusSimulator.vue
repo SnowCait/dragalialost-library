@@ -7,7 +7,7 @@
                 <li>
                     <img :src="selectedAdventurer.Image" :alt="selectedAdventurer.Name" v-on:click="showAdventurerList = !showAdventurerList" />
                     <div>{{selectedAdventurer.Name}}</div>
-                    <div>Lv{{adventurerLv}}</div>
+                    <div>Lv<input type="number" min="1" max="80" v-model.number="adventurerLv" /></div>
                     <div>マナサ 50</div>
                     <div>レア {{selectedAdventurer.Rarity}}</div>
                     <div>EX 4</div>
@@ -621,23 +621,31 @@ export default {
         // キャラクター
         adventurerHp: function () {
             // 5★ Max + Mana Circle Node Stats + Mana Circle Bonus
-            return this.selectedAdventurer.MaxHp
-                 + this.selectedAdventurer.PlusHp0
-                 + this.selectedAdventurer.PlusHp1
-                 + this.selectedAdventurer.PlusHp2
-                 + this.selectedAdventurer.PlusHp3
-                 + this.selectedAdventurer.PlusHp4
-                 + this.selectedAdventurer.McFullBonusHp5;
+            const adventurer = this.selectedAdventurer;
+            const maxLv = this.adventurerLevelsMaster[5];  // レアリティは覚醒済み想定
+            const minLv = 1;
+            const hp = adventurer.MinHp5 + Math.ceil((adventurer.MaxHp - adventurer.MinHp5) * (this.adventurerLv - minLv) / (maxLv - minLv));
+            return hp
+                 + adventurer.PlusHp0
+                 + adventurer.PlusHp1
+                 + adventurer.PlusHp2
+                 + adventurer.PlusHp3
+                 + adventurer.PlusHp4
+                 + adventurer.McFullBonusHp5;
         },
         adventurerStr: function () {
             // 5★ Max + Mana Circle Node Stats + Mana Circle Bonus
-            return this.selectedAdventurer.MaxAtk
-                 + this.selectedAdventurer.PlusAtk0
-                 + this.selectedAdventurer.PlusAtk1
-                 + this.selectedAdventurer.PlusAtk2
-                 + this.selectedAdventurer.PlusAtk3
-                 + this.selectedAdventurer.PlusAtk4
-                 + this.selectedAdventurer.McFullBonusAtk5;
+            const adventurer = this.selectedAdventurer;
+            const maxLv = this.adventurerLevelsMaster[5];  // レアリティは覚醒済み想定
+            const minLv = 1;
+            const str = adventurer.MinAtk5 + Math.ceil((adventurer.MaxAtk - adventurer.MinAtk5) * (this.adventurerLv - minLv) / (maxLv - minLv));
+            return str
+                 + adventurer.PlusAtk0
+                 + adventurer.PlusAtk1
+                 + adventurer.PlusAtk2
+                 + adventurer.PlusAtk3
+                 + adventurer.PlusAtk4
+                 + adventurer.McFullBonusAtk5;
         },
         skillMight: function () {
             return 300 + 200;
