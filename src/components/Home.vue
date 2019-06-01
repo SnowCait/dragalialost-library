@@ -2,7 +2,17 @@
     <article>
         <DragonGifts />
         <VoidBattles />
-        <router-link to="/status-simulator">ステータスシミュ</router-link>
+        
+        <nav class="menu">
+            <ul>
+                <li>
+                    <router-link to="/status-simulator">ステータスシミュ</router-link>
+                </li>
+                <li>
+                    <router-link to="/adventurer-matrix">キャラクター表</router-link>
+                </li>
+            </ul>
+        </nav>
     </article>
 </template>
 
@@ -17,3 +27,9 @@ export default {
     }
 }
 </script>
+
+<style>
+nav.menu ul {
+    list-style: none;
+}
+</style>
