@@ -37,7 +37,7 @@
                 <li>
                     <img :src="selectedDragon.Image" :alt="selectedDragon.Name" v-on:click="showDragonList = !showDragonList" />
                     <div>{{selectedDragon.Name}}</div>
-                    <div>Lv{{dragonLv}}</div>
+                    <div>Lv<input type="number" min="1" max="100" v-model.number="dragonLv" /></div>
                     <div>完凸<input type="checkbox" v-model="dragonUnbind" /></div>
                     <div>♪<input type="number" step="1" min="1" max="30" v-model.number="dragonBond" /></div>
                 </li>
@@ -929,10 +929,20 @@ export default {
 
         // ドラゴン
         dragonHp: function () {
-            return this.selectedDragon.MaxHp;
+            const dragon = this.selectedDragon;
+            const lv = this.dragonLv;
+            const maxLv = this.dragonLevelsMaster[dragon.Rarity];
+            const minLv = 1;
+
+            return dragon.MinHp + Math.ceil((dragon.MaxHp - dragon.MinHp) * (lv - minLv) / (maxLv - minLv));
         },
         dragonStr: function () {
-            return this.selectedDragon.MaxAtk;
+            const dragon = this.selectedDragon;
+            const lv = this.dragonLv;
+            const maxLv = this.dragonLevelsMaster[dragon.Rarity];
+            const minLv = 1;
+
+            return dragon.MinAtk + Math.ceil((dragon.MaxAtk - dragon.MinAtk) * (lv - minLv) / (maxLv - minLv));
         },
         dragonAbility1: function () {
             return this.abilitiesMaster.filter(ability => {
