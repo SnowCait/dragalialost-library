@@ -23,14 +23,14 @@
                 <li>
                     <img :src="selectedWyrmprint1.Image02" :alt="selectedWyrmprint1.NameJP" v-on:click="showWyrmprint1List = !showWyrmprint1List" />
                     <div>{{selectedWyrmprint1.NameJP}}</div>
-                    <div>Lv{{wyrmprint1Lv}}</div>
+                    <div>Lv<input type="number" min="1" max="100" v-model.number="wyrmprint1Lv" /></div>
                     <div>完凸<input type="checkbox" v-model="wyrmprint1Unbind" /></div>
                 </li>
 
                 <li>
                     <img :src="selectedWyrmprint2.Image02" :alt="selectedWyrmprint2.NameJP" v-on:click="showWyrmprint2List = !showWyrmprint2List" />
                     <div>{{selectedWyrmprint2.NameJP}}</div>
-                    <div>Lv{{wyrmprint2Lv}}</div>
+                    <div>Lv<input type="number" min="1" max="100" v-model.number="wyrmprint2Lv" /></div>
                     <div>完凸<input type="checkbox" v-model="wyrmprint2Unbind" /></div>
                 </li>
 
@@ -782,10 +782,20 @@ export default {
 
         // 竜輝の護符
         wyrmprint1Hp: function () {
-            return this.selectedWyrmprint1.MaxHp;
+            const wyrmprint = this.selectedWyrmprint1;
+            const lv = this.wyrmprint1Lv;
+            const maxLv = this.wyrmprintLevelsMaster[wyrmprint.Rarity];
+            const minLv = 1;
+
+            return wyrmprint.MinHp + Math.ceil((wyrmprint.MaxHp - wyrmprint.MinHp) * (lv - minLv) / (maxLv - minLv));
         },
         wyrmprint1Str: function () {
-            return this.selectedWyrmprint1.MaxAtk;
+            const wyrmprint = this.selectedWyrmprint1;
+            const lv = this.wyrmprint1Lv;
+            const maxLv = this.wyrmprintLevelsMaster[wyrmprint.Rarity];
+            const minLv = 1;
+
+            return wyrmprint.MinAtk + Math.ceil((wyrmprint.MaxAtk - wyrmprint.MinAtk) * (lv - minLv) / (maxLv - minLv));
         },
         wyrmprint1Ability1: function () {
             if (this.selectedWyrmprint1.Abilities13 > 0) {
@@ -837,10 +847,20 @@ export default {
             return 0;
         },
         wyrmprint2Hp: function () {
-            return this.selectedWyrmprint2.MaxHp;
+            const wyrmprint = this.selectedWyrmprint2;
+            const lv = this.wyrmprint2Lv;
+            const maxLv = this.wyrmprintLevelsMaster[wyrmprint.Rarity];
+            const minLv = 1;
+
+            return wyrmprint.MinHp + Math.ceil((wyrmprint.MaxHp - wyrmprint.MinHp) * (lv - minLv) / (maxLv - minLv));
         },
         wyrmprint2Str: function () {
-            return this.selectedWyrmprint2.MaxAtk;
+            const wyrmprint = this.selectedWyrmprint2;
+            const lv = this.wyrmprint2Lv;
+            const maxLv = this.wyrmprintLevelsMaster[wyrmprint.Rarity];
+            const minLv = 1;
+
+            return wyrmprint.MinAtk + Math.ceil((wyrmprint.MaxAtk - wyrmprint.MinAtk) * (lv - minLv) / (maxLv - minLv));
         },
         wyrmprint2Ability1: function () {
             if (this.selectedWyrmprint2.Abilities13 > 0) {
