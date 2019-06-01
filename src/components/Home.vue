@@ -2,6 +2,7 @@
     <article>
         <DragonGifts />
         <VoidBattles />
+        <router-link to="/status-simulator">ステータスシミュ</router-link>
     </article>
 </template>
 
