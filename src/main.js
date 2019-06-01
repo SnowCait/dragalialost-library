@@ -4,6 +4,7 @@ import App from './App.vue'
 import Home from './components/Home.vue'
 import DragonGifts from './components/DragonGifts.vue'
 import VoidBattles from './components/VoidBattles.vue'
+import StatusSimulator from './components/StatusSimulator.vue'
 
 Vue.config.productionTip = false
 
@@ -15,6 +16,7 @@ const router = new VueRouter({
     { path: '/', component: Home },
     { path: '/dragon-gift', component: DragonGifts },
     { path: '/void-battle', component: VoidBattles },
+    { path: '/status-simulator', component: StatusSimulator },
   ]
 })
 
