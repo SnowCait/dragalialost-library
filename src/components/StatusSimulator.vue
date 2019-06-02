@@ -8,9 +8,29 @@
                     <img :src="selectedAdventurer.Image" :alt="selectedAdventurer.Name" v-on:click="showAdventurerList = !showAdventurerList" />
                     <div>{{selectedAdventurer.Name}}</div>
                     <div>Lv<input type="number" min="1" max="80" v-model.number="adventurerLv" /></div>
-                    <div>マナサ 50</div>
+                    <div>
+                        <span>マナサ</span>
+                        <select v-model.number="adventurerManaCircle">
+                            <option>50</option>
+                            <option>45</option>
+                            <!-- <option>40</option>
+                            <option>30</option>
+                            <option>20</option>
+                            <option>10</option>
+                            <option>0</option> -->
+                        </select>
+                    </div>
                     <div>レア {{selectedAdventurer.Rarity}}</div>
-                    <div>EX 4</div>
+                    <div>
+                        <span>EX</span>
+                        <select v-model.number="adventurerEx">
+                            <option>4</option>
+                            <option>3</option>
+                            <option>2</option>
+                            <option>1</option>
+                            <option>0</option>
+                        </select>
+                    </div>
                 </li>
 
                 <li>
@@ -440,6 +460,8 @@ export default {
             selectedAdventurer: adventurersMaster.filter(adventurer => {
                 return adventurer.Id == 110043;  // ヒルデガルド（バレンタインVer）
             })[0],
+            adventurerManaCircle: 50,
+            adventurerEx: 4,
             adventurerRarity: 5,  // 覚醒済み
             adventurerLv: 80,
 
@@ -602,6 +624,22 @@ export default {
         castleDragonStrRate(newRate) {
             this.castle.dragon[this.selectedDragon.ElementalType.toLowerCase()].str = newRate;
             localStorage.setItem('castle', JSON.stringify(this.castle));
+        },
+
+        // キャラクター
+        adventurerManaCircle(newManaCircle) {
+            if (newManaCircle >= 50) {
+                this.adventurerEx = 4;
+            } else {
+                this.adventurerEx = 0;
+            }
+        },
+        adventurerEx(newEx) {
+            if (newEx >= 4) {
+                this.adventurerManaCircle = 50;
+            } else {
+                this.adventurerManaCircle = 45;
+            }
         }
     },
     computed: {
@@ -624,39 +662,94 @@ export default {
             const adventurer = this.selectedAdventurer;
             const maxLv = this.adventurerLevelsMaster[5];  // レアリティは覚醒済み想定
             const minLv = 1;
-            const hp = adventurer.MinHp5 + Math.ceil((adventurer.MaxHp - adventurer.MinHp5) * (this.adventurerLv - minLv) / (maxLv - minLv));
-            return hp
-                 + adventurer.PlusHp0
-                 + adventurer.PlusHp1
-                 + adventurer.PlusHp2
-                 + adventurer.PlusHp3
-                 + adventurer.PlusHp4
-                 + adventurer.McFullBonusHp5;
+            let hp = adventurer.MinHp5 + Math.ceil((adventurer.MaxHp - adventurer.MinHp5) * (this.adventurerLv - minLv) / (maxLv - minLv));
+
+            // マナサークル
+            const manaCircle = this.adventurerManaCircle;
+            if (manaCircle >= 10) {
+                hp += adventurer.PlusHp0;
+            }
+            if (manaCircle >= 20) {
+                hp += adventurer.PlusHp1;
+            }
+            if (manaCircle >= 30) {
+                hp += adventurer.PlusHp2;
+            }
+            if (manaCircle >= 40) {
+                hp += adventurer.PlusHp3;
+            }
+            if (manaCircle >= 45) {
+                hp += adventurer.PlusHp4;
+            }
+            if (manaCircle >= 50) {
+                hp += adventurer.McFullBonusHp5;
+            }
+            return hp;
         },
         adventurerStr: function () {
             // 5★ Max + Mana Circle Node Stats + Mana Circle Bonus
             const adventurer = this.selectedAdventurer;
             const maxLv = this.adventurerLevelsMaster[5];  // レアリティは覚醒済み想定
             const minLv = 1;
-            const str = adventurer.MinAtk5 + Math.ceil((adventurer.MaxAtk - adventurer.MinAtk5) * (this.adventurerLv - minLv) / (maxLv - minLv));
-            return str
-                 + adventurer.PlusAtk0
-                 + adventurer.PlusAtk1
-                 + adventurer.PlusAtk2
-                 + adventurer.PlusAtk3
-                 + adventurer.PlusAtk4
-                 + adventurer.McFullBonusAtk5;
+            let str = adventurer.MinAtk5 + Math.ceil((adventurer.MaxAtk - adventurer.MinAtk5) * (this.adventurerLv - minLv) / (maxLv - minLv));
+
+            // マナサークル
+            const manaCircle = this.adventurerManaCircle;
+            if (manaCircle >= 10) {
+                str += adventurer.PlusAtk0;
+            }
+            if (manaCircle >= 20) {
+                str += adventurer.PlusAtk1;
+            }
+            if (manaCircle >= 30) {
+                str += adventurer.PlusAtk2;
+            }
+            if (manaCircle >= 40) {
+                str += adventurer.PlusAtk3;
+            }
+            if (manaCircle >= 45) {
+                str += adventurer.PlusAtk4;
+            }
+            if (manaCircle >= 50) {
+                str += adventurer.McFullBonusAtk5;
+            }
+            return str;
         },
         skillMight: function () {
+            // TODO: マナサークルで変動
             return 300 + 200;
         },
         forceStrikeMight: function () {
+            // TODO: マナサークルで変動
             return 120;
         },
         coAbilityMight: function () {
-            // TODO: Lvで変動させる
+            const adventurer = this.selectedAdventurer;
+            const manaCircle = this.adventurerManaCircle;
+            let exAbilityId = adventurer.ExAbilityData5;
+            if (45 <= manaCircle && manaCircle < 50) {
+                switch (this.adventurerEx) {
+                    case 4:
+                        exAbilityId = adventurer.ExAbilityData5;
+                        break;
+                    case 3:
+                        exAbilityId = adventurer.ExAbilityData4;
+                        break;
+                    case 2:
+                        exAbilityId = adventurer.ExAbilityData3;
+                        break;
+                    case 1:
+                        exAbilityId = adventurer.ExAbilityData2;
+                        break;
+                    case 0:
+                        exAbilityId = adventurer.ExAbilityData1;
+                        break;
+                }
+            } else if (manaCircle < 45) {
+                exAbilityId = adventurer.ExAbilityData1;
+            }
             return this.coAbilitiesMaster.filter(ability => {
-                return ability.Id == this.selectedAdventurer.ExAbilityData5;
+                return ability.Id == exAbilityId;
             })[0].PartyPowerWeight;
         },
         abilityMight: function () {
