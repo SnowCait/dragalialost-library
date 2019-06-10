@@ -4,6 +4,7 @@
             <thead>
                 <tr>
                     <td>
+                        ({{totalCount}})
                     </td>
                     <td v-for="(image, element) in elements" :key="element">
                         <img :src="image" />
@@ -44,6 +45,7 @@ let matrix = {
     4: { 1: [], 2: [], 3: [], 4: [], 5: [], 6: [], 7: [], 8: [], },
     5: { 1: [], 2: [], 3: [], 4: [], 5: [], 6: [], 7: [], 8: [], },
 };
+const totalCount = adventurersMaster.length;
 let elementsCount = { 1: 0, 2: 0, 3: 0, 4: 0, 5: 0 };
 let weaponsCount = { 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0 };
 adventurersMaster.forEach(adventurer => {
@@ -56,6 +58,7 @@ export default {
     data () {
         return {
             matrix,
+            totalCount,
             elementsCount,
             weaponsCount,
 
