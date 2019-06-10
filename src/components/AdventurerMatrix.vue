@@ -1,5 +1,6 @@
 <template>
     <main>
+        <h1>ドラガリ キャラ表</h1>
         <ul class="rarity-filter">
             <li v-bind:class="{ disable: !rarityEnabled[3] }" v-on:click="filterRarity(3)">
                 <img src="@/assets/img/ui/rarity/Icon_Rarity_3.png" />

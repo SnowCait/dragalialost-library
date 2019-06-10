@@ -1,6 +1,12 @@
 <template>
   <div id="app">
-    <router-link to="/"><img alt="Vue logo" src="./assets/logo.png"></router-link>
+    <header>
+      <img src="@/assets/img/ui/Hildegarde.png" />
+      <h1>イリア教会 聖城分室</h1>
+      <nav>
+        <router-link to="/">ホーム</router-link>
+      </nav>
+    </header>
     <router-view />
     <footer>
       <ul>
@@ -34,11 +40,37 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  /* margin-top: 60px; */
+}
+
+header {
+  border-bottom: solid 1px lightgray;
+  display: flex;
+  align-items: center;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 8px;
+}
+header img {
+  width: 32px;
+  height: 32px;
+  border-radius: 5px;
+}
+header h1 {
+  font-size: 1em;
+  margin: 0 0.5em;
+  vertical-align: middle;
+}
+header nav {
+  margin-left: auto;
 }
 
 footer {
-  margin: 1em auto;
+  margin-top: 1em;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 10px;
+  border-top: solid 1px lightgray;
 }
 footer ul {
   list-style: none;
