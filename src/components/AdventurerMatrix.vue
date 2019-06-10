@@ -3,17 +3,19 @@
         <table class="matrix">
             <thead>
                 <tr>
-                    <th>
-                    </th>
-                    <th v-for="(image, element) in elements" :key="element">
+                    <td>
+                    </td>
+                    <td v-for="(image, element) in elements" :key="element">
                         <img :src="image" />
-                    </th>
+                        <span>({{elementsCount[element]}})</span>
+                    </td>
                 </tr>
             </thead>
             <tbody>
             <tr v-for="(image, weapon) in weapons" :key="weapon">
                 <td>
                     <img :src="image" />
+                    <span>({{weaponsCount[weapon]}})</span>
                 </td>
                 <td v-for="(image, element) in elements" :key="element">
                     <ul>
@@ -42,14 +44,21 @@ let matrix = {
     4: { 1: [], 2: [], 3: [], 4: [], 5: [], 6: [], 7: [], 8: [], },
     5: { 1: [], 2: [], 3: [], 4: [], 5: [], 6: [], 7: [], 8: [], },
 };
+let elementsCount = { 1: 0, 2: 0, 3: 0, 4: 0, 5: 0 };
+let weaponsCount = { 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0 };
 adventurersMaster.forEach(adventurer => {
     matrix[adventurer.ElementalTypeId][adventurer.WeaponTypeId].push(adventurer);
+    elementsCount[adventurer.ElementalTypeId]++;
+    weaponsCount[adventurer.WeaponTypeId]++;
 });
 
 export default {
     data () {
         return {
             matrix,
+            elementsCount,
+            weaponsCount,
+
             elements: {
                 1: require('@/assets/img/ui/element/Icon_Element_Flame.png'),
                 2: require('@/assets/img/ui/element/Icon_Element_Water.png'),
