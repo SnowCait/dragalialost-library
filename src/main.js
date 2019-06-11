@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+import VueAnalytics from 'vue-analytics'
 import App from './App.vue'
 import Home from './components/Home.vue'
 import DragonGifts from './components/DragonGifts.vue'
@@ -20,6 +21,11 @@ const router = new VueRouter({
     { path: '/status-simulator', component: StatusSimulator },
     { path: '/adventurer-matrix', component: AdventurerMatrix },
   ]
+})
+
+Vue.use(VueAnalytics, {
+  id: 'UA-22324499-7',
+  router
 })
 
 new Vue({
