@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <header>
-      <img src="@/assets/img/ui/Hildegarde.png" />
+      <img src="Hildegarde.png" />
       <h1>イリア教会 聖城分室</h1>
       <nav>
         <router-link to="/">ホーム</router-link>
