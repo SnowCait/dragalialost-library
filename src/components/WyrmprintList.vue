@@ -98,6 +98,9 @@ export default {
 </script>
 
 <style>
+table {
+    margin: 0 auto;
+}
 table img {
     width: 50px;
     height: 50px;
