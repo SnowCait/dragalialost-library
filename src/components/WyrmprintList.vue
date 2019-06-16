@@ -17,16 +17,16 @@
                         <img :src="wyrmprint.Image01" />
                         <img :src="wyrmprint.Image02" />
                     </td>
-                    <td>
+                    <td class="text">
                         {{wyrmprint.NameJP}}
                     </td>
-                    <td>
+                    <td class="number">
                         {{wyrmprint.MaxHp}}
                     </td>
-                    <td>
+                    <td class="number">
                         {{wyrmprint.MaxAtk}}
                     </td>
-                    <td>
+                    <td class="number">
                         {{wyrmprint.Might}}
                     </td>
                 </tr>
@@ -100,6 +100,16 @@ export default {
 <style>
 table {
     margin: 0 auto;
+}
+table td.text {
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+table td.number {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 table img {
     width: 50px;
