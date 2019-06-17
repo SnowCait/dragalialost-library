@@ -4,7 +4,7 @@
         <table>
             <thead>
                 <tr>
-                    <th>画像</th>
+                    <th>アイコン</th>
                     <th>名前</th>
                     <th :class="sortedClass('MaxHp')" v-on:click="sortBy('MaxHp')">HP</th>
                     <th :class="sortedClass('MaxAtk')" v-on:click="sortBy('MaxAtk')">攻撃力</th>
@@ -14,7 +14,6 @@
             <tbody>
                 <tr v-for="wyrmprint in sortedWyrmprints" :key="wyrmprint.BaseId">
                     <td>
-                        <img :src="wyrmprint.Image01" />
                         <img :src="wyrmprint.Image02" />
                     </td>
                     <td class="text">
@@ -119,7 +118,7 @@ table th.sorted {
     cursor: pointer;
 }
 table th.sorted::after {
-    font-size: 0.5em;
+    font-size: 50%;
     content: '▽';
 }
 table th.sorted.asc::after {
@@ -127,5 +126,12 @@ table th.sorted.asc::after {
 }
 table th.sorted.desc::after {
     content: '▼';
+}
+
+/* Smart Phone */
+@media (max-width: 480px) {
+    table th {
+        font-size: 0.7em;
+    }
 }
 </style>
