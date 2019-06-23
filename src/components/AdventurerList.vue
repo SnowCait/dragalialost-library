@@ -105,7 +105,7 @@ adventurers.forEach(adventurer => {
         abilityMight += ability2 != null ? ability2.PartyPowerWeight : 0;
     }
     if (adventurer.Abilities32 > 0) {
-        const ability3 = abilities.filter(ability => {
+        let ability3 = abilities.filter(ability => {
             return ability.Id == adventurer.Abilities32;
         })[0];
         if (ability3 == null && adventurer.Abilities31 > 0) {
