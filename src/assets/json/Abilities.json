@@ -2376,6 +2376,30 @@
         "AbilityLimitedGroupId3": 0
     },
     {
+        "Id": 267,
+        "GenericName": "(Wind) Blinded Punisher",
+        "Name": "(Wind) Blinded Punisher +10%",
+        "Details": "If the user is attuned to Wind:  increases damage to blinded enemies by 10%.",
+        "AbilityIconName": "Icon_Ability_1070005",
+        "AbilityGroup": 10101,
+        "PartyPowerWeight": 20,
+        "AbilityLimitedGroupId1": 5,
+        "AbilityLimitedGroupId2": 0,
+        "AbilityLimitedGroupId3": 0
+    },
+    {
+        "Id": 268,
+        "GenericName": "(Wind) Blinded Punisher",
+        "Name": "(Wind) Blinded Punisher +15%",
+        "Details": "If the user is attuned to Wind:  increases damage to blinded enemies by 15%.",
+        "AbilityIconName": "Icon_Ability_1070005",
+        "AbilityGroup": 10101,
+        "PartyPowerWeight": 40,
+        "AbilityLimitedGroupId1": 5,
+        "AbilityLimitedGroupId2": 0,
+        "AbilityLimitedGroupId3": 0
+    },
+    {
         "Id": 194,
         "GenericName": "(Wind) Bog Res",
         "Name": "(Wind) Bog Res +25%",
@@ -2480,6 +2504,18 @@
         "AbilityGroup": 10102,
         "PartyPowerWeight": 50,
         "AbilityLimitedGroupId1": 0,
+        "AbilityLimitedGroupId2": 0,
+        "AbilityLimitedGroupId3": 0
+    },
+    {
+        "Id": 270,
+        "GenericName": "(Wind) High Mercury's Bane",
+        "Name": "(Wind) High Mercury's Bane +30%",
+        "Details": "If the user is attuned to Wind:  increases damage to High Mercury by 30%.",
+        "AbilityIconName": "Icon_Ability_1100001",
+        "AbilityGroup": 10101,
+        "PartyPowerWeight": 100,
+        "AbilityLimitedGroupId1": 132,
         "AbilityLimitedGroupId2": 0,
         "AbilityLimitedGroupId3": 0
     },
@@ -2736,6 +2772,30 @@
         "AbilityLimitedGroupId3": 0
     },
     {
+        "Id": 277,
+        "GenericName": "(Wind) Skill Haste",
+        "Name": "(Wind) Skill Haste +25%",
+        "Details": "If the user is attuned to Wind:  increases skill gauge fill rate by 25%.",
+        "AbilityIconName": "Icon_Ability_1020004",
+        "AbilityGroup": 10104,
+        "PartyPowerWeight": 50,
+        "AbilityLimitedGroupId1": 40,
+        "AbilityLimitedGroupId2": 0,
+        "AbilityLimitedGroupId3": 0
+    },
+    {
+        "Id": 278,
+        "GenericName": "(Wind) Skill Haste",
+        "Name": "(Wind) Skill Haste +35%",
+        "Details": "If the user is attuned to Wind:  increases skill gauge fill rate by 35%.",
+        "AbilityIconName": "Icon_Ability_1020004",
+        "AbilityGroup": 10104,
+        "PartyPowerWeight": 70,
+        "AbilityLimitedGroupId1": 40,
+        "AbilityLimitedGroupId2": 0,
+        "AbilityLimitedGroupId3": 0
+    },
+    {
         "Id": 97,
         "GenericName": "(Wind) Skill Prep",
         "Name": "(Wind) Skill Prep +25%",
@@ -2756,6 +2816,18 @@
         "AbilityGroup": 10104,
         "PartyPowerWeight": 60,
         "AbilityLimitedGroupId1": 30,
+        "AbilityLimitedGroupId2": 0,
+        "AbilityLimitedGroupId3": 0
+    },
+    {
+        "Id": 269,
+        "GenericName": "(Wind) Skill Resistance Penetrator",
+        "Name": "(Wind) Skill Resistance Penetrator",
+        "Details": "If the user is attuned to Wind:  completely negates skill resistance.",
+        "AbilityIconName": "Icon_Ability_1140002",
+        "AbilityGroup": 10102,
+        "PartyPowerWeight": 50,
+        "AbilityLimitedGroupId1": 0,
         "AbilityLimitedGroupId2": 0,
         "AbilityLimitedGroupId3": 0
     },
@@ -2916,14 +2988,38 @@
         "AbilityLimitedGroupId3": 0
     },
     {
-        "Id": "",
+        "Id": 249,
         "GenericName": "(Wind) Undead's Bane",
         "Name": "(Wind) Undead's Bane +10%",
         "Details": "If the user is attuned to Wind: increases damage to undead by 10%.",
         "AbilityIconName": "Icon_Ability_1060005",
         "AbilityGroup": 10401,
-        "PartyPowerWeight": "",
+        "PartyPowerWeight": 20,
         "AbilityLimitedGroupId1": 14,
+        "AbilityLimitedGroupId2": 0,
+        "AbilityLimitedGroupId3": 0
+    },
+    {
+        "Id": 250,
+        "GenericName": "(Wind) Undead's Bane",
+        "Name": "(Wind) Undead's Bane +15%",
+        "Details": "If the user is attuned to Wind:  increases damage to undead by 15%.",
+        "AbilityIconName": "Icon_Ability_1060005",
+        "AbilityGroup": 10401,
+        "PartyPowerWeight": 40,
+        "AbilityLimitedGroupId1": 14,
+        "AbilityLimitedGroupId2": 0,
+        "AbilityLimitedGroupId3": 0
+    },
+    {
+        "Id": 251,
+        "GenericName": "(Wind) Whirlpool Res",
+        "Name": "(Wind) Whirlpool Res",
+        "Details": "If the user is attuned to Wind: ignores the effects of Whirlpool.",
+        "AbilityIconName": "Icon_Ability_1030018",
+        "AbilityGroup": 10102,
+        "PartyPowerWeight": 50,
+        "AbilityLimitedGroupId1": 0,
         "AbilityLimitedGroupId2": 0,
         "AbilityLimitedGroupId3": 0
     },
@@ -3900,6 +3996,18 @@
         "AbilityLimitedGroupId3": 0
     },
     {
+        "Id": 332,
+        "GenericName": "Divine Gales",
+        "Name": "Divine Gales +125%",
+        "Details": "Increases divine gale intake for clearing quests by 125%.",
+        "AbilityIconName": "Icon_Ability_1120002",
+        "AbilityGroup": 19801,
+        "PartyPowerWeight": 0,
+        "AbilityLimitedGroupId1": 101,
+        "AbilityLimitedGroupId2": 0,
+        "AbilityLimitedGroupId3": 0
+    },
+    {
         "Id": 110190007,
         "GenericName": "Divine Gales",
         "Name": "Divine Gales +150%",
@@ -3916,6 +4024,18 @@
         "GenericName": "Divine Gales",
         "Name": "Divine Gales +25%",
         "Details": "Increases divine gale intake for clearing quests by 25%.",
+        "AbilityIconName": "Icon_Ability_1120002",
+        "AbilityGroup": 19801,
+        "PartyPowerWeight": 0,
+        "AbilityLimitedGroupId1": 101,
+        "AbilityLimitedGroupId2": 0,
+        "AbilityLimitedGroupId3": 0
+    },
+    {
+        "Id": 333,
+        "GenericName": "Divine Gales",
+        "Name": "Divine Gales +35%",
+        "Details": "Increases divine gale intake for clearing quests by 35%.",
         "AbilityIconName": "Icon_Ability_1120002",
         "AbilityGroup": 19801,
         "PartyPowerWeight": 0,
@@ -3955,6 +4075,18 @@
         "AbilityIconName": "Icon_Ability_1020002",
         "AbilityGroup": 10101,
         "PartyPowerWeight": 70,
+        "AbilityLimitedGroupId1": 113,
+        "AbilityLimitedGroupId2": 0,
+        "AbilityLimitedGroupId3": 0
+    },
+    {
+        "Id": 211,
+        "GenericName": "Dragon Damage (Ability)",
+        "Name": "Dragon Damage +18%",
+        "Details": "Adds 18% to the modifier applied to damage when in dragon form.",
+        "AbilityIconName": "Icon_Ability_1020002",
+        "AbilityGroup": 10101,
+        "PartyPowerWeight": 80,
         "AbilityLimitedGroupId1": 113,
         "AbilityLimitedGroupId2": 0,
         "AbilityLimitedGroupId3": 0
@@ -7140,6 +7272,30 @@
         "AbilityLimitedGroupId3": 0
     },
     {
+        "Id": 247,
+        "GenericName": "Sleep = Team Strength",
+        "Name": "Sleep = Team Strength +10%",
+        "Details": "Buffs the entire team's strength by 10% for 10 seconds upon successfully putting an enemy to sleep. After activating, this ability will not activate again for five seconds.",
+        "AbilityIconName": "Icon_Ability_1020002",
+        "AbilityGroup": 10101,
+        "PartyPowerWeight": 60,
+        "AbilityLimitedGroupId1": 0,
+        "AbilityLimitedGroupId2": 0,
+        "AbilityLimitedGroupId3": 0
+    },
+    {
+        "Id": 248,
+        "GenericName": "Sleep = Team Strength",
+        "Name": "Sleep = Team Strength +15%",
+        "Details": "Buffs the entire team's strength by 15% for 10 seconds upon successfully putting an enemy to sleep. After activating, this ability will not activate again for five seconds.",
+        "AbilityIconName": "Icon_Ability_1020002",
+        "AbilityGroup": 10101,
+        "PartyPowerWeight": 80,
+        "AbilityLimitedGroupId1": 0,
+        "AbilityLimitedGroupId2": 0,
+        "AbilityLimitedGroupId3": 0
+    },
+    {
         "Id": 110021006,
         "GenericName": "Sleep Res",
         "Name": "Sleep Res +100%",
@@ -7992,10 +8148,34 @@
         "AbilityLimitedGroupId3": 0
     },
     {
+        "Id": 335,
+        "GenericName": "Windwhistle Grass",
+        "Name": "Windwhistle Grass +35%",
+        "Details": "Increases windwhistle grass intake for clearing quests by 35%.",
+        "AbilityIconName": "Icon_Ability_1110001",
+        "AbilityGroup": 19801,
+        "PartyPowerWeight": 0,
+        "AbilityLimitedGroupId1": 106,
+        "AbilityLimitedGroupId2": 0,
+        "AbilityLimitedGroupId3": 0
+    },
+    {
         "Id": 110200004,
         "GenericName": "Windwhistle Grass",
         "Name": "Windwhistle Grass +50%",
         "Details": "Increases windwhistle grass intake for clearing quests by 50%.",
+        "AbilityIconName": "Icon_Ability_1110001",
+        "AbilityGroup": 19801,
+        "PartyPowerWeight": 0,
+        "AbilityLimitedGroupId1": 106,
+        "AbilityLimitedGroupId2": 0,
+        "AbilityLimitedGroupId3": 0
+    },
+    {
+        "Id": 334,
+        "GenericName": "Windwhistle Grass",
+        "Name": "Windwhistle Grass +60%",
+        "Details": "Increases windwhistle grass intake for clearing quests by 60%.",
         "AbilityIconName": "Icon_Ability_1110001",
         "AbilityGroup": 19801,
         "PartyPowerWeight": 0,

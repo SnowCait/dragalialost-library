@@ -936,7 +936,7 @@
         "Abilities22": 110060003,
         "Abilities23": 110060004,
         "Abilities31": 110200004,
-        "Abilities32": 110200005,
+        "Abilities32": 334,
         "Abilities33": 110200005
     },
     {
@@ -956,7 +956,7 @@
         "Abilities22": 110010804,
         "Abilities23": 110010805,
         "Abilities31": 110190006,
-        "Abilities32": 110190007,
+        "Abilities32": 332,
         "Abilities33": 110190007
     },
     {
@@ -973,7 +973,7 @@
         "Abilities12": 210001803,
         "Abilities13": 210001804,
         "Abilities21": 110200004,
-        "Abilities22": 110200005,
+        "Abilities22": 334,
         "Abilities23": 110200005,
         "Abilities31": 0,
         "Abilities32": 0,
@@ -996,7 +996,7 @@
         "Abilities22": 210000304,
         "Abilities23": 210000305,
         "Abilities31": 110190006,
-        "Abilities32": 110190007,
+        "Abilities32": 332,
         "Abilities33": 110190007
     },
     {
@@ -1135,6 +1135,26 @@
         "Abilities21": 110210502,
         "Abilities22": 170,
         "Abilities23": 110210503,
+        "Abilities31": 0,
+        "Abilities32": 0,
+        "Abilities33": 0
+    },
+    {
+        "BaseId": 400282,
+        "Name": "Halidom Grooms",
+        "NameJP": "\u8056\u57ce\u306e\u82b1\u5a7f\u305f\u3061",
+        "Rarity": 4,
+        "MinHp": 21,
+        "MaxHp": 142,
+        "MinAtk": 7,
+        "MaxAtk": 50,
+        "VariationId": 1,
+        "Abilities11": 210002701,
+        "Abilities12": 210002701,
+        "Abilities13": 210002701,
+        "Abilities21": 110130002,
+        "Abilities22": 110130003,
+        "Abilities23": 110130004,
         "Abilities31": 0,
         "Abilities32": 0,
         "Abilities33": 0
@@ -1553,10 +1573,10 @@
         "Abilities12": 110100005,
         "Abilities13": 110100006,
         "Abilities21": 110200003,
-        "Abilities22": 110200004,
+        "Abilities22": 335,
         "Abilities23": 110200004,
         "Abilities31": 110190004,
-        "Abilities32": 110190005,
+        "Abilities32": 333,
         "Abilities33": 110190005
     },
     {
@@ -2295,6 +2315,26 @@
         "Abilities21": 0,
         "Abilities22": 0,
         "Abilities23": 0,
+        "Abilities31": 0,
+        "Abilities32": 0,
+        "Abilities33": 0
+    },
+    {
+        "BaseId": 400096,
+        "Name": "The Bridal Dragon",
+        "NameJP": "\u82b1\u5ac1\u306f\u30c9\u30e9\u30b4\u30f3",
+        "Rarity": 5,
+        "MinHp": 26,
+        "MaxHp": 177,
+        "MinAtk": 9,
+        "MaxAtk": 64,
+        "VariationId": 1,
+        "Abilities11": 8,
+        "Abilities12": 146,
+        "Abilities13": 211,
+        "Abilities21": 110220002,
+        "Abilities22": 165,
+        "Abilities23": 110220003,
         "Abilities31": 0,
         "Abilities32": 0,
         "Abilities33": 0
