@@ -1,7 +1,7 @@
 <template>
     <article>
         <DragonGifts />
-        <VoidBattles />
+        <!-- <VoidBattles /> -->
         
         <nav class="menu">
             <ul>
@@ -37,5 +37,6 @@ export default {
 <style>
 nav.menu ul {
     list-style: none;
+    padding: 0;
 }
 </style>
