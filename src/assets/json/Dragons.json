@@ -2,7 +2,7 @@
     {
         "BaseId": 210016,
         "Id": 20050101,
-        "Name": "\u30a2\u30b0\u30cb",
+        "Name": "アグニ",
         "Rarity": 5,
         "ElementalType": "Flame",
         "ElementalTypeId": 1,
@@ -20,7 +20,7 @@
     {
         "BaseId": 210069,
         "Id": 20030403,
-        "Name": "\u30b9\u30bf\u30fc\u30a4\u30f3\u30d7",
+        "Name": "スターインプ",
         "Rarity": 3,
         "ElementalType": "Light",
         "ElementalTypeId": 4,
@@ -38,7 +38,7 @@
     {
         "BaseId": 210089,
         "Id": 20040504,
-        "Name": "\u30d6\u30ed\u30f3\u30ba\u30d5\u30a1\u30d5\u30cb\u30fc\u30eb",
+        "Name": "ブロンズファフニール",
         "Rarity": 4,
         "ElementalType": "Shadow",
         "ElementalTypeId": 5,
@@ -56,7 +56,7 @@
     {
         "BaseId": 210002,
         "Id": 20040101,
-        "Name": "\u30d6\u30ea\u30e5\u30f3\u30d2\u30eb\u30c7",
+        "Name": "ブリュンヒルデ",
         "Rarity": 4,
         "ElementalType": "Flame",
         "ElementalTypeId": 1,
@@ -74,7 +74,7 @@
     {
         "BaseId": 210024,
         "Id": 20050104,
-        "Name": "\u30b1\u30eb\u30d9\u30ed\u30b9",
+        "Name": "ケルベロス",
         "Rarity": 5,
         "ElementalType": "Flame",
         "ElementalTypeId": 1,
@@ -92,7 +92,7 @@
     {
         "BaseId": 210022,
         "Id": 20030102,
-        "Name": "\u30d0\u30fc\u30f3\u30c9\u30e9\u30b3",
+        "Name": "バーンドラコ",
         "Rarity": 3,
         "ElementalType": "Flame",
         "ElementalTypeId": 1,
@@ -110,7 +110,7 @@
     {
         "BaseId": 210049,
         "Id": 20050405,
-        "Name": "\u30ad\u30e5\u30fc\u30d4\u30c3\u30c9",
+        "Name": "キューピッド",
         "Rarity": 5,
         "ElementalType": "Light",
         "ElementalTypeId": 4,
@@ -128,7 +128,7 @@
     {
         "BaseId": 210076,
         "Id": 20050205,
-        "Name": "\u30b8\u30e3\u30f3\u30cc\u30c0\u30eb\u30af",
+        "Name": "ジャンヌダルク",
         "Rarity": 5,
         "ElementalType": "Water",
         "ElementalTypeId": 2,
@@ -146,7 +146,7 @@
     {
         "BaseId": 210084,
         "Id": 20050308,
-        "Name": "\u30d5\u30ec\u30a4\u30e4",
+        "Name": "フレイヤ",
         "Rarity": 5,
         "ElementalType": "Wind",
         "ElementalTypeId": 3,
@@ -164,7 +164,7 @@
     {
         "BaseId": 210059,
         "Id": 20030201,
-        "Name": "\u30d5\u30d6\u30ad\u30ea\u30e5\u30a6",
+        "Name": "フブキリュウ",
         "Rarity": 3,
         "ElementalType": "Water",
         "ElementalTypeId": 2,
@@ -182,7 +182,7 @@
     {
         "BaseId": 210036,
         "Id": 20050304,
-        "Name": "\u30ac\u30eb\u30fc\u30c0",
+        "Name": "ガルーダ",
         "Rarity": 5,
         "ElementalType": "Wind",
         "ElementalTypeId": 3,
@@ -200,7 +200,7 @@
     {
         "BaseId": 210048,
         "Id": 20050404,
-        "Name": "\u30ae\u30eb\u30ac\u30e1\u30c3\u30b7\u30e5",
+        "Name": "ギルガメッシュ",
         "Rarity": 5,
         "ElementalType": "Light",
         "ElementalTypeId": 4,
@@ -218,7 +218,7 @@
     {
         "BaseId": 210066,
         "Id": 20030502,
-        "Name": "\u30c0\u30fc\u30af\u30c9\u30e9\u30b3",
+        "Name": "ダークドラコ",
         "Rarity": 3,
         "ElementalType": "Shadow",
         "ElementalTypeId": 5,
@@ -236,7 +236,7 @@
     {
         "BaseId": 210091,
         "Id": 20050507,
-        "Name": "\u30b4\u30fc\u30eb\u30c9\u30d5\u30a1\u30d5\u30cb\u30fc\u30eb",
+        "Name": "ゴールドファフニール",
         "Rarity": 5,
         "ElementalType": "Shadow",
         "ElementalTypeId": 5,
@@ -254,7 +254,7 @@
     {
         "BaseId": 210064,
         "Id": 20030302,
-        "Name": "\u30a6\u30a4\u30f3\u30c9\u30e9\u30b3",
+        "Name": "ウインドラコ",
         "Rarity": 3,
         "ElementalType": "Wind",
         "ElementalTypeId": 3,
@@ -272,7 +272,7 @@
     {
         "BaseId": 210075,
         "Id": 20040405,
-        "Name": "\u30b7\u30eb\u30ad\u30fc",
+        "Name": "シルキー",
         "Rarity": 4,
         "ElementalType": "Light",
         "ElementalTypeId": 4,
@@ -290,7 +290,7 @@
     {
         "BaseId": 210039,
         "Id": 20050102,
-        "Name": "\u771f\u30d6\u30ea\u30e5\u30f3\u30d2\u30eb\u30c7",
+        "Name": "真ブリュンヒルデ",
         "Rarity": 5,
         "ElementalType": "Flame",
         "ElementalTypeId": 1,
@@ -308,7 +308,7 @@
     {
         "BaseId": 210040,
         "Id": 20050202,
-        "Name": "\u771f\u30de\u30fc\u30ad\u30e5\u30ea\u30fc",
+        "Name": "真マーキュリー",
         "Rarity": 5,
         "ElementalType": "Water",
         "ElementalTypeId": 2,
@@ -326,7 +326,7 @@
     {
         "BaseId": 210038,
         "Id": 20050302,
-        "Name": "\u771f\u30df\u30c9\u30ac\u30eb\u30ba\u30aa\u30eb\u30e0",
+        "Name": "真ミドガルズオルム",
         "Rarity": 5,
         "ElementalType": "Wind",
         "ElementalTypeId": 3,
@@ -344,7 +344,7 @@
     {
         "BaseId": 210062,
         "Id": 20030501,
-        "Name": "\u30d2\u30ab\u30b2\u30ea\u30e5\u30a6",
+        "Name": "ヒカゲリュウ",
         "Rarity": 3,
         "ElementalType": "Shadow",
         "ElementalTypeId": 5,
@@ -362,7 +362,7 @@
     {
         "BaseId": 210061,
         "Id": 20030401,
-        "Name": "\u30d2\u30ca\u30bf\u30ea\u30e5\u30a6",
+        "Name": "ヒナタリュウ",
         "Rarity": 3,
         "ElementalType": "Light",
         "ElementalTypeId": 4,
@@ -380,7 +380,7 @@
     {
         "BaseId": 210021,
         "Id": 20030101,
-        "Name": "\u30db\u30e0\u30e9\u30ea\u30e5\u30a6",
+        "Name": "ホムラリュウ",
         "Rarity": 3,
         "ElementalType": "Flame",
         "ElementalTypeId": 1,
@@ -398,7 +398,7 @@
     {
         "BaseId": 210007,
         "Id": 20040103,
-        "Name": "\u30a4\u30d5\u30ea\u30fc\u30c8",
+        "Name": "イフリート",
         "Rarity": 4,
         "ElementalType": "Flame",
         "ElementalTypeId": 1,
@@ -416,7 +416,7 @@
     {
         "BaseId": 210020,
         "Id": 20050401,
-        "Name": "\u30b8\u30e3\u30f3\u30cc\u30c0\u30eb\u30af",
+        "Name": "ジャンヌダルク",
         "Rarity": 5,
         "ElementalType": "Light",
         "ElementalTypeId": 4,
@@ -434,7 +434,7 @@
     {
         "BaseId": 210014,
         "Id": 20040502,
-        "Name": "\u30b8\u30e3\u30ac\u30fc\u30ce\u30fc\u30c8",
+        "Name": "ジャガーノート",
         "Rarity": 4,
         "ElementalType": "Shadow",
         "ElementalTypeId": 5,
@@ -452,7 +452,7 @@
     {
         "BaseId": 210004,
         "Id": 20040401,
-        "Name": "\u30e6\u30d4\u30c6\u30eb",
+        "Name": "ユピテル",
         "Rarity": 4,
         "ElementalType": "Light",
         "ElementalTypeId": 4,
@@ -470,7 +470,7 @@
     {
         "BaseId": 210023,
         "Id": 20030103,
-        "Name": "\u30ad\u30e3\u30f3\u30c9\u30eb\u30a4\u30f3\u30d7",
+        "Name": "キャンドルインプ",
         "Rarity": 3,
         "ElementalType": "Flame",
         "ElementalTypeId": 1,
@@ -488,7 +488,7 @@
     {
         "BaseId": 210082,
         "Id": 20050107,
-        "Name": "\u30b3\u30ce\u30cf\u30ca\u30b5\u30af\u30e4",
+        "Name": "コノハナサクヤ",
         "Rarity": 5,
         "ElementalType": "Flame",
         "ElementalTypeId": 1,
@@ -506,7 +506,7 @@
     {
         "BaseId": 210017,
         "Id": 20050203,
-        "Name": "\u30ea\u30f4\u30a1\u30a4\u30a2\u30b5\u30f3",
+        "Name": "リヴァイアサン",
         "Rarity": 5,
         "ElementalType": "Water",
         "ElementalTypeId": 2,
@@ -524,7 +524,7 @@
     {
         "BaseId": 210043,
         "Id": 20050407,
-        "Name": "\u30e9\u30a4\u30ac",
+        "Name": "ライガ",
         "Rarity": 5,
         "ElementalType": "Light",
         "ElementalTypeId": 4,
@@ -542,7 +542,7 @@
     {
         "BaseId": 210013,
         "Id": 20040403,
-        "Name": "\u30ea\u30f3\u30c9\u30f4\u30eb\u30e0",
+        "Name": "リンドヴルム",
         "Rarity": 4,
         "ElementalType": "Light",
         "ElementalTypeId": 4,
@@ -560,7 +560,7 @@
     {
         "BaseId": 210080,
         "Id": 20050305,
-        "Name": "\u30ed\u30f3\u30ed\u30f3",
+        "Name": "ロンロン",
         "Rarity": 5,
         "ElementalType": "Wind",
         "ElementalTypeId": 3,
@@ -578,7 +578,7 @@
     {
         "BaseId": 210077,
         "Id": 20050506,
-        "Name": "\u30de\u30ea\u30b7\u30c6\u30f3",
+        "Name": "マリシテン",
         "Rarity": 5,
         "ElementalType": "Shadow",
         "ElementalTypeId": 5,
@@ -596,7 +596,7 @@
     {
         "BaseId": 210072,
         "Id": 20050505,
-        "Name": "\u30de\u30ea\u30c6\u30a3\u30e0\u30b9",
+        "Name": "マリティムス",
         "Rarity": 5,
         "ElementalType": "Shadow",
         "ElementalTypeId": 5,
@@ -614,7 +614,7 @@
     {
         "BaseId": 210003,
         "Id": 20040201,
-        "Name": "\u30de\u30fc\u30ad\u30e5\u30ea\u30fc",
+        "Name": "マーキュリー",
         "Rarity": 4,
         "ElementalType": "Water",
         "ElementalTypeId": 2,
@@ -632,7 +632,7 @@
     {
         "BaseId": 210001,
         "Id": 20040301,
-        "Name": "\u30df\u30c9\u30ac\u30eb\u30ba\u30aa\u30eb\u30e0",
+        "Name": "ミドガルズオルム",
         "Rarity": 4,
         "ElementalType": "Wind",
         "ElementalTypeId": 3,
@@ -650,7 +650,7 @@
     {
         "BaseId": 210065,
         "Id": 20030402,
-        "Name": "\u30e0\u30fc\u30f3\u30c9\u30e9\u30b3",
+        "Name": "ムーンドラコ",
         "Rarity": 3,
         "ElementalType": "Light",
         "ElementalTypeId": 4,
@@ -668,7 +668,7 @@
     {
         "BaseId": 210019,
         "Id": 20050501,
-        "Name": "\u30cb\u30fc\u30ba\u30d8\u30c3\u30b0",
+        "Name": "ニーズヘッグ",
         "Rarity": 5,
         "ElementalType": "Shadow",
         "ElementalTypeId": 5,
@@ -686,7 +686,7 @@
     {
         "BaseId": 210046,
         "Id": 20050508,
-        "Name": "\u30cb\u30e3\u30eb\u30e9\u30c8\u30db\u30c6\u30d7",
+        "Name": "ニャルラトホテプ",
         "Rarity": 5,
         "ElementalType": "Shadow",
         "ElementalTypeId": 5,
@@ -704,7 +704,7 @@
     {
         "BaseId": 210070,
         "Id": 20030503,
-        "Name": "\u30b0\u30ec\u30a4\u30f4\u30a4\u30f3\u30d7",
+        "Name": "グレイヴインプ",
         "Rarity": 3,
         "ElementalType": "Shadow",
         "ElementalTypeId": 5,
@@ -722,7 +722,7 @@
     {
         "BaseId": 210026,
         "Id": 20050306,
-        "Name": "\u30d1\u30ba\u30ba",
+        "Name": "パズズ",
         "Rarity": 5,
         "ElementalType": "Wind",
         "ElementalTypeId": 3,
@@ -740,7 +740,7 @@
     {
         "BaseId": 210057,
         "Id": 20050103,
-        "Name": "\u30da\u30ec",
+        "Name": "ペレ",
         "Rarity": 5,
         "ElementalType": "Flame",
         "ElementalTypeId": 1,
@@ -758,7 +758,7 @@
     {
         "BaseId": 210079,
         "Id": 20050206,
-        "Name": "\u30db\u30a6\u30e9\u30a4",
+        "Name": "ホウライ",
         "Rarity": 5,
         "ElementalType": "Water",
         "ElementalTypeId": 2,
@@ -776,7 +776,7 @@
     {
         "BaseId": 210045,
         "Id": 20050504,
-        "Name": "\u30d5\u30a1\u30f3\u30c8\u30e0",
+        "Name": "ファントム",
         "Rarity": 5,
         "ElementalType": "Shadow",
         "ElementalTypeId": 5,
@@ -794,7 +794,7 @@
     {
         "BaseId": 210006,
         "Id": 20040102,
-        "Name": "\u30d5\u30a7\u30cb\u30c3\u30af\u30b9",
+        "Name": "フェニックス",
         "Rarity": 4,
         "ElementalType": "Flame",
         "ElementalTypeId": 1,
@@ -812,7 +812,7 @@
     {
         "BaseId": 210008,
         "Id": 20040202,
-        "Name": "\u30dd\u30ea\u30a2\u30d5",
+        "Name": "ポリアフ",
         "Rarity": 4,
         "ElementalType": "Water",
         "ElementalTypeId": 2,
@@ -830,7 +830,7 @@
     {
         "BaseId": 210025,
         "Id": 20050201,
-        "Name": "\u30dd\u30bb\u30a4\u30c9\u30f3",
+        "Name": "ポセイドン",
         "Rarity": 5,
         "ElementalType": "Water",
         "ElementalTypeId": 2,
@@ -848,7 +848,7 @@
     {
         "BaseId": 210052,
         "Id": 20050106,
-        "Name": "\u30d7\u30ed\u30e1\u30c6\u30a6\u30b9",
+        "Name": "プロメテウス",
         "Rarity": 5,
         "ElementalType": "Flame",
         "ElementalTypeId": 1,
@@ -866,7 +866,7 @@
     {
         "BaseId": 210050,
         "Id": 20040302,
-        "Name": "\u30d5\u30a9\u30fc\u30b2\u30eb",
+        "Name": "フォーゲル",
         "Rarity": 4,
         "ElementalType": "Wind",
         "ElementalTypeId": 3,
@@ -884,7 +884,7 @@
     {
         "BaseId": 210078,
         "Id": 20050406,
-        "Name": "\u30b7\u30b7\u30de\u30a4",
+        "Name": "シシマイ",
         "Rarity": 5,
         "ElementalType": "Light",
         "ElementalTypeId": 4,
@@ -902,7 +902,7 @@
     {
         "BaseId": 210015,
         "Id": 20040503,
-        "Name": "\u30b7\u30eb\u30ad\u30fc",
+        "Name": "シルキー",
         "Rarity": 4,
         "ElementalType": "Shadow",
         "ElementalTypeId": 5,
@@ -920,7 +920,7 @@
     {
         "BaseId": 210090,
         "Id": 20040505,
-        "Name": "\u30b7\u30eb\u30d0\u30fc\u30d5\u30a1\u30d5\u30cb\u30fc\u30eb",
+        "Name": "シルバーファフニール",
         "Rarity": 4,
         "ElementalType": "Shadow",
         "ElementalTypeId": 5,
@@ -938,7 +938,7 @@
     {
         "BaseId": 210081,
         "Id": 20050207,
-        "Name": "\u30b7\u30fc\u30e0\u30eb\u30b0",
+        "Name": "シームルグ",
         "Rarity": 5,
         "ElementalType": "Water",
         "ElementalTypeId": 2,
@@ -956,7 +956,7 @@
     {
         "BaseId": 210063,
         "Id": 20030202,
-        "Name": "\u30a2\u30a4\u30b9\u30c9\u30e9\u30b3",
+        "Name": "アイスドラコ",
         "Rarity": 3,
         "ElementalType": "Water",
         "ElementalTypeId": 2,
@@ -974,7 +974,7 @@
     {
         "BaseId": 210011,
         "Id": 20040303,
-        "Name": "\u30b9\u30c8\u30ea\u30dc\u30fc\u30b0",
+        "Name": "ストリボーグ",
         "Rarity": 4,
         "ElementalType": "Wind",
         "ElementalTypeId": 3,
@@ -992,7 +992,7 @@
     {
         "BaseId": 210010,
         "Id": 20050303,
-        "Name": "\u30b7\u30eb\u30f4\u30a3\u30a2",
+        "Name": "シルヴィア",
         "Rarity": 5,
         "ElementalType": "Wind",
         "ElementalTypeId": 3,
@@ -1010,7 +1010,7 @@
     {
         "BaseId": 210051,
         "Id": 20050408,
-        "Name": "\u30bf\u30b1\u30df\u30ab\u30c5\u30c1",
+        "Name": "タケミカヅチ",
         "Rarity": 5,
         "ElementalType": "Light",
         "ElementalTypeId": 4,
@@ -1028,7 +1028,7 @@
     {
         "BaseId": 210060,
         "Id": 20030301,
-        "Name": "\u30c4\u30e0\u30b8\u30ea\u30e5\u30a6",
+        "Name": "ツムジリュウ",
         "Rarity": 3,
         "ElementalType": "Wind",
         "ElementalTypeId": 3,
@@ -1046,7 +1046,7 @@
     {
         "BaseId": 210012,
         "Id": 20040402,
-        "Name": "\u30e6\u30cb\u30b3\u30fc\u30f3",
+        "Name": "ユニコーン",
         "Rarity": 4,
         "ElementalType": "Light",
         "ElementalTypeId": 4,
@@ -1064,7 +1064,7 @@
     {
         "BaseId": 210058,
         "Id": 20040203,
-        "Name": "\u30f4\u30a9\u30b8\u30e3\u30ce\u30fc\u30a4",
+        "Name": "ヴォジャノーイ",
         "Rarity": 4,
         "ElementalType": "Water",
         "ElementalTypeId": 2,
@@ -1082,7 +1082,7 @@
     {
         "BaseId": 210067,
         "Id": 20030203,
-        "Name": "\u30a6\u30a8\u30eb\u30a4\u30f3\u30d7",
+        "Name": "ウエルインプ",
         "Rarity": 3,
         "ElementalType": "Water",
         "ElementalTypeId": 2,
@@ -1100,7 +1100,7 @@
     {
         "BaseId": 210074,
         "Id": 20050307,
-        "Name": "\u30ae\u30e7\u30af\u30ea\u30e5\u30a6",
+        "Name": "ギョクリュウ",
         "Rarity": 5,
         "ElementalType": "Wind",
         "ElementalTypeId": 3,
@@ -1118,7 +1118,7 @@
     {
         "BaseId": 210018,
         "Id": 20050301,
-        "Name": "\u30ef\u30ad\u30e4\u30f3",
+        "Name": "ワキヤン",
         "Rarity": 5,
         "ElementalType": "Wind",
         "ElementalTypeId": 3,
@@ -1136,7 +1136,7 @@
     {
         "BaseId": 210068,
         "Id": 20030303,
-        "Name": "\u30a8\u30a2\u30ea\u30a2\u30eb\u30a4\u30f3\u30d7",
+        "Name": "エアリアルインプ",
         "Rarity": 3,
         "ElementalType": "Wind",
         "ElementalTypeId": 3,
@@ -1154,7 +1154,7 @@
     {
         "BaseId": 210005,
         "Id": 20040501,
-        "Name": "\u30be\u30c7\u30a3\u30a2\u30fc\u30af",
+        "Name": "ゾディアーク",
         "Rarity": 4,
         "ElementalType": "Shadow",
         "ElementalTypeId": 5,

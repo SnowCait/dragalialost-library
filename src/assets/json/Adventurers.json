@@ -1,7 +1,7 @@
 [
     {
         "Id": 110310,
-        "Name": "\u30a2\u30c7\u30a3\u30b9",
+        "Name": "アディス",
         "WeaponTypeId": 2,
         "Rarity": 4,
         "ElementalType": "Wind",
@@ -51,7 +51,7 @@
     },
     {
         "Id": 110029,
-        "Name": "\u30a8\u30a4\u30eb",
+        "Name": "エイル",
         "WeaponTypeId": 5,
         "Rarity": 4,
         "ElementalType": "Wind",
@@ -101,7 +101,7 @@
     },
     {
         "Id": 110001,
-        "Name": "\u30a2\u30e9\u30f3",
+        "Name": "アラン",
         "WeaponTypeId": 5,
         "Rarity": 3,
         "ElementalType": "Flame",
@@ -151,7 +151,7 @@
     },
     {
         "Id": 110274,
-        "Name": "\u30a2\u30eb\u30d9\u30fc\u30eb",
+        "Name": "アルベール",
         "WeaponTypeId": 1,
         "Rarity": 5,
         "ElementalType": "Light",
@@ -201,7 +201,7 @@
     },
     {
         "Id": 100005,
-        "Name": "\u30b7\u30e3\u30ce\u30f3",
+        "Name": "シャノン",
         "WeaponTypeId": 3,
         "Rarity": 4,
         "ElementalType": "Shadow",
@@ -251,7 +251,7 @@
     },
     {
         "Id": 110327,
-        "Name": "\u30a2\u30eb\u30d5\u30a9\u30f3\u30b9",
+        "Name": "アルフォンス",
         "WeaponTypeId": 1,
         "Rarity": 5,
         "ElementalType": "Light",
@@ -301,7 +301,7 @@
     },
     {
         "Id": 110047,
-        "Name": "\u30a4\u30eb\u30c6\u30df\u30a2",
+        "Name": "イルテミア",
         "WeaponTypeId": 7,
         "Rarity": 3,
         "ElementalType": "Shadow",
@@ -351,7 +351,7 @@
     },
     {
         "Id": 110041,
-        "Name": "\u30a2\u30de\u30cd",
+        "Name": "アマネ",
         "WeaponTypeId": 7,
         "Rarity": 4,
         "ElementalType": "Light",
@@ -401,7 +401,7 @@
     },
     {
         "Id": 110275,
-        "Name": "\u30a2\u30f3\u30cd\u30ea\u30fc\u30a8",
+        "Name": "アンネリーエ",
         "WeaponTypeId": 5,
         "Rarity": 5,
         "ElementalType": "Light",
@@ -451,7 +451,7 @@
     },
     {
         "Id": 110002,
-        "Name": "\u30a2\u30aa\u30a4",
+        "Name": "アオイ",
         "WeaponTypeId": 2,
         "Rarity": 3,
         "ElementalType": "Flame",
@@ -501,7 +501,7 @@
     },
     {
         "Id": 110006,
-        "Name": "\u30aa\u30fc\u30ec\u30a4\u30f3",
+        "Name": "オーレイン",
         "WeaponTypeId": 8,
         "Rarity": 3,
         "ElementalType": "Flame",
@@ -551,7 +551,7 @@
     },
     {
         "Id": 110015,
-        "Name": "\u30b7\u30e3\u30fc\u30c7\u30a3",
+        "Name": "シャーディ",
         "WeaponTypeId": 2,
         "Rarity": 5,
         "ElementalType": "Light",
@@ -601,7 +601,7 @@
     },
     {
         "Id": 110050,
-        "Name": "\u30d9\u30eb\u30b6\u30fc\u30af",
+        "Name": "ベルザーク",
         "WeaponTypeId": 1,
         "Rarity": 4,
         "ElementalType": "Shadow",
@@ -651,7 +651,7 @@
     },
     {
         "Id": 110312,
-        "Name": "\u30dc\u30bf\u30f3",
+        "Name": "ボタン",
         "WeaponTypeId": 5,
         "Rarity": 4,
         "ElementalType": "Shadow",
@@ -701,7 +701,7 @@
     },
     {
         "Id": 110255,
-        "Name": "\u30bb\u30ea\u30a8\u30e9",
+        "Name": "セリエラ",
         "WeaponTypeId": 2,
         "Rarity": 4,
         "ElementalType": "Water",
@@ -751,7 +751,7 @@
     },
     {
         "Id": 110014,
-        "Name": "\u30b7\u30e5\u30d9\u30fc\u30eb",
+        "Name": "シュベール",
         "WeaponTypeId": 5,
         "Rarity": 3,
         "ElementalType": "Water",
@@ -801,7 +801,7 @@
     },
     {
         "Id": 100004,
-        "Name": "\u30af\u30e9\u30a6",
+        "Name": "クラウ",
         "WeaponTypeId": 8,
         "Rarity": 4,
         "ElementalType": "Shadow",
@@ -851,7 +851,7 @@
     },
     {
         "Id": 110281,
-        "Name": "\u30af\u30fc\u30ac\u30fc",
+        "Name": "クーガー",
         "WeaponTypeId": 4,
         "Rarity": 5,
         "ElementalType": "Shadow",
@@ -901,7 +901,7 @@
     },
     {
         "Id": 100004,
-        "Name": "\u30af\u30e9\u30a6",
+        "Name": "クラウ",
         "WeaponTypeId": 3,
         "Rarity": 5,
         "ElementalType": "Water",
@@ -951,7 +951,7 @@
     },
     {
         "Id": 110053,
-        "Name": "\u30cd\u30d5\u30a1\u30ea\u30a8",
+        "Name": "ネファリエ",
         "WeaponTypeId": 6,
         "Rarity": 4,
         "ElementalType": "Water",
@@ -1001,7 +1001,7 @@
     },
     {
         "Id": 110022,
-        "Name": "\u30a2\u30ec\u30af\u30b7\u30b9",
+        "Name": "アレクシス",
         "WeaponTypeId": 7,
         "Rarity": 4,
         "ElementalType": "Water",
@@ -1051,7 +1051,7 @@
     },
     {
         "Id": 110049,
-        "Name": "\u30a8\u30c9\u30ef\u30fc\u30c9",
+        "Name": "エドワード",
         "WeaponTypeId": 8,
         "Rarity": 3,
         "ElementalType": "Shadow",
@@ -1101,7 +1101,7 @@
     },
     {
         "Id": 110031,
-        "Name": "\u30a8\u30ec\u30aa\u30ce\u30fc\u30e9",
+        "Name": "エレオノーラ",
         "WeaponTypeId": 6,
         "Rarity": 4,
         "ElementalType": "Wind",
@@ -1151,7 +1151,7 @@
     },
     {
         "Id": 110303,
-        "Name": "\u30a8\u30ea\u30a2\u30b9",
+        "Name": "エリアス",
         "WeaponTypeId": 6,
         "Rarity": 4,
         "ElementalType": "Light",
@@ -1201,7 +1201,7 @@
     },
     {
         "Id": 100002,
-        "Name": "\u30a8\u30eb\u30d5\u30a3\u30ea\u30b9",
+        "Name": "エルフィリス",
         "WeaponTypeId": 5,
         "Rarity": 4,
         "ElementalType": "Water",
@@ -1251,7 +1251,7 @@
     },
     {
         "Id": 110045,
-        "Name": "\u30a8\u30ea\u30c3\u30af",
+        "Name": "エリック",
         "WeaponTypeId": 4,
         "Rarity": 3,
         "ElementalType": "Shadow",
@@ -1301,7 +1301,7 @@
     },
     {
         "Id": 110063,
-        "Name": "\u30a8\u30b9\u30c6\u30eb",
+        "Name": "エステル",
         "WeaponTypeId": 8,
         "Rarity": 3,
         "ElementalType": "Light",
@@ -1351,7 +1351,7 @@
     },
     {
         "Id": 100001,
-        "Name": "\u30e6\u30fc\u30c7\u30a3\u30eb",
+        "Name": "ユーディル",
         "WeaponTypeId": 1,
         "Rarity": 4,
         "ElementalType": "Flame",
@@ -1401,7 +1401,7 @@
     },
     {
         "Id": 110011,
-        "Name": "\u30a8\u30bc\u30ea\u30c3\u30c8",
+        "Name": "エゼリット",
         "WeaponTypeId": 3,
         "Rarity": 5,
         "ElementalType": "Flame",
@@ -1451,7 +1451,7 @@
     },
     {
         "Id": 110277,
-        "Name": "\u30d5\u30a7\u30ea\u30fc\u30c1\u30e3",
+        "Name": "フェリーチャ",
         "WeaponTypeId": 8,
         "Rarity": 4,
         "ElementalType": "Light",
@@ -1501,7 +1501,7 @@
     },
     {
         "Id": 110328,
-        "Name": "\u30d5\u30a3\u30e8\u30eb\u30e0",
+        "Name": "フィヨルム",
         "WeaponTypeId": 5,
         "Rarity": 5,
         "ElementalType": "Water",
@@ -1551,7 +1551,7 @@
     },
     {
         "Id": 110319,
-        "Name": "\u30d5\u30eb\u30eb",
+        "Name": "フルル",
         "WeaponTypeId": 3,
         "Rarity": 4,
         "ElementalType": "Light",
@@ -1601,7 +1601,7 @@
     },
     {
         "Id": 110026,
-        "Name": "\u30d5\u30e9\u30f3\u30c1\u30a7\u30b9\u30ab",
+        "Name": "フランチェスカ",
         "WeaponTypeId": 3,
         "Rarity": 3,
         "ElementalType": "Wind",
@@ -1651,7 +1651,7 @@
     },
     {
         "Id": 110276,
-        "Name": "\u30d5\u30ea\u30c3\u30c4",
+        "Name": "フリッツ",
         "WeaponTypeId": 3,
         "Rarity": 4,
         "ElementalType": "Light",
@@ -1701,7 +1701,7 @@
     },
     {
         "Id": 100010,
-        "Name": "\u30e0\u30e0",
+        "Name": "ムム",
         "WeaponTypeId": 5,
         "Rarity": 5,
         "ElementalType": "Flame",
@@ -1751,7 +1751,7 @@
     },
     {
         "Id": 100003,
-        "Name": "\u30e9\u30f3\u30b6\u30fc\u30f4",
+        "Name": "ランザーヴ",
         "WeaponTypeId": 1,
         "Rarity": 5,
         "ElementalType": "Wind",
@@ -1801,7 +1801,7 @@
     },
     {
         "Id": 100029,
-        "Name": "\u30b7\u30fc\u30ea\u30b9",
+        "Name": "シーリス",
         "WeaponTypeId": 6,
         "Rarity": 5,
         "ElementalType": "Flame",
@@ -1851,7 +1851,7 @@
     },
     {
         "Id": 110047,
-        "Name": "\u30a4\u30eb\u30c6\u30df\u30a2",
+        "Name": "イルテミア",
         "WeaponTypeId": 8,
         "Rarity": 4,
         "ElementalType": "Light",
@@ -1901,7 +1901,7 @@
     },
     {
         "Id": 110049,
-        "Name": "\u30a8\u30c9\u30ef\u30fc\u30c9",
+        "Name": "エドワード",
         "WeaponTypeId": 2,
         "Rarity": 3,
         "ElementalType": "Light",
@@ -1951,7 +1951,7 @@
     },
     {
         "Id": 100002,
-        "Name": "\u30a8\u30eb\u30d5\u30a3\u30ea\u30b9",
+        "Name": "エルフィリス",
         "WeaponTypeId": 5,
         "Rarity": 5,
         "ElementalType": "Light",
@@ -2001,7 +2001,7 @@
     },
     {
         "Id": 110267,
-        "Name": "\u30db\u30fc\u30af",
+        "Name": "ホーク",
         "WeaponTypeId": 6,
         "Rarity": 5,
         "ElementalType": "Wind",
@@ -2051,7 +2051,7 @@
     },
     {
         "Id": 110280,
-        "Name": "\u30cf\u30a4\u30f3\u30f4\u30a1\u30eb\u30c8",
+        "Name": "ハインヴァルト",
         "WeaponTypeId": 8,
         "Rarity": 5,
         "ElementalType": "Shadow",
@@ -2101,7 +2101,7 @@
     },
     {
         "Id": 110043,
-        "Name": "\u30d2\u30eb\u30c7\u30ac\u30eb\u30c9",
+        "Name": "ヒルデガルド",
         "WeaponTypeId": 8,
         "Rarity": 5,
         "ElementalType": "Light",
@@ -2151,7 +2151,7 @@
     },
     {
         "Id": 110038,
-        "Name": "\u30db\u30fc\u30d7",
+        "Name": "ホープ",
         "WeaponTypeId": 8,
         "Rarity": 3,
         "ElementalType": "Light",
@@ -2201,7 +2201,7 @@
     },
     {
         "Id": 110313,
-        "Name": "\u30a4\u30a8\u30e4\u30b9",
+        "Name": "イエヤス",
         "WeaponTypeId": 2,
         "Rarity": 5,
         "ElementalType": "Shadow",
@@ -2251,7 +2251,7 @@
     },
     {
         "Id": 110037,
-        "Name": "\u30a4\u30eb\u30d5\u30a1\u30f3",
+        "Name": "イルファン",
         "WeaponTypeId": 3,
         "Rarity": 3,
         "ElementalType": "Light",
@@ -2301,7 +2301,7 @@
     },
     {
         "Id": 110058,
-        "Name": "\u30b8\u30e3\u30f3",
+        "Name": "ジャン",
         "WeaponTypeId": 5,
         "Rarity": 3,
         "ElementalType": "Water",
@@ -2351,7 +2351,7 @@
     },
     {
         "Id": 110003,
-        "Name": "\u30b8\u30e7\u30fc",
+        "Name": "ジョー",
         "WeaponTypeId": 6,
         "Rarity": 3,
         "ElementalType": "Flame",
@@ -2401,7 +2401,7 @@
     },
     {
         "Id": 110023,
-        "Name": "\u30a4\u30cf\u30f3\u30ca",
+        "Name": "イハンナ",
         "WeaponTypeId": 4,
         "Rarity": 3,
         "ElementalType": "Wind",
@@ -2451,7 +2451,7 @@
     },
     {
         "Id": 110042,
-        "Name": "\u30b8\u30e5\u30ea\u30a8\u30c3\u30bf",
+        "Name": "ジュリエッタ",
         "WeaponTypeId": 4,
         "Rarity": 5,
         "ElementalType": "Light",
@@ -2501,7 +2501,7 @@
     },
     {
         "Id": 110016,
-        "Name": "\u30b8\u30e5\u30a6\u30ed\u30a6\u30bf",
+        "Name": "ジュウロウタ",
         "WeaponTypeId": 2,
         "Rarity": 3,
         "ElementalType": "Water",
@@ -2551,7 +2551,7 @@
     },
     {
         "Id": 110018,
-        "Name": "\u30ab\u30fc\u30ea\u30ca",
+        "Name": "カーリナ",
         "WeaponTypeId": 4,
         "Rarity": 4,
         "ElementalType": "Water",
@@ -2601,7 +2601,7 @@
     },
     {
         "Id": 110008,
-        "Name": "\u30ab\u30fc\u30eb",
+        "Name": "カール",
         "WeaponTypeId": 1,
         "Rarity": 4,
         "ElementalType": "Flame",
@@ -2651,7 +2651,7 @@
     },
     {
         "Id": 110051,
-        "Name": "\u30af\u30ec\u30a4\u30de\u30f3",
+        "Name": "クレイマン",
         "WeaponTypeId": 7,
         "Rarity": 4,
         "ElementalType": "Shadow",
@@ -2701,7 +2701,7 @@
     },
     {
         "Id": 110315,
-        "Name": "\u30af\u30ac\u30a4",
+        "Name": "クガイ",
         "WeaponTypeId": 1,
         "Rarity": 4,
         "ElementalType": "Wind",
@@ -2751,7 +2751,7 @@
     },
     {
         "Id": 110317,
-        "Name": "\u30e9\u30e9\u30ce\u30a2",
+        "Name": "ララノア",
         "WeaponTypeId": 6,
         "Rarity": 5,
         "ElementalType": "Water",
@@ -2801,7 +2801,7 @@
     },
     {
         "Id": 110252,
-        "Name": "\u30ea\u30ea\u30a3",
+        "Name": "リリィ",
         "WeaponTypeId": 7,
         "Rarity": 5,
         "ElementalType": "Water",
@@ -2851,7 +2851,7 @@
     },
     {
         "Id": 110268,
-        "Name": "\u30ea\u30f3\u30e6\u30fc",
+        "Name": "リンユー",
         "WeaponTypeId": 4,
         "Rarity": 5,
         "ElementalType": "Wind",
@@ -2901,7 +2901,7 @@
     },
     {
         "Id": 110033,
-        "Name": "\u30e9\u30a4\u30ca\u30b9",
+        "Name": "ライナス",
         "WeaponTypeId": 4,
         "Rarity": 3,
         "ElementalType": "Light",
@@ -2951,7 +2951,7 @@
     },
     {
         "Id": 110256,
-        "Name": "\u30eb\u30a4\u30fc\u30bc",
+        "Name": "ルイーゼ",
         "WeaponTypeId": 6,
         "Rarity": 5,
         "ElementalType": "Wind",
@@ -3001,7 +3001,7 @@
     },
     {
         "Id": 110257,
-        "Name": "\u30eb\u30fc\u30a8\u30f3",
+        "Name": "ルーエン",
         "WeaponTypeId": 8,
         "Rarity": 4,
         "ElementalType": "Wind",
@@ -3051,7 +3051,7 @@
     },
     {
         "Id": 100006,
-        "Name": "\u30ea\u30e5\u30ab",
+        "Name": "リュカ",
         "WeaponTypeId": 6,
         "Rarity": 4,
         "ElementalType": "Light",
@@ -3101,7 +3101,7 @@
     },
     {
         "Id": 110305,
-        "Name": "\u30eb\u30af\u30ec\u30c4\u30a3\u30a2",
+        "Name": "ルクレツィア",
         "WeaponTypeId": 7,
         "Rarity": 5,
         "ElementalType": "Light",
@@ -3151,7 +3151,7 @@
     },
     {
         "Id": 110020,
-        "Name": "\u30eb\u30bf",
+        "Name": "ルタ",
         "WeaponTypeId": 3,
         "Rarity": 4,
         "ElementalType": "Water",
@@ -3201,7 +3201,7 @@
     },
     {
         "Id": 110034,
-        "Name": "\u30de\u30eb\u30ab",
+        "Name": "マルカ",
         "WeaponTypeId": 5,
         "Rarity": 3,
         "ElementalType": "Light",
@@ -3251,7 +3251,7 @@
     },
     {
         "Id": 110036,
-        "Name": "\u30de\u30ed\u30fc\u30e9",
+        "Name": "マローラ",
         "WeaponTypeId": 6,
         "Rarity": 3,
         "ElementalType": "Light",
@@ -3301,7 +3301,7 @@
     },
     {
         "Id": 110032,
-        "Name": "\u30e1\u30ea\u30a3\u30d9\u30eb",
+        "Name": "メリィベル",
         "WeaponTypeId": 7,
         "Rarity": 5,
         "ElementalType": "Wind",
@@ -3351,7 +3351,7 @@
     },
     {
         "Id": 110291,
-        "Name": "\u30de\u30eb\u30b9",
+        "Name": "マルス",
         "WeaponTypeId": 1,
         "Rarity": 5,
         "ElementalType": "Flame",
@@ -3401,7 +3401,7 @@
     },
     {
         "Id": 110261,
-        "Name": "\u30de\u30fc\u30c6\u30a3",
+        "Name": "マーティ",
         "WeaponTypeId": 1,
         "Rarity": 3,
         "ElementalType": "Flame",
@@ -3451,7 +3451,7 @@
     },
     {
         "Id": 110027,
-        "Name": "\u30e1\u30ed\u30c7\u30a3",
+        "Name": "メロディ",
         "WeaponTypeId": 2,
         "Rarity": 3,
         "ElementalType": "Wind",
@@ -3501,7 +3501,7 @@
     },
     {
         "Id": 110270,
-        "Name": "\u30e1\u30eb\u30b5",
+        "Name": "メルサ",
         "WeaponTypeId": 3,
         "Rarity": 4,
         "ElementalType": "Flame",
@@ -3551,7 +3551,7 @@
     },
     {
         "Id": 110010,
-        "Name": "\u30df\u30b3\u30c8",
+        "Name": "ミコト",
         "WeaponTypeId": 2,
         "Rarity": 5,
         "ElementalType": "Flame",
@@ -3601,7 +3601,7 @@
     },
     {
         "Id": 110030,
-        "Name": "\u30e0\u30b5\u30b7",
+        "Name": "ムサシ",
         "WeaponTypeId": 2,
         "Rarity": 4,
         "ElementalType": "Wind",
@@ -3651,7 +3651,7 @@
     },
     {
         "Id": 110266,
-        "Name": "\u30ca\u30b8\u30e3\u30fc\u30d5",
+        "Name": "ナジャーフ",
         "WeaponTypeId": 1,
         "Rarity": 5,
         "ElementalType": "Flame",
@@ -3701,7 +3701,7 @@
     },
     {
         "Id": 110053,
-        "Name": "\u30cd\u30d5\u30a1\u30ea\u30a8",
+        "Name": "ネファリエ",
         "WeaponTypeId": 6,
         "Rarity": 5,
         "ElementalType": "Shadow",
@@ -3751,7 +3751,7 @@
     },
     {
         "Id": 110025,
-        "Name": "\u30cb\u30b3\u30e9",
+        "Name": "ニコラ",
         "WeaponTypeId": 7,
         "Rarity": 3,
         "ElementalType": "Wind",
@@ -3801,7 +3801,7 @@
     },
     {
         "Id": 110066,
-        "Name": "\u30ce\u30fc\u30b9\u30c8\u30f3",
+        "Name": "ノーストン",
         "WeaponTypeId": 6,
         "Rarity": 4,
         "ElementalType": "Shadow",
@@ -3851,7 +3851,7 @@
     },
     {
         "Id": 110029,
-        "Name": "\u30a8\u30a4\u30eb",
+        "Name": "エイル",
         "WeaponTypeId": 8,
         "Rarity": 4,
         "ElementalType": "Water",
@@ -3901,7 +3901,7 @@
     },
     {
         "Id": 110301,
-        "Name": "\u30aa\u30c7\u30c3\u30bf",
+        "Name": "オデッタ",
         "WeaponTypeId": 1,
         "Rarity": 4,
         "ElementalType": "Light",
@@ -3951,7 +3951,7 @@
     },
     {
         "Id": 110052,
-        "Name": "\u30aa\u30ea\u30aa\u30f3",
+        "Name": "オリオン",
         "WeaponTypeId": 3,
         "Rarity": 4,
         "ElementalType": "Shadow",
@@ -4001,7 +4001,7 @@
     },
     {
         "Id": 110253,
-        "Name": "\u30aa\u30eb\u30bb\u30e0",
+        "Name": "オルセム",
         "WeaponTypeId": 3,
         "Rarity": 4,
         "ElementalType": "Water",
@@ -4051,7 +4051,7 @@
     },
     {
         "Id": 110028,
-        "Name": "\u30d5\u30a3\u30ea\u30a2",
+        "Name": "フィリア",
         "WeaponTypeId": 6,
         "Rarity": 3,
         "ElementalType": "Wind",
@@ -4101,7 +4101,7 @@
     },
     {
         "Id": 110302,
-        "Name": "\u30d4\u30a2\u30c1\u30a7",
+        "Name": "ピアチェ",
         "WeaponTypeId": 5,
         "Rarity": 4,
         "ElementalType": "Wind",
@@ -4151,7 +4151,7 @@
     },
     {
         "Id": 110258,
-        "Name": "\u30d4\u30c9\u30c3\u30c8",
+        "Name": "ピドット",
         "WeaponTypeId": 4,
         "Rarity": 3,
         "ElementalType": "Water",
@@ -4201,7 +4201,7 @@
     },
     {
         "Id": 110035,
-        "Name": "\u30e9\u30a4\u30e0\u30f3\u30c9",
+        "Name": "ライムンド",
         "WeaponTypeId": 1,
         "Rarity": 3,
         "ElementalType": "Light",
@@ -4251,7 +4251,7 @@
     },
     {
         "Id": 100003,
-        "Name": "\u30e9\u30f3\u30b6\u30fc\u30f4",
+        "Name": "ランザーヴ",
         "WeaponTypeId": 4,
         "Rarity": 4,
         "ElementalType": "Wind",
@@ -4301,7 +4301,7 @@
     },
     {
         "Id": 110040,
-        "Name": "\u30a6\u30eb\u30ac",
+        "Name": "ウルガ",
         "WeaponTypeId": 6,
         "Rarity": 4,
         "ElementalType": "Light",
@@ -4351,7 +4351,7 @@
     },
     {
         "Id": 110005,
-        "Name": "\u30e9\u30b7\u30fc\u30cc",
+        "Name": "ラシーヌ",
         "WeaponTypeId": 3,
         "Rarity": 3,
         "ElementalType": "Flame",
@@ -4401,7 +4401,7 @@
     },
     {
         "Id": 110012,
-        "Name": "\u30ec\u30c3\u30af\u30b9",
+        "Name": "レックス",
         "WeaponTypeId": 4,
         "Rarity": 3,
         "ElementalType": "Water",
@@ -4451,7 +4451,7 @@
     },
     {
         "Id": 110017,
-        "Name": "\u30ea\u30ab\u30fc\u30c8",
+        "Name": "リカート",
         "WeaponTypeId": 8,
         "Rarity": 3,
         "ElementalType": "Water",
@@ -4501,7 +4501,7 @@
     },
     {
         "Id": 110046,
-        "Name": "\u30ed\u30c9\u30ea\u30b4",
+        "Name": "ロドリゴ",
         "WeaponTypeId": 1,
         "Rarity": 3,
         "ElementalType": "Shadow",
@@ -4551,7 +4551,7 @@
     },
     {
         "Id": 110039,
-        "Name": "\u30ea\u30e7\u30a6\u30bc\u30f3",
+        "Name": "リョウゼン",
         "WeaponTypeId": 5,
         "Rarity": 4,
         "ElementalType": "Light",
@@ -4601,7 +4601,7 @@
     },
     {
         "Id": 110311,
-        "Name": "\u30b5\u30b6\u30f3\u30ab",
+        "Name": "サザンカ",
         "WeaponTypeId": 4,
         "Rarity": 4,
         "ElementalType": "Shadow",
@@ -4651,7 +4651,7 @@
     },
     {
         "Id": 110054,
-        "Name": "\u30bb\u30ec\u30ca",
+        "Name": "セレナ",
         "WeaponTypeId": 1,
         "Rarity": 4,
         "ElementalType": "Flame",
@@ -4701,7 +4701,7 @@
     },
     {
         "Id": 110009,
-        "Name": "\u30b7\u30ce\u30a2",
+        "Name": "シノア",
         "WeaponTypeId": 7,
         "Rarity": 4,
         "ElementalType": "Flame",
@@ -4751,7 +4751,7 @@
     },
     {
         "Id": 110024,
-        "Name": "\u30bd\u30d5\u30a3",
+        "Name": "ソフィ",
         "WeaponTypeId": 8,
         "Rarity": 3,
         "ElementalType": "Wind",
@@ -4801,7 +4801,7 @@
     },
     {
         "Id": 110032,
-        "Name": "\u30e1\u30ea\u30a3\u30d9\u30eb",
+        "Name": "メリィベル",
         "WeaponTypeId": 7,
         "Rarity": 5,
         "ElementalType": "Flame",
@@ -4851,7 +4851,7 @@
     },
     {
         "Id": 110314,
-        "Name": "\u30b9\u30aa\u30a6",
+        "Name": "スオウ",
         "WeaponTypeId": 3,
         "Rarity": 4,
         "ElementalType": "Wind",
@@ -4901,7 +4901,7 @@
     },
     {
         "Id": 110318,
-        "Name": "\u30b7\u30e3\u30b9\u30c8",
+        "Name": "シャスト",
         "WeaponTypeId": 5,
         "Rarity": 5,
         "ElementalType": "Wind",
@@ -4951,7 +4951,7 @@
     },
     {
         "Id": 110044,
-        "Name": "\u30bf\u30ed\u30a6",
+        "Name": "タロウ",
         "WeaponTypeId": 2,
         "Rarity": 3,
         "ElementalType": "Shadow",
@@ -5001,7 +5001,7 @@
     },
     {
         "Id": 110019,
-        "Name": "\u30bb\u30a4\u30ca\u30fc",
+        "Name": "セイナー",
         "WeaponTypeId": 8,
         "Rarity": 4,
         "ElementalType": "Water",
@@ -5051,7 +5051,7 @@
     },
     {
         "Id": 110011,
-        "Name": "\u30a8\u30bc\u30ea\u30c3\u30c8",
+        "Name": "エゼリット",
         "WeaponTypeId": 6,
         "Rarity": 4,
         "ElementalType": "Flame",
@@ -5101,7 +5101,7 @@
     },
     {
         "Id": 110043,
-        "Name": "\u30d2\u30eb\u30c7\u30ac\u30eb\u30c9",
+        "Name": "ヒルデガルド",
         "WeaponTypeId": 8,
         "Rarity": 5,
         "ElementalType": "Flame",
@@ -5151,7 +5151,7 @@
     },
     {
         "Id": 110052,
-        "Name": "\u30aa\u30ea\u30aa\u30f3",
+        "Name": "オリオン",
         "WeaponTypeId": 1,
         "Rarity": 3,
         "ElementalType": "Flame",
@@ -5201,7 +5201,7 @@
     },
     {
         "Id": 110007,
-        "Name": "\u30f4\u30a1\u30cd\u30c3\u30b5",
+        "Name": "ヴァネッサ",
         "WeaponTypeId": 4,
         "Rarity": 4,
         "ElementalType": "Flame",
@@ -5251,7 +5251,7 @@
     },
     {
         "Id": 110269,
-        "Name": "\u30f4\u30a7\u30eb\u30b7\u30a7\u30e9",
+        "Name": "ヴェルシェラ",
         "WeaponTypeId": 8,
         "Rarity": 4,
         "ElementalType": "Flame",
@@ -5301,7 +5301,7 @@
     },
     {
         "Id": 110333,
-        "Name": "\u30f4\u30a7\u30ed\u30cb\u30ab",
+        "Name": "ヴェロニカ",
         "WeaponTypeId": 7,
         "Rarity": 5,
         "ElementalType": "Shadow",
@@ -5351,7 +5351,7 @@
     },
     {
         "Id": 110048,
-        "Name": "\u30ef\u30a4\u30b9",
+        "Name": "ワイス",
         "WeaponTypeId": 3,
         "Rarity": 3,
         "ElementalType": "Shadow",
@@ -5401,7 +5401,7 @@
     },
     {
         "Id": 110067,
-        "Name": "\u30f4\u30a3\u30c3\u30c6",
+        "Name": "ヴィッテ",
         "WeaponTypeId": 3,
         "Rarity": 3,
         "ElementalType": "Shadow",
@@ -5451,7 +5451,7 @@
     },
     {
         "Id": 110304,
-        "Name": "\u30f4\u30a3\u30af\u30bb\u30eb",
+        "Name": "ヴィクセル",
         "WeaponTypeId": 8,
         "Rarity": 4,
         "ElementalType": "Light",
@@ -5501,7 +5501,7 @@
     },
     {
         "Id": 110013,
-        "Name": "\u30a6\u30a7\u30a4\u30af",
+        "Name": "ウェイク",
         "WeaponTypeId": 6,
         "Rarity": 3,
         "ElementalType": "Water",
@@ -5551,7 +5551,7 @@
     },
     {
         "Id": 110002,
-        "Name": "\u30a2\u30aa\u30a4",
+        "Name": "アオイ",
         "WeaponTypeId": 3,
         "Rarity": 5,
         "ElementalType": "Wind",
@@ -5601,7 +5601,7 @@
     },
     {
         "Id": 100002,
-        "Name": "\u30a8\u30eb\u30d5\u30a3\u30ea\u30b9",
+        "Name": "エルフィリス",
         "WeaponTypeId": 1,
         "Rarity": 5,
         "ElementalType": "Wind",
@@ -5651,7 +5651,7 @@
     },
     {
         "Id": 110004,
-        "Name": "\u30b5\u30cb\u30a2",
+        "Name": "サニア",
         "WeaponTypeId": 8,
         "Rarity": 4,
         "ElementalType": "Wind",
@@ -5701,7 +5701,7 @@
     },
     {
         "Id": 110021,
-        "Name": "\u30b6\u30a4\u30f3\u30d5\u30e9\u30c3\u30c9",
+        "Name": "ザインフラッド",
         "WeaponTypeId": 5,
         "Rarity": 5,
         "ElementalType": "Water",
@@ -5751,7 +5751,7 @@
     },
     {
         "Id": 110022,
-        "Name": "\u30a2\u30ec\u30af\u30b7\u30b9",
+        "Name": "アレクシス",
         "WeaponTypeId": 1,
         "Rarity": 5,
         "ElementalType": "Water",
@@ -5801,7 +5801,7 @@
     },
     {
         "Id": 110004,
-        "Name": "\u30b5\u30cb\u30a2",
+        "Name": "サニア",
         "WeaponTypeId": 7,
         "Rarity": 3,
         "ElementalType": "Flame",
@@ -5851,7 +5851,7 @@
     },
     {
         "Id": 110316,
-        "Name": "\u30b7\u30e3\u30aa\u30ec\u30a4",
+        "Name": "シャオレイ",
         "WeaponTypeId": 7,
         "Rarity": 3,
         "ElementalType": "Light",
@@ -5901,7 +5901,7 @@
     },
     {
         "Id": 110299,
-        "Name": "\u30b5\u30f3\u30be\u30a6",
+        "Name": "サンゾウ",
         "WeaponTypeId": 5,
         "Rarity": 4,
         "ElementalType": "Flame",
@@ -5951,7 +5951,7 @@
     },
     {
         "Id": 110064,
-        "Name": "\u30e4\u30c1\u30e8",
+        "Name": "ヤチヨ",
         "WeaponTypeId": 2,
         "Rarity": 4,
         "ElementalType": "Light",
@@ -6001,7 +6001,7 @@
     },
     {
         "Id": 110056,
-        "Name": "\u30e6\u30a8",
+        "Name": "ユエ",
         "WeaponTypeId": 4,
         "Rarity": 4,
         "ElementalType": "Flame",
@@ -6051,7 +6051,7 @@
     },
     {
         "Id": 110254,
-        "Name": "\u30b8\u30fc\u30ba",
+        "Name": "ジーズ",
         "WeaponTypeId": 5,
         "Rarity": 3,
         "ElementalType": "Shadow",
@@ -6101,7 +6101,7 @@
     },
     {
         "Id": 110015,
-        "Name": "\u30b7\u30e3\u30fc\u30c7\u30a3",
+        "Name": "シャーディ",
         "WeaponTypeId": 1,
         "Rarity": 3,
         "ElementalType": "Water",
