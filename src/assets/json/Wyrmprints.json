@@ -2,7 +2,7 @@
     {
         "BaseId": 400293,
         "Name": "A Brief Repose",
-        "NameJP": "\u3064\u304b\u306e\u9593\u306e\u5b89\u3089\u304e",
+        "NameJP": "つかの間の安らぎ",
         "Rarity": 4,
         "MinHp": 23,
         "MaxHp": 156,
@@ -22,7 +22,7 @@
     {
         "BaseId": 400143,
         "Name": "A Heartfelt Gift",
-        "NameJP": "\u30e9\u30c3\u30d4\u30f3\u30b0\u30d5\u30a3\u30fc\u30eb",
+        "NameJP": "ラッピングフィール",
         "Rarity": 5,
         "MinHp": 22,
         "MaxHp": 151,
@@ -42,7 +42,7 @@
     {
         "BaseId": 400171,
         "Name": "A Maddened Master",
-        "NameJP": "\u5e2b\u5320\u306e\u4e00\u559d",
+        "NameJP": "師匠の一喝",
         "Rarity": 4,
         "MinHp": 19,
         "MaxHp": 127,
@@ -62,7 +62,7 @@
     {
         "BaseId": 400176,
         "Name": "A Mother's Love",
-        "NameJP": "\u6bcd\u306e\u611b",
+        "NameJP": "母の愛",
         "Rarity": 5,
         "MinHp": 22,
         "MaxHp": 151,
@@ -82,7 +82,7 @@
     {
         "BaseId": 400118,
         "Name": "A Slice of Dragonyule",
-        "NameJP": "\u661f\u7adc\u796d\u306e\u30b9\u30da\u30b7\u30e3\u30eb\u30b1\u30fc\u30ad",
+        "NameJP": "星竜祭のスペシャルケーキ",
         "Rarity": 5,
         "MinHp": 22,
         "MaxHp": 151,
@@ -102,7 +102,7 @@
     {
         "BaseId": 400150,
         "Name": "A Solitary Light",
-        "NameJP": "\u95c7\u306e\u5149\u6761",
+        "NameJP": "闇の光条",
         "Rarity": 5,
         "MinHp": 29,
         "MaxHp": 195,
@@ -122,7 +122,7 @@
     {
         "BaseId": 400091,
         "Name": "A Wish Upon the Yuletree",
-        "NameJP": "\u661f\u7adc\u6a39\u306b\u9858\u3044\u3092",
+        "NameJP": "星竜樹に願いを",
         "Rarity": 5,
         "MinHp": 28,
         "MaxHp": 189,
@@ -142,7 +142,7 @@
     {
         "BaseId": 400083,
         "Name": "After an Eternity",
-        "NameJP": "\u60a0\u4e45\u306e\u6642\u3092\u7d4c\u3066",
+        "NameJP": "悠久の時を経て",
         "Rarity": 5,
         "MinHp": 29,
         "MaxHp": 195,
@@ -162,7 +162,7 @@
     {
         "BaseId": 400010,
         "Name": "Alberian Banner",
-        "NameJP": "\u30a2\u30eb\u30d9\u30ea\u30a2\u56fd\u65d7",
+        "NameJP": "アルベリア国旗",
         "Rarity": 3,
         "MinHp": 10,
         "MaxHp": 71,
@@ -182,7 +182,7 @@
     {
         "BaseId": 400145,
         "Name": "An Indelible Date",
-        "NameJP": "\u30c8\u30ad\u30e1\u30ad\u2605\u30c7\u30fc\u30c8\u30b9\u30bf\u30a4\u30eb",
+        "NameJP": "トキメキ★デートスタイル",
         "Rarity": 5,
         "MinHp": 22,
         "MaxHp": 151,
@@ -202,7 +202,7 @@
     {
         "BaseId": 400047,
         "Name": "Armorer's Aspirations",
-        "NameJP": "\u7532\u5191\u5e2b\u306e\u5927\u671b",
+        "NameJP": "甲冑師の大望",
         "Rarity": 4,
         "MinHp": 23,
         "MaxHp": 156,
@@ -222,7 +222,7 @@
     {
         "BaseId": 400020,
         "Name": "Aromatherapy",
-        "NameJP": "\u30a2\u30ed\u30de\u30dd\u30c3\u30c8",
+        "NameJP": "アロマポット",
         "Rarity": 3,
         "MinHp": 11,
         "MaxHp": 76,
@@ -242,7 +242,7 @@
     {
         "BaseId": 400114,
         "Name": "As the Snow Falls",
-        "NameJP": "\u96ea\u964d\u308b\u8857\u3067",
+        "NameJP": "雪降る街で",
         "Rarity": 4,
         "MinHp": 18,
         "MaxHp": 123,
@@ -262,7 +262,7 @@
     {
         "BaseId": 400131,
         "Name": "Astounding Trick",
-        "NameJP": "\u30ef\u30f3\u30c0\u30d5\u30eb\u30c8\u30ea\u30c3\u30af",
+        "NameJP": "ワンダフルトリック",
         "Rarity": 5,
         "MinHp": 22,
         "MaxHp": 151,
@@ -282,7 +282,7 @@
     {
         "BaseId": 400066,
         "Name": "Auspex's Prayer",
-        "NameJP": "\u8056\u306a\u308b\u7948\u308a",
+        "NameJP": "聖なる祈り",
         "Rarity": 5,
         "MinHp": 28,
         "MaxHp": 187,
@@ -302,7 +302,7 @@
     {
         "BaseId": 400085,
         "Name": "Beauty's Secret",
-        "NameJP": "\u7f8e\u306e\u79d8\u8a23",
+        "NameJP": "美の秘訣",
         "Rarity": 4,
         "MinHp": 21,
         "MaxHp": 146,
@@ -322,7 +322,7 @@
     {
         "BaseId": 400009,
         "Name": "Bellathorna",
-        "NameJP": "\u30d0\u30e9\u30c9\u30f3\u30ca\u306e\u82b1",
+        "NameJP": "バラドンナの花",
         "Rarity": 3,
         "MinHp": 10,
         "MaxHp": 71,
@@ -342,7 +342,7 @@
     {
         "BaseId": 400102,
         "Name": "Better Together",
-        "NameJP": "\u9bae\u70c8\u306a\u30b3\u30f3\u30d3\u30cd\u30fc\u30b7\u30e7\u30f3",
+        "NameJP": "鮮烈なコンビネーション",
         "Rarity": 4,
         "MinHp": 18,
         "MaxHp": 122,
@@ -362,7 +362,7 @@
     {
         "BaseId": 400137,
         "Name": "Blossoms Ablaze",
-        "NameJP": "\u4ed9\u82b1\u7114",
+        "NameJP": "仙花焔",
         "Rarity": 3,
         "MinHp": 10,
         "MaxHp": 71,
@@ -382,7 +382,7 @@
     {
         "BaseId": 400280,
         "Name": "Bonds Between Worlds",
-        "NameJP": "\u6642\u7a7a\u3092\u8d85\u3048\u308b\u53cb\u60c5",
+        "NameJP": "時空を超える友情",
         "Rarity": 5,
         "MinHp": 22,
         "MaxHp": 150,
@@ -402,7 +402,7 @@
     {
         "BaseId": 400042,
         "Name": "Braving the Unknown",
-        "NameJP": "\u672a\u77e5\u3078\u306e\u4e00\u6b69",
+        "NameJP": "未知への一歩",
         "Rarity": 4,
         "MinHp": 23,
         "MaxHp": 156,
@@ -422,7 +422,7 @@
     {
         "BaseId": 400039,
         "Name": "Castaway's Journal",
-        "NameJP": "\u697d\u3057\u304d\u547d\u61f8\u3051\u306e\u6226",
+        "NameJP": "楽しき命懸けの戦",
         "Rarity": 4,
         "MinHp": 23,
         "MaxHp": 156,
@@ -442,7 +442,7 @@
     {
         "BaseId": 400074,
         "Name": "Cleo's Ruse",
-        "NameJP": "\u30af\u30e9\u30a6\u306e\u7b56\u7565",
+        "NameJP": "クラウの策略",
         "Rarity": 5,
         "MinHp": 28,
         "MaxHp": 187,
@@ -462,7 +462,7 @@
     {
         "BaseId": 400029,
         "Name": "Crown of Yore",
-        "NameJP": "\u904e\u304e\u53bb\u308a\u3057\u65e5\u306e\u738b\u51a0",
+        "NameJP": "過ぎ去りし日の王冠",
         "Rarity": 3,
         "MinHp": 10,
         "MaxHp": 71,
@@ -482,7 +482,7 @@
     {
         "BaseId": 400011,
         "Name": "Cry of the Horn",
-        "NameJP": "\u7834\u5929\u306e\u89d2\u7b1b",
+        "NameJP": "破天の角笛",
         "Rarity": 3,
         "MinHp": 10,
         "MaxHp": 71,
@@ -502,7 +502,7 @@
     {
         "BaseId": 400076,
         "Name": "Crystalian Envoy",
-        "NameJP": "\u30af\u30ea\u30b9\u30bf\u30ea\u30a2\u306e\u5c11\u5973",
+        "NameJP": "クリスタリアの少女",
         "Rarity": 5,
         "MinHp": 27,
         "MaxHp": 183,
@@ -522,7 +522,7 @@
     {
         "BaseId": 400152,
         "Name": "Delightful Dancer",
-        "NameJP": "\u53ef\u6190\u306a\u821e\u59eb",
+        "NameJP": "可憐な舞姫",
         "Rarity": 4,
         "MinHp": 18,
         "MaxHp": 122,
@@ -542,7 +542,7 @@
     {
         "BaseId": 400034,
         "Name": "Destiny's Hand",
-        "NameJP": "\u904b\u547d\u306e\u6551\u6e08",
+        "NameJP": "運命の救済",
         "Rarity": 4,
         "MinHp": 21,
         "MaxHp": 145,
@@ -562,7 +562,7 @@
     {
         "BaseId": 400128,
         "Name": "Dragon and Tamer",
-        "NameJP": "\u30c9\u30e9\u30b4\u30f3\u30b5\u30fc\u30ab\u30b9",
+        "NameJP": "ドラゴンサーカス",
         "Rarity": 5,
         "MinHp": 27,
         "MaxHp": 183,
@@ -582,7 +582,7 @@
     {
         "BaseId": 400003,
         "Name": "Dragon Arcanum",
-        "NameJP": "\u30c9\u30e9\u30b4\u30f3\u306e\u79d8\u85ac",
+        "NameJP": "ドラゴンの秘薬",
         "Rarity": 2,
         "MinHp": 5,
         "MaxHp": 36,
@@ -602,7 +602,7 @@
     {
         "BaseId": 400067,
         "Name": "Dragon Brethren",
-        "NameJP": "\u30c9\u30e9\u30b4\u30f3\u306e\u8840\u65cf",
+        "NameJP": "ドラゴンの血族",
         "Rarity": 5,
         "MinHp": 27,
         "MaxHp": 184,
@@ -622,7 +622,7 @@
     {
         "BaseId": 400138,
         "Name": "Dragon Dance",
-        "NameJP": "\u30c9\u30e9\u30b4\u30f3\u30c0\u30f3\u30b9",
+        "NameJP": "ドラゴンダンス",
         "Rarity": 4,
         "MinHp": 18,
         "MaxHp": 123,
@@ -642,7 +642,7 @@
     {
         "BaseId": 400016,
         "Name": "Dragon's Nest",
-        "NameJP": "\u30c9\u30e9\u30b4\u30f3\u306e\u5bdd\u5e8a",
+        "NameJP": "ドラゴンの寝床",
         "Rarity": 3,
         "MinHp": 10,
         "MaxHp": 71,
@@ -662,7 +662,7 @@
     {
         "BaseId": 400050,
         "Name": "Dueling Dancers",
-        "NameJP": "\u30c0\u30f3\u30b9\u30fb\u30c0\u30f3\u30b9\u30fb\u30d0\u30c8\u30eb\uff01",
+        "NameJP": "ダンス・ダンス・バトル！",
         "Rarity": 4,
         "MinHp": 22,
         "MaxHp": 147,
@@ -682,7 +682,7 @@
     {
         "BaseId": 400174,
         "Name": "Egg-Shaped Dreams",
-        "NameJP": "\u30a8\u30c3\u30b0\u306b\u63cf\u304f\u5922",
+        "NameJP": "エッグに描く夢",
         "Rarity": 4,
         "MinHp": 23,
         "MaxHp": 156,
@@ -702,7 +702,7 @@
     {
         "BaseId": 400021,
         "Name": "Eight-Leaf Clover",
-        "NameJP": "\u516b\u3064\u8449\u306e\u30af\u30ed\u30fc\u30d0\u30fc",
+        "NameJP": "八つ葉のクローバー",
         "Rarity": 3,
         "MinHp": 10,
         "MaxHp": 71,
@@ -722,7 +722,7 @@
     {
         "BaseId": 400146,
         "Name": "Elegant Escort",
-        "NameJP": "\u30a8\u30ec\u30ac\u30f3\u30c8\u30a8\u30b9\u30b3\u30fc\u30c8",
+        "NameJP": "エレガントエスコート",
         "Rarity": 5,
         "MinHp": 22,
         "MaxHp": 151,
@@ -742,7 +742,7 @@
     {
         "BaseId": 400017,
         "Name": "Enchiridion",
-        "NameJP": "\u79d8\u4f1d\u306e\u66f8",
+        "NameJP": "秘伝の書",
         "Rarity": 3,
         "MinHp": 10,
         "MaxHp": 71,
@@ -762,7 +762,7 @@
     {
         "BaseId": 400140,
         "Name": "Entwined Flames",
-        "NameJP": "\u708e\u306e\u9957\u5bb4",
+        "NameJP": "炎の饗宴",
         "Rarity": 4,
         "MinHp": 21,
         "MaxHp": 142,
@@ -782,7 +782,7 @@
     {
         "BaseId": 400064,
         "Name": "Evening of Luxury",
-        "NameJP": "\u30b4\u30fc\u30b8\u30e3\u30b9\u30fb\u30d1\u30fc\u30c6\u30a3\u30fc",
+        "NameJP": "ゴージャス・パーティー",
         "Rarity": 5,
         "MinHp": 26,
         "MaxHp": 176,
@@ -802,7 +802,7 @@
     {
         "BaseId": 400037,
         "Name": "Fireside Gathering",
-        "NameJP": "\u30a2\u30c4\u30a2\u30c4\u5973\u5b50\u4f1a",
+        "NameJP": "アツアツ女子会",
         "Rarity": 4,
         "MinHp": 23,
         "MaxHp": 156,
@@ -822,7 +822,7 @@
     {
         "BaseId": 400119,
         "Name": "First-Rate Hospitality",
-        "NameJP": "\u6975\u4e0a\u306e\u304a\u3082\u3066\u306a\u3057",
+        "NameJP": "極上のおもてなし",
         "Rarity": 4,
         "MinHp": 21,
         "MaxHp": 142,
@@ -842,7 +842,7 @@
     {
         "BaseId": 400063,
         "Name": "Flash of Genius",
-        "NameJP": "\u5929\u624d\u306e\u9583\u304d",
+        "NameJP": "天才の閃き",
         "Rarity": 5,
         "MinHp": 27,
         "MaxHp": 183,
@@ -862,7 +862,7 @@
     {
         "BaseId": 400033,
         "Name": "Flower in the Fray",
-        "NameJP": "\u767e\u5203\u7e5a\u4e71",
+        "NameJP": "百刃繚乱",
         "Rarity": 4,
         "MinHp": 21,
         "MaxHp": 140,
@@ -882,7 +882,7 @@
     {
         "BaseId": 400022,
         "Name": "Forbidden Relic",
-        "NameJP": "\u7981\u3058\u3089\u308c\u305f\u907a\u7269",
+        "NameJP": "禁じられた遺物",
         "Rarity": 3,
         "MinHp": 10,
         "MaxHp": 71,
@@ -902,7 +902,7 @@
     {
         "BaseId": 400172,
         "Name": "Forest Bonds",
-        "NameJP": "\u68ee\u304c\u7d21\u3050\u7d46",
+        "NameJP": "森が紡ぐ絆",
         "Rarity": 5,
         "MinHp": 26,
         "MaxHp": 177,
@@ -922,7 +922,7 @@
     {
         "BaseId": 400105,
         "Name": "Fresh Perspective",
-        "NameJP": "\u898b\u6163\u308c\u306c\u76ee\u7dda",
+        "NameJP": "見慣れぬ目線",
         "Rarity": 4,
         "MinHp": 21,
         "MaxHp": 140,
@@ -942,7 +942,7 @@
     {
         "BaseId": 400104,
         "Name": "Gale of Beauty",
-        "NameJP": "\u7f8e\u3057\u304d\u70c8\u98a8",
+        "NameJP": "美しき烈風",
         "Rarity": 5,
         "MinHp": 26,
         "MaxHp": 177,
@@ -962,7 +962,7 @@
     {
         "BaseId": 400106,
         "Name": "Garuda's Feathers",
-        "NameJP": "\u30ac\u30eb\u30fc\u30c0\u306e\u7fbd",
+        "NameJP": "ガルーダの羽",
         "Rarity": 3,
         "MinHp": 11,
         "MaxHp": 76,
@@ -982,7 +982,7 @@
     {
         "BaseId": 400103,
         "Name": "Gentle Winds",
-        "NameJP": "\u98a8\u306e\u306c\u304f\u3082\u308a",
+        "NameJP": "風のぬくもり",
         "Rarity": 5,
         "MinHp": 26,
         "MaxHp": 176,
@@ -1002,7 +1002,7 @@
     {
         "BaseId": 400052,
         "Name": "Give Me Your Wounded",
-        "NameJP": "\u30b1\u30ac\u306f\u79c1\u304c\u6cbb\u3057\u307e\u3059",
+        "NameJP": "ケガは私が治します",
         "Rarity": 5,
         "MinHp": 28,
         "MaxHp": 187,
@@ -1022,7 +1022,7 @@
     {
         "BaseId": 400072,
         "Name": "Glorious Tempest",
-        "NameJP": "\u30c6\u30f3\u30da\u30b9\u30c8\u30b0\u30ed\u30fc\u30ea\u30fc",
+        "NameJP": "テンペストグローリー",
         "Rarity": 5,
         "MinHp": 24,
         "MaxHp": 165,
@@ -1042,7 +1042,7 @@
     {
         "BaseId": 400057,
         "Name": "Greatwyrm Brunhilda",
-        "NameJP": "\u4e94\u7adc\u306e\u5486\u54ee\uff1a\u30d6\u30ea\u30e5\u30f3\u30d2\u30eb\u30c7",
+        "NameJP": "五竜の咆哮：ブリュンヒルデ",
         "Rarity": 4,
         "MinHp": 19,
         "MaxHp": 127,
@@ -1062,7 +1062,7 @@
     {
         "BaseId": 400058,
         "Name": "Greatwyrm Jupiter",
-        "NameJP": "\u4e94\u7adc\u306e\u5486\u54ee\uff1a\u30e6\u30d4\u30c6\u30eb",
+        "NameJP": "五竜の咆哮：ユピテル",
         "Rarity": 4,
         "MinHp": 19,
         "MaxHp": 127,
@@ -1082,7 +1082,7 @@
     {
         "BaseId": 400056,
         "Name": "Greatwyrm Mercury",
-        "NameJP": "\u4e94\u7adc\u306e\u5486\u54ee\uff1a\u30de\u30fc\u30ad\u30e5\u30ea\u30fc",
+        "NameJP": "五竜の咆哮：マーキュリー",
         "Rarity": 4,
         "MinHp": 19,
         "MaxHp": 127,
@@ -1102,7 +1102,7 @@
     {
         "BaseId": 400055,
         "Name": "Greatwyrm Midgardsormr",
-        "NameJP": "\u4e94\u7adc\u306e\u5486\u54ee\uff1a\u30df\u30c9\u30ac\u30eb\u30ba\u30aa\u30eb\u30e0",
+        "NameJP": "五竜の咆哮：ミドガルズオルム",
         "Rarity": 4,
         "MinHp": 19,
         "MaxHp": 127,
@@ -1122,7 +1122,7 @@
     {
         "BaseId": 400059,
         "Name": "Greatwyrm Zodiark",
-        "NameJP": "\u4e94\u7adc\u306e\u5486\u54ee\uff1a\u30be\u30c7\u30a3\u30a2\u30fc\u30af",
+        "NameJP": "五竜の咆哮：ゾディアーク",
         "Rarity": 4,
         "MinHp": 19,
         "MaxHp": 127,
@@ -1142,7 +1142,7 @@
     {
         "BaseId": 400282,
         "Name": "Halidom Grooms",
-        "NameJP": "\u8056\u57ce\u306e\u82b1\u5a7f\u305f\u3061",
+        "NameJP": "聖城の花婿たち",
         "Rarity": 4,
         "MinHp": 21,
         "MaxHp": 142,
@@ -1162,7 +1162,7 @@
     {
         "BaseId": 400014,
         "Name": "Hallowed Mountains",
-        "NameJP": "\u9059\u304b\u306a\u308b\u970a\u5cf0",
+        "NameJP": "遙かなる霊峰",
         "Rarity": 3,
         "MinHp": 11,
         "MaxHp": 76,
@@ -1182,7 +1182,7 @@
     {
         "BaseId": 400007,
         "Name": "Halo",
-        "NameJP": "\u8056\u5149\u8f2a",
+        "NameJP": "聖光輪",
         "Rarity": 3,
         "MinHp": 10,
         "MaxHp": 73,
@@ -1202,7 +1202,7 @@
     {
         "BaseId": 400126,
         "Name": "Hanetsuki Rally",
-        "NameJP": "\u7fbd\u5b50\u677f\u52dd\u8ca0\uff01",
+        "NameJP": "羽子板勝負！",
         "Rarity": 4,
         "MinHp": 21,
         "MaxHp": 141,
@@ -1222,7 +1222,7 @@
     {
         "BaseId": 400069,
         "Name": "Happier Times",
-        "NameJP": "\u5728\u308a\u3057\u65e5\u306e\u5e78\u305b",
+        "NameJP": "在りし日の幸せ",
         "Rarity": 4,
         "MinHp": 21,
         "MaxHp": 141,
@@ -1242,7 +1242,7 @@
     {
         "BaseId": 400124,
         "Name": "Happy New Year!",
-        "NameJP": "\u8b39\u8cc0\u65b0\u5e74",
+        "NameJP": "謹賀新年",
         "Rarity": 5,
         "MinHp": 29,
         "MaxHp": 195,
@@ -1262,7 +1262,7 @@
     {
         "BaseId": 400111,
         "Name": "Heavenly Holiday",
-        "NameJP": "\u8056\u8077\u8005\u306e\u4f11\u65e5",
+        "NameJP": "聖職者の休日",
         "Rarity": 5,
         "MinHp": 29,
         "MaxHp": 195,
@@ -1282,7 +1282,7 @@
     {
         "BaseId": 400125,
         "Name": "Heralds of Hinomoto",
-        "NameJP": "\u30d2\u30ce\u30e2\u30c8\u3088\u308a\u306e\u4f7f\u8005",
+        "NameJP": "ヒノモトよりの使者",
         "Rarity": 5,
         "MinHp": 26,
         "MaxHp": 177,
@@ -1302,7 +1302,7 @@
     {
         "BaseId": 400157,
         "Name": "Hitting the Books",
-        "NameJP": "\u8aad\u66f8\u306f\u82e6\u624b\uff1f",
+        "NameJP": "読書は苦手？",
         "Rarity": 5,
         "MinHp": 22,
         "MaxHp": 151,
@@ -1322,7 +1322,7 @@
     {
         "BaseId": 400148,
         "Name": "Honest Repose",
-        "NameJP": "\u30aa\u30cd\u30b9\u30c8\u30e2\u30fc\u30e1\u30f3\u30c8",
+        "NameJP": "オネストモーメント",
         "Rarity": 5,
         "MinHp": 22,
         "MaxHp": 151,
@@ -1342,7 +1342,7 @@
     {
         "BaseId": 400044,
         "Name": "How to Flee Properly",
-        "NameJP": "\u3053\u3053\u306f\u9000\u5374\u3057\u307e\u3057\u3087\u3046\uff01",
+        "NameJP": "ここは退却しましょう！",
         "Rarity": 4,
         "MinHp": 22,
         "MaxHp": 151,
@@ -1362,7 +1362,7 @@
     {
         "BaseId": 400012,
         "Name": "Howling Predator",
-        "NameJP": "\u9802\u306b\u543c\u3048\u308b\u7259",
+        "NameJP": "頂に吼える牙",
         "Rarity": 3,
         "MinHp": 10,
         "MaxHp": 71,
@@ -1382,7 +1382,7 @@
     {
         "BaseId": 400018,
         "Name": "Ironside Shield",
-        "NameJP": "\u9244\u9a0e\u5175\u306e\u76fe",
+        "NameJP": "鉄騎兵の盾",
         "Rarity": 3,
         "MinHp": 11,
         "MaxHp": 76,
@@ -1402,7 +1402,7 @@
     {
         "BaseId": 400099,
         "Name": "Jewels of the Sun",
-        "NameJP": "\u5b9d\u77f3\u3068\u5263",
+        "NameJP": "宝石と剣",
         "Rarity": 5,
         "MinHp": 26,
         "MaxHp": 176,
@@ -1422,7 +1422,7 @@
     {
         "BaseId": 400112,
         "Name": "Kicking Back",
-        "NameJP": "\u3042\u308b\u65e5\u306e\u967d\u3060\u307e\u308a",
+        "NameJP": "ある日の陽だまり",
         "Rarity": 4,
         "MinHp": 22,
         "MaxHp": 147,
@@ -1442,7 +1442,7 @@
     {
         "BaseId": 400041,
         "Name": "King's Countenance",
-        "NameJP": "\u738b\u306e\u5a01\u53b3",
+        "NameJP": "王の威厳",
         "Rarity": 4,
         "MinHp": 22,
         "MaxHp": 151,
@@ -1462,7 +1462,7 @@
     {
         "BaseId": 400163,
         "Name": "Kung Fu Masters",
-        "NameJP": "\u529f\u592b\u306e\u9053",
+        "NameJP": "功夫の道",
         "Rarity": 5,
         "MinHp": 26,
         "MaxHp": 176,
@@ -1482,7 +1482,7 @@
     {
         "BaseId": 400015,
         "Name": "Lakeside Euphony",
-        "NameJP": "\u68ee\u3068\u6e56\u306e\u6b4c\u58f0",
+        "NameJP": "森と湖の歌声",
         "Rarity": 3,
         "MinHp": 11,
         "MaxHp": 76,
@@ -1502,7 +1502,7 @@
     {
         "BaseId": 400070,
         "Name": "Levin's Champion",
-        "NameJP": "\u30ec\u30f4\u30a3\u30aa\u30f3\u306e\u82f1\u96c4",
+        "NameJP": "レヴィオンの英雄",
         "Rarity": 5,
         "MinHp": 26,
         "MaxHp": 176,
@@ -1522,7 +1522,7 @@
     {
         "BaseId": 400024,
         "Name": "Liber Grimortis",
-        "NameJP": "\u300c\u30b0\u30ea\u30e2\u30eb\u30b9\u30fb\u30c7\u30af\u30b9\u300d\u5199\u672c",
+        "NameJP": "「グリモルス・デクス」写本",
         "Rarity": 3,
         "MinHp": 10,
         "MaxHp": 71,
@@ -1542,7 +1542,7 @@
     {
         "BaseId": 400040,
         "Name": "Lord of the Skies",
-        "NameJP": "\u5929\u7a7a\u306e\u8987\u8005",
+        "NameJP": "天空の覇者",
         "Rarity": 4,
         "MinHp": 21,
         "MaxHp": 146,
@@ -1562,7 +1562,7 @@
     {
         "BaseId": 400107,
         "Name": "Louise's Hobbies",
-        "NameJP": "\u30eb\u30a4\u30fc\u30bc\u306e\u8da3\u5473",
+        "NameJP": "ルイーゼの趣味",
         "Rarity": 5,
         "MinHp": 23,
         "MaxHp": 155,
@@ -1582,7 +1582,7 @@
     {
         "BaseId": 400068,
         "Name": "Luca's Prank",
-        "NameJP": "\u30ea\u30e5\u30ab\u306e\u30a4\u30bf\u30ba\u30e9",
+        "NameJP": "リュカのイタズラ",
         "Rarity": 5,
         "MinHp": 27,
         "MaxHp": 183,
@@ -1602,7 +1602,7 @@
     {
         "BaseId": 400127,
         "Name": "Luck of the Draw",
-        "NameJP": "\u65b0\u5e74\u6700\u521d\u306e\u904b\u8a66\u3057",
+        "NameJP": "新年最初の運試し",
         "Rarity": 4,
         "MinHp": 18,
         "MaxHp": 122,
@@ -1622,7 +1622,7 @@
     {
         "BaseId": 400136,
         "Name": "Lunar Festivities",
-        "NameJP": "\u6625\u7bc0\u306e\u304a\u796d\u308a",
+        "NameJP": "春節のお祭り",
         "Rarity": 4,
         "MinHp": 21,
         "MaxHp": 141,
@@ -1642,7 +1642,7 @@
     {
         "BaseId": 400004,
         "Name": "Mana Fount",
-        "NameJP": "\u30de\u30ca\u30b9\u30dd\u30c3\u30c8",
+        "NameJP": "マナスポット",
         "Rarity": 2,
         "MinHp": 5,
         "MaxHp": 35,
@@ -1662,7 +1662,7 @@
     {
         "BaseId": 400031,
         "Name": "Nevermelt Ice",
-        "NameJP": "\u6eb6\u3051\u306a\u3044\u6c37",
+        "NameJP": "溶けない氷",
         "Rarity": 3,
         "MinHp": 11,
         "MaxHp": 76,
@@ -1682,7 +1682,7 @@
     {
         "BaseId": 400093,
         "Name": "New World Escort",
-        "NameJP": "\u65c5\u306e\u30a8\u30b9\u30b3\u30fc\u30c8",
+        "NameJP": "旅のエスコート",
         "Rarity": 4,
         "MinHp": 21,
         "MaxHp": 141,
@@ -1702,7 +1702,7 @@
     {
         "BaseId": 400025,
         "Name": "Night Harbinger",
-        "NameJP": "\u95c7\u591c\u306e\u901a\u544a",
+        "NameJP": "闇夜の通告",
         "Rarity": 3,
         "MinHp": 10,
         "MaxHp": 71,
@@ -1722,7 +1722,7 @@
     {
         "BaseId": 400071,
         "Name": "Nightstalker",
-        "NameJP": "\u30cf\u30f3\u30c6\u30a3\u30f3\u30b0\u30ca\u30a4\u30c8",
+        "NameJP": "ハンティングナイト",
         "Rarity": 5,
         "MinHp": 27,
         "MaxHp": 183,
@@ -1742,7 +1742,7 @@
     {
         "BaseId": 400078,
         "Name": "Of Tricks and Treats",
-        "NameJP": "\u30c8\u30ea\u30c3\u30af\u30c8\u30ea\u30fc\u30c8\u30c8\u30ea\u30c3\u30af",
+        "NameJP": "トリックトリートトリック",
         "Rarity": 5,
         "MinHp": 27,
         "MaxHp": 184,
@@ -1762,7 +1762,7 @@
     {
         "BaseId": 400005,
         "Name": "Old Harp",
-        "NameJP": "\u53e4\u3073\u305f\u30cf\u30fc\u30d7",
+        "NameJP": "古びたハープ",
         "Rarity": 2,
         "MinHp": 5,
         "MaxHp": 36,
@@ -1782,7 +1782,7 @@
     {
         "BaseId": 400045,
         "Name": "One with the Shadows",
-        "NameJP": "\u3053\u306e\u8eab\u306f\u5f71\u3068\u306a\u308a\u3066",
+        "NameJP": "この身は影となりて",
         "Rarity": 4,
         "MinHp": 21,
         "MaxHp": 141,
@@ -1802,7 +1802,7 @@
     {
         "BaseId": 400053,
         "Name": "Paladyn Defender",
-        "NameJP": "\u8056\u9a0e\u58eb\u306e\u5b88\u308a",
+        "NameJP": "聖騎士の守り",
         "Rarity": 4,
         "MinHp": 18,
         "MaxHp": 122,
@@ -1822,7 +1822,7 @@
     {
         "BaseId": 400153,
         "Name": "Partners in Truth",
-        "NameJP": "\u771f\u5b9f\u306e\u63a2\u6c42\u8005",
+        "NameJP": "真実の探求者",
         "Rarity": 5,
         "MinHp": 29,
         "MaxHp": 195,
@@ -1842,7 +1842,7 @@
     {
         "BaseId": 400054,
         "Name": "Pipe Down",
-        "NameJP": "\u5f37\u3044\u7537\u306b\u306a\u308b\u305f\u3081\u306b",
+        "NameJP": "強い男になるために",
         "Rarity": 4,
         "MinHp": 21,
         "MaxHp": 145,
@@ -1862,7 +1862,7 @@
     {
         "BaseId": 400087,
         "Name": "Plunder Pals",
-        "NameJP": "\u30b9\u30a4\u30fc\u30c4\u30d1\u30a4\u30ec\u30fc\u30c4",
+        "NameJP": "スイーツパイレーツ",
         "Rarity": 5,
         "MinHp": 22,
         "MaxHp": 151,
@@ -1882,7 +1882,7 @@
     {
         "BaseId": 400028,
         "Name": "Potiongrass",
-        "NameJP": "\u8056\u8349\u30dd\u30fc\u30b7\u30e7\u30f3\u30cf\u30fc\u30d6",
+        "NameJP": "聖草ポーションハーブ",
         "Rarity": 3,
         "MinHp": 11,
         "MaxHp": 76,
@@ -1902,7 +1902,7 @@
     {
         "BaseId": 400036,
         "Name": "Promises in the Rain",
-        "NameJP": "\u96e8\u7a7a\u306e\u601d\u3044\u51fa",
+        "NameJP": "雨空の思い出",
         "Rarity": 4,
         "MinHp": 23,
         "MaxHp": 156,
@@ -1922,7 +1922,7 @@
     {
         "BaseId": 400032,
         "Name": "Pumpkin Pail",
-        "NameJP": "\u30d1\u30f3\u30d7\u30ad\u30f3\u30dc\u30c3\u30af\u30b9",
+        "NameJP": "パンプキンボックス",
         "Rarity": 3,
         "MinHp": 11,
         "MaxHp": 76,
@@ -1942,7 +1942,7 @@
     {
         "BaseId": 400108,
         "Name": "Queen of the Blue Seas",
-        "NameJP": "\u84bc\u6d77\u306e\u5973\u738b",
+        "NameJP": "蒼海の女王",
         "Rarity": 5,
         "MinHp": 24,
         "MaxHp": 165,
@@ -1962,7 +1962,7 @@
     {
         "BaseId": 400110,
         "Name": "Resounding Rendition",
-        "NameJP": "\u97ff\u304d\u6e21\u308b\u6b4c\u58f0",
+        "NameJP": "響き渡る歌声",
         "Rarity": 5,
         "MinHp": 26,
         "MaxHp": 177,
@@ -1982,7 +1982,7 @@
     {
         "BaseId": 400048,
         "Name": "Revolutionary Magic",
-        "NameJP": "\u7814\u7a76\u6210\u679c\u306e\u65b0\u9b54\u8853",
+        "NameJP": "研究成果の新魔術",
         "Rarity": 4,
         "MinHp": 21,
         "MaxHp": 146,
@@ -2002,7 +2002,7 @@
     {
         "BaseId": 400001,
         "Name": "Ring of Exaltation",
-        "NameJP": "\u52c7\u8e8d\u306e\u6307\u8f2a",
+        "NameJP": "勇躍の指輪",
         "Rarity": 2,
         "MinHp": 5,
         "MaxHp": 36,
@@ -2022,7 +2022,7 @@
     {
         "BaseId": 400117,
         "Name": "Roast Feast",
-        "NameJP": "\u661f\u964d\u308b\u591c\u306e\u6669\u9910",
+        "NameJP": "星降る夜の晩餐",
         "Rarity": 3,
         "MinHp": 10,
         "MaxHp": 73,
@@ -2042,7 +2042,7 @@
     {
         "BaseId": 400116,
         "Name": "Saintly Delivery",
-        "NameJP": "\u5b50\u4f9b\u305f\u3061\u306e\u661f\u7adc\u796d",
+        "NameJP": "子供たちの星竜祭",
         "Rarity": 4,
         "MinHp": 22,
         "MaxHp": 150,
@@ -2062,7 +2062,7 @@
     {
         "BaseId": 400100,
         "Name": "Samurai Siesta",
-        "NameJP": "\u30b5\u30e0\u30e9\u30a4\u305f\u3061\u306e\u4f11\u606f",
+        "NameJP": "サムライたちの休息",
         "Rarity": 4,
         "MinHp": 22,
         "MaxHp": 151,
@@ -2082,7 +2082,7 @@
     {
         "BaseId": 400006,
         "Name": "Scorn the Destrier",
-        "NameJP": "\u540d\u99ac\u30b9\u30ab\u30fc\u30d3\u30c3\u30c8",
+        "NameJP": "名馬スカービット",
         "Rarity": 3,
         "MinHp": 10,
         "MaxHp": 71,
@@ -2102,7 +2102,7 @@
     {
         "BaseId": 400002,
         "Name": "Seafood Soup",
-        "NameJP": "\u30b7\u30fc\u30d5\u30fc\u30c9\u30b9\u30fc\u30d7",
+        "NameJP": "シーフードスープ",
         "Rarity": 2,
         "MinHp": 5,
         "MaxHp": 36,
@@ -2122,7 +2122,7 @@
     {
         "BaseId": 400113,
         "Name": "Secret Friend",
-        "NameJP": "\u306a\u3044\u3057\u3087\u306e\u53cb\u9054",
+        "NameJP": "ないしょの友達",
         "Rarity": 3,
         "MinHp": 10,
         "MaxHp": 71,
@@ -2142,7 +2142,7 @@
     {
         "BaseId": 400061,
         "Name": "Silke Lends a Hand",
-        "NameJP": "\u30b7\u30eb\u30ad\u30fc\u306e\u304a\u624b\u4f1d\u3044",
+        "NameJP": "シルキーのお手伝い",
         "Rarity": 4,
         "MinHp": 22,
         "MaxHp": 150,
@@ -2162,7 +2162,7 @@
     {
         "BaseId": 400049,
         "Name": "Sisters of the Anvil",
-        "NameJP": "\u935b\u51b6\u5c4b\u4e09\u59c9\u59b9\u306e\u7d46",
+        "NameJP": "鍛冶屋三姉妹の絆",
         "Rarity": 4,
         "MinHp": 21,
         "MaxHp": 146,
@@ -2182,7 +2182,7 @@
     {
         "BaseId": 400090,
         "Name": "Slow and Steady",
-        "NameJP": "\u5730\u9053\u306a\u6d3b\u52d5",
+        "NameJP": "地道な活動",
         "Rarity": 4,
         "MinHp": 23,
         "MaxHp": 156,
@@ -2202,7 +2202,7 @@
     {
         "BaseId": 400035,
         "Name": "Sniper's Allure",
-        "NameJP": "\u30bb\u30af\u30b7\u30fc\u30fb\u30b9\u30ca\u30a4\u30d1\u30fc",
+        "NameJP": "セクシー・スナイパー",
         "Rarity": 4,
         "MinHp": 21,
         "MaxHp": 141,
@@ -2222,7 +2222,7 @@
     {
         "BaseId": 400129,
         "Name": "Stellar Show",
-        "NameJP": "\u30d9\u30b9\u30c8\u30d1\u30d5\u30a9\u30fc\u30de\u30f3\u30b9",
+        "NameJP": "ベストパフォーマンス",
         "Rarity": 5,
         "MinHp": 26,
         "MaxHp": 176,
@@ -2242,7 +2242,7 @@
     {
         "BaseId": 400168,
         "Name": "Study Rabbits",
-        "NameJP": "\u5922\u306b\u898b\u305f\u5b66\u6821\u751f\u6d3b\u266a",
+        "NameJP": "夢に見た学校生活♪",
         "Rarity": 5,
         "MinHp": 29,
         "MaxHp": 195,
@@ -2262,7 +2262,7 @@
     {
         "BaseId": 400013,
         "Name": "Syndicate Mask",
-        "NameJP": "\u300a\u7d50\u793e\u300b\u306e\u4eee\u9762",
+        "NameJP": "《結社》の仮面",
         "Rarity": 3,
         "MinHp": 11,
         "MaxHp": 76,
@@ -2282,7 +2282,7 @@
     {
         "BaseId": 400147,
         "Name": "Take My Hand",
-        "NameJP": "\u30ae\u30f4\u30fb\u30df\u30fc\u30fb\u30e6\u30a2\u30cf\u30f3\u30c9",
+        "NameJP": "ギヴ・ミー・ユアハンド",
         "Rarity": 5,
         "MinHp": 23,
         "MaxHp": 155,
@@ -2302,7 +2302,7 @@
     {
         "BaseId": 400008,
         "Name": "Teatime",
-        "NameJP": "\u30c6\u30a3\u30fc\u30bf\u30a4\u30e0",
+        "NameJP": "ティータイム",
         "Rarity": 3,
         "MinHp": 10,
         "MaxHp": 71,
@@ -2322,7 +2322,7 @@
     {
         "BaseId": 400096,
         "Name": "The Bridal Dragon",
-        "NameJP": "\u82b1\u5ac1\u306f\u30c9\u30e9\u30b4\u30f3",
+        "NameJP": "花嫁はドラゴン",
         "Rarity": 5,
         "MinHp": 26,
         "MaxHp": 177,
@@ -2342,7 +2342,7 @@
     {
         "BaseId": 400092,
         "Name": "The Chocolatiers",
-        "NameJP": "\u30c1\u30e7\u30b3\u30ec\u30fc\u30c8\u30fb\u30ec\u30c3\u30b9\u30f3",
+        "NameJP": "チョコレート・レッスン",
         "Rarity": 5,
         "MinHp": 26,
         "MaxHp": 178,
@@ -2362,7 +2362,7 @@
     {
         "BaseId": 400151,
         "Name": "The Davian Wetlands",
-        "NameJP": "\u30c0\u30d3\u30a2\u306e\u6e7f\u5730\u5e2f",
+        "NameJP": "ダビアの湿地帯",
         "Rarity": 3,
         "MinHp": 11,
         "MaxHp": 76,
@@ -2382,7 +2382,7 @@
     {
         "BaseId": 400154,
         "Name": "The Fleeting Girl",
-        "NameJP": "\u511a\u3052\u306a\u5c11\u5973",
+        "NameJP": "儚げな少女",
         "Rarity": 5,
         "MinHp": 28,
         "MaxHp": 187,
@@ -2402,7 +2402,7 @@
     {
         "BaseId": 400123,
         "Name": "The Greatest Gift",
-        "NameJP": "\u3042\u306a\u305f\u3078\u306e\u30d7\u30ec\u30bc\u30f3\u30c8",
+        "NameJP": "あなたへのプレゼント",
         "Rarity": 5,
         "MinHp": 22,
         "MaxHp": 151,
@@ -2422,7 +2422,7 @@
     {
         "BaseId": 400101,
         "Name": "The Halidom's Picnic",
-        "NameJP": "\u304a\u51fa\u304b\u3051\u306e\u65e5\u306e\u3068\u3063\u3066\u304a\u304d",
+        "NameJP": "お出かけの日のとっておき",
         "Rarity": 3,
         "MinHp": 11,
         "MaxHp": 76,
@@ -2442,7 +2442,7 @@
     {
         "BaseId": 400156,
         "Name": "The Heretic's Laboratory",
-        "NameJP": "\u7570\u7aef\u306e\u7814\u7a76\u5ba4",
+        "NameJP": "異端の研究室",
         "Rarity": 3,
         "MinHp": 10,
         "MaxHp": 71,
@@ -2462,7 +2462,7 @@
     {
         "BaseId": 400277,
         "Name": "The Heroes Arrive",
-        "NameJP": "\u82f1\u96c4\u3001\u6765\u305f\u308c\u308a",
+        "NameJP": "英雄、来たれり",
         "Rarity": 5,
         "MinHp": 26,
         "MaxHp": 176,
@@ -2482,7 +2482,7 @@
     {
         "BaseId": 400279,
         "Name": "The Order's Messenger Owl",
-        "NameJP": "\u7279\u52d9\u6a5f\u95a2\u306e\u4f1d\u66f8\u3075\u304f\u308d\u3046",
+        "NameJP": "特務機関の伝書ふくろう",
         "Rarity": 3,
         "MinHp": 7,
         "MaxHp": 53,
@@ -2502,7 +2502,7 @@
     {
         "BaseId": 400142,
         "Name": "The Petal Queen",
-        "NameJP": "\u30ed\u30fc\u30ba\u30d5\u30a7\u30a2\u30ea\u30fc",
+        "NameJP": "ローズフェアリー",
         "Rarity": 5,
         "MinHp": 22,
         "MaxHp": 151,
@@ -2522,7 +2522,7 @@
     {
         "BaseId": 400115,
         "Name": "The Prince of Dragonyule",
-        "NameJP": "\u661f\u7adc\u796d\u306e\u738b\u5b50\u69d8",
+        "NameJP": "星竜祭の王子様",
         "Rarity": 5,
         "MinHp": 26,
         "MaxHp": 177,
@@ -2542,7 +2542,7 @@
     {
         "BaseId": 400139,
         "Name": "The Rose Prince",
-        "NameJP": "\u8594\u8587\u306e\u8cb4\u516c\u5b50",
+        "NameJP": "薔薇の貴公子",
         "Rarity": 5,
         "MinHp": 29,
         "MaxHp": 195,
@@ -2562,7 +2562,7 @@
     {
         "BaseId": 400167,
         "Name": "The Shining Overlord",
-        "NameJP": "\u30b7\u30e3\u30a4\u30cb\u30f3\u30b0\u30fb\u30aa\u30fc\u30d0\u30fc\u30ed\u30fc\u30c9",
+        "NameJP": "シャイニング・オーバーロード",
         "Rarity": 5,
         "MinHp": 26,
         "MaxHp": 176,
@@ -2582,7 +2582,7 @@
     {
         "BaseId": 400060,
         "Name": "The Warrioresses",
-        "NameJP": "\u30c7\u30f3\u30b8\u30e3\u30e9\u30b9\u30d3\u30e5\u30fc\u30c6\u30a3",
+        "NameJP": "デンジャラスビューティ",
         "Rarity": 4,
         "MinHp": 21,
         "MaxHp": 140,
@@ -2601,8 +2601,8 @@
     },
     {
         "BaseId": 400175,
-        "Name": "Tiny Drago\u00f1atas",
-        "NameJP": "\u30bf\u30a4\u30cb\u30fc\u30fb\u30c9\u30e9\u30b4\u30f3\u30d1\u30d4\u30a8",
+        "Name": "Tiny Dragoñatas",
+        "NameJP": "タイニー・ドラゴンパピエ",
         "Rarity": 3,
         "MinHp": 10,
         "MaxHp": 71,
@@ -2622,7 +2622,7 @@
     {
         "BaseId": 400141,
         "Name": "To My Beloved",
-        "NameJP": "\u6700\u611b\u306e\u4eba\u3078",
+        "NameJP": "最愛の人へ",
         "Rarity": 3,
         "MinHp": 10,
         "MaxHp": 71,
@@ -2642,7 +2642,7 @@
     {
         "BaseId": 400051,
         "Name": "Together We Stand",
-        "NameJP": "\u6226\u5834\u306e\u3075\u305f\u308a",
+        "NameJP": "戦場のふたり",
         "Rarity": 4,
         "MinHp": 21,
         "MaxHp": 140,
@@ -2662,7 +2662,7 @@
     {
         "BaseId": 400075,
         "Name": "Tough Love",
-        "NameJP": "\u9b3c\u6559\u5b98\u306e\u30a8\u30fc\u30eb",
+        "NameJP": "鬼教官のエール",
         "Rarity": 5,
         "MinHp": 26,
         "MaxHp": 176,
@@ -2682,7 +2682,7 @@
     {
         "BaseId": 400026,
         "Name": "Tracks of Hope",
-        "NameJP": "\u660e\u65e5\u3078\u306e\u8f4d",
+        "NameJP": "明日への轍",
         "Rarity": 3,
         "MinHp": 11,
         "MaxHp": 76,
@@ -2702,7 +2702,7 @@
     {
         "BaseId": 400038,
         "Name": "Trove of Knowledge",
-        "NameJP": "\u6211\u3089\u304c\u77e5\u6075\u888b",
+        "NameJP": "我らが知恵袋",
         "Rarity": 4,
         "MinHp": 23,
         "MaxHp": 156,
@@ -2722,7 +2722,7 @@
     {
         "BaseId": 400023,
         "Name": "Unfulfilled Visions",
-        "NameJP": "\u3064\u308f\u3082\u306e\u305f\u3061\u306e\u5922\u306e\u8de1",
+        "NameJP": "つわものたちの夢の跡",
         "Rarity": 3,
         "MinHp": 10,
         "MaxHp": 71,
@@ -2742,7 +2742,7 @@
     {
         "BaseId": 400144,
         "Name": "Valentine's Venture",
-        "NameJP": "\u6f22\u306e\u30d0\u30ec\u30f3\u30bf\u30a4\u30f3",
+        "NameJP": "漢のバレンタイン",
         "Rarity": 5,
         "MinHp": 22,
         "MaxHp": 151,
@@ -2762,7 +2762,7 @@
     {
         "BaseId": 400062,
         "Name": "Valiant Crown",
-        "NameJP": "\u30d6\u30ec\u30a4\u30b8\u30f3\u30b0\u30fb\u30af\u30e9\u30a6\u30f3",
+        "NameJP": "ブレイジング・クラウン",
         "Rarity": 5,
         "MinHp": 26,
         "MaxHp": 176,
@@ -2782,7 +2782,7 @@
     {
         "BaseId": 400027,
         "Name": "Vio Rhyse Alberia!",
-        "NameJP": "\u30f4\u30a3\u30aa\u30fb\u30e9\u30a4\u30b8\u30a8\u30fb\u30a2\u30eb\u30d9\u30ea\u30a2\uff01",
+        "NameJP": "ヴィオ・ライジエ・アルベリア！",
         "Rarity": 3,
         "MinHp": 10,
         "MaxHp": 71,
@@ -2802,7 +2802,7 @@
     {
         "BaseId": 400121,
         "Name": "Volcanic Queen",
-        "NameJP": "\u30f4\u30a9\u30eb\u30ab\u30cb\u30c3\u30af\u30af\u30a4\u30fc\u30f3",
+        "NameJP": "ヴォルカニッククイーン",
         "Rarity": 5,
         "MinHp": 24,
         "MaxHp": 165,
@@ -2822,7 +2822,7 @@
     {
         "BaseId": 400046,
         "Name": "Warlust",
-        "NameJP": "\u697d\u3057\u304d\u547d\u61f8\u3051\u306e\u6226",
+        "NameJP": "楽しき命懸けの戦",
         "Rarity": 4,
         "MinHp": 21,
         "MaxHp": 140,
@@ -2842,7 +2842,7 @@
     {
         "BaseId": 400080,
         "Name": "Warrior Maiden",
-        "NameJP": "\u6226\u65d7\u306e\u4e59\u5973",
+        "NameJP": "戦旗の乙女",
         "Rarity": 5,
         "MinHp": 27,
         "MaxHp": 180,
@@ -2862,7 +2862,7 @@
     {
         "BaseId": 400130,
         "Name": "Welcome One and All",
-        "NameJP": "\u8f1d\u3051\u308b\u5834\u6240",
+        "NameJP": "輝ける場所",
         "Rarity": 3,
         "MinHp": 10,
         "MaxHp": 71,
@@ -2882,7 +2882,7 @@
     {
         "BaseId": 400043,
         "Name": "What a Handful!",
-        "NameJP": "\u624b\u304c\u304b\u304b\u308b\u3093\u3060\u304b\u3089\uff01",
+        "NameJP": "手がかかるんだから！",
         "Rarity": 4,
         "MinHp": 22,
         "MaxHp": 150,
@@ -2902,7 +2902,7 @@
     {
         "BaseId": 400019,
         "Name": "Winds of Saint Lotier",
-        "NameJP": "\u30bb\u30f3\u30c8\u30ed\u30fc\u30bf\u30b9\u306e\u98a8",
+        "NameJP": "セントロータスの風",
         "Rarity": 3,
         "MinHp": 10,
         "MaxHp": 73,
@@ -2922,7 +2922,7 @@
     {
         "BaseId": 400077,
         "Name": "Witch's Kitchen",
-        "NameJP": "\u30cf\u30ed\u30a6\u30a3\u30f3\u30a6\u30a3\u30c3\u30c1\u30af\u30e9\u30d5\u30c8",
+        "NameJP": "ハロウィンウィッチクラフト",
         "Rarity": 5,
         "MinHp": 27,
         "MaxHp": 183,
@@ -2942,7 +2942,7 @@
     {
         "BaseId": 400065,
         "Name": "Worthy Rivals",
-        "NameJP": "\u597d\u6575\u624b",
+        "NameJP": "好敵手",
         "Rarity": 5,
         "MinHp": 26,
         "MaxHp": 177,

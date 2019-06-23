@@ -325,7 +325,7 @@
         "CraftMaterialType5": 8,
         "CraftMaterial5": "Royal Vermilion Insignia",
         "CraftMaterialQuantity5": 200,
-        "Name": "\u4e45\u9060\u306e\u7114"
+        "Name": "久遠の焔"
     },
     {
         "Id": 30230201,
@@ -530,7 +530,7 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": 0,
         "CraftMaterialQuantity5": 0,
-        "Name": "\u30af\u30ea\u30e0\u30be\u30f3\u30a2\u30c3\u30af\u30b9"
+        "Name": "クリムゾンアックス"
     },
     {
         "Id": 30840101,
@@ -571,7 +571,7 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": 0,
         "CraftMaterialQuantity5": 0,
-        "Name": "\u30a2\u30fc\u30af\u30d5\u30ec\u30a2\u30b9\u30bf\u30c3\u30d5"
+        "Name": "アークフレアスタッフ"
     },
     {
         "Id": 30640102,
@@ -612,7 +612,7 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": 0,
         "CraftMaterialQuantity5": 0,
-        "Name": "\u30a2\u30fc\u30de\u30fc\u30c9\u30d5\u30ec\u30a2\u30dc\u30a6"
+        "Name": "アーマードフレアボウ"
     },
     {
         "Id": 30840102,
@@ -653,7 +653,7 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": "",
         "CraftMaterialQuantity5": 0,
-        "Name": "\u30d5\u30eb\u30d5\u30ec\u30a4\u30e0\u30aa\u30fc\u30c0\u30fc"
+        "Name": "フルフレイムオーダー"
     },
     {
         "Id": 30330501,
@@ -817,7 +817,7 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": "",
         "CraftMaterialQuantity5": 0,
-        "Name": "\u6483\u69cd\u30a2\u30f3\u30b0\u30ea\u30d5"
+        "Name": "撃槍アングリフ"
     },
     {
         "Id": 30839904,
@@ -940,7 +940,7 @@
         "CraftMaterialType5": 8,
         "CraftMaterial5": "Royal Vermilion Insignia",
         "CraftMaterialQuantity5": 200,
-        "Name": "\u30f4\u30a9\u30eb\u30ab\u30cb\u30c3\u30af\u30a2\u30c3\u30af\u30b9"
+        "Name": "ヴォルカニックアックス"
     },
     {
         "Id": 30450301,
@@ -1104,7 +1104,7 @@
         "CraftMaterialType5": 8,
         "CraftMaterial5": "Stream Orb",
         "CraftMaterialQuantity5": 2,
-        "Name": "\u84bc\u66dc\u4e38"
+        "Name": "蒼曜丸"
     },
     {
         "Id": 30230104,
@@ -1719,7 +1719,7 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": "",
         "CraftMaterialQuantity5": 0,
-        "Name": "\u5996\u706b\u306e\u5b9d\u7b0f"
+        "Name": "妖火の宝笏"
     },
     {
         "Id": 30339905,
@@ -1842,7 +1842,7 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": "",
         "CraftMaterialQuantity5": 0,
-        "Name": "\u30b8\u30e3\u30b9\u30c6\u30a3\u30b9\u30d8\u30f4\u30a3"
+        "Name": "ジャスティスヘヴィ"
     },
     {
         "Id": 30340204,
@@ -1883,7 +1883,7 @@
         "CraftMaterialType5": 8,
         "CraftMaterial5": "Deluge Orb",
         "CraftMaterialQuantity5": 2,
-        "Name": "\u30b9\u30d7\u30e9\u30c3\u30b7\u30e5\u30d8\u30d3\u30a3"
+        "Name": "スプラッシュヘビィ"
     },
     {
         "Id": 30340402,
@@ -2088,7 +2088,7 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": "",
         "CraftMaterialQuantity5": 0,
-        "Name": "\u30d7\u30ed\u30df\u30cd\u30f3\u30b9\u30d5\u30a1\u30f3\u30ac\u30b9"
+        "Name": "プロミネンスファンガス"
     },
     {
         "Id": 30130102,
@@ -2129,7 +2129,7 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": 0,
         "CraftMaterialQuantity5": 0,
-        "Name": "\u30cf\u30fc\u30c9\u30d2\u30fc\u30c8\u30bd\u30fc\u30c9"
+        "Name": "ハードヒートソード"
     },
     {
         "Id": 30130103,
@@ -2170,7 +2170,7 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": "",
         "CraftMaterialQuantity5": 0,
-        "Name": "\u30d6\u30ec\u30a4\u30ba\u30a4\u30f3\u30b4\u30c3\u30c8"
+        "Name": "ブレイズインゴット"
     },
     {
         "Id": 30240102,
@@ -2211,7 +2211,7 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": "",
         "CraftMaterialQuantity5": 0,
-        "Name": "\u771f\u6253\u30fb\u7d05\u7114\u92fc\u4e38"
+        "Name": "真打・紅焔鋼丸"
     },
     {
         "Id": 30140203,
@@ -2252,7 +2252,7 @@
         "CraftMaterialType5": 8,
         "CraftMaterial5": "Deluge Orb",
         "CraftMaterialQuantity5": 2,
-        "Name": "\u30d6\u30ea\u30b6\u30fc\u30c9\u30a4\u30f3\u30b4\u30c3\u30c8"
+        "Name": "ブリザードインゴット"
     },
     {
         "Id": 30440203,
@@ -2293,7 +2293,7 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": "",
         "CraftMaterialQuantity5": 0,
-        "Name": "\u30d6\u30ea\u30b6\u30fc\u30c9\u30ec\u30ea\u30c3\u30af"
+        "Name": "ブリザードレリック"
     },
     {
         "Id": 30130501,
@@ -2785,7 +2785,7 @@
         "CraftMaterialType5": 8,
         "CraftMaterial5": "Royal Vermilion Insignia",
         "CraftMaterialQuantity5": 200,
-        "Name": "\u30ab\u30e9\u30df\u30c6\u30a3\u30c8\u30ea\u30ac\u30fc"
+        "Name": "カラミティトリガー"
     },
     {
         "Id": 30540204,
@@ -2826,7 +2826,7 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": "",
         "CraftMaterialQuantity5": 0,
-        "Name": "\u6226\u6144\u3068\u9177\u8584\u306e\u69cd"
+        "Name": "戦慄と酷薄の槍"
     },
     {
         "Id": 30859901,
@@ -3441,7 +3441,7 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": 0,
         "CraftMaterialQuantity5": 0,
-        "Name": "\u30af\u30ea\u30e0\u30be\u30f3\u30bd\u30fc\u30c9"
+        "Name": "クリムゾンソード"
     },
     {
         "Id": 30259902,
@@ -3523,7 +3523,7 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": "",
         "CraftMaterialQuantity5": 0,
-        "Name": "\u6731\u92fc\u4e38"
+        "Name": "朱鋼丸"
     },
     {
         "Id": 30440102,
@@ -3564,7 +3564,7 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": 0,
         "CraftMaterialQuantity5": 0,
-        "Name": "\u30af\u30ea\u30e0\u30be\u30f3\u30a2\u30c3\u30af\u30b9"
+        "Name": "クリムゾンアックス"
     },
     {
         "Id": 30330101,
@@ -3605,13 +3605,13 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": 0,
         "CraftMaterialQuantity5": 0,
-        "Name": "\u30af\u30eb\u30fc\u30a8\u30eb\u30af\u30af\u30ea"
+        "Name": "クルーエルククリ"
     },
     {
         "Id": 30150501,
         "BaseId": 301037,
         "FormId": 50501,
-        "WeaponName": "D\u00e1insleif",
+        "WeaponName": "Dáinsleif",
         "Type": "Sword",
         "TypeId": 1,
         "Rarity": 5,
@@ -3646,7 +3646,7 @@
         "CraftMaterialType5": 8,
         "CraftMaterial5": "Royal Violet Insignia",
         "CraftMaterialQuantity5": 200,
-        "Name": "D\u00e1insleif"
+        "Name": "Dáinsleif"
     },
     {
         "Id": 30259901,
@@ -3851,7 +3851,7 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": "",
         "CraftMaterialQuantity5": 0,
-        "Name": "\u6681\u3092\u5831\u305b\u308b\u3082\u306e"
+        "Name": "暁を報せるもの"
     },
     {
         "Id": 30330402,
@@ -4179,7 +4179,7 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": "",
         "CraftMaterialQuantity5": 0,
-        "Name": "\u30b3\u30a2\u30fb\u30aa\u30d6\u30fb\u30d6\u30eb\u30fc\u30a2\u30d3\u30b9"
+        "Name": "コア・オブ・ブルーアビス"
     },
     {
         "Id": 30850102,
@@ -4220,7 +4220,7 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": "",
         "CraftMaterialQuantity5": 0,
-        "Name": "\u7d42\u7109\u3092\u5c0e\u304f\u3082\u306e"
+        "Name": "終焉を導くもの"
     },
     {
         "Id": 30439902,
@@ -4548,7 +4548,7 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": "",
         "CraftMaterialQuantity5": 0,
-        "Name": "\u525b\u5f13\u30fb\u30d5\u30a1\u30eb\u30b1\u30f3"
+        "Name": "剛弓・ファルケン"
     },
     {
         "Id": 30130401,
@@ -4630,7 +4630,7 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": "",
         "CraftMaterialQuantity5": 0,
-        "Name": "\u731b\u96ea\u306e\u9b54\u5263"
+        "Name": "猛雪の魔剣"
     },
     {
         "Id": 30740101,
@@ -4671,7 +4671,7 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": 0,
         "CraftMaterialQuantity5": 0,
-        "Name": "\u30d5\u30ec\u30a4\u30e0\u30d6\u30eb\u30fc\u30c8\u30cf\u30a6\u30eb"
+        "Name": "フレイムブルートハウル"
     },
     {
         "Id": 30630102,
@@ -4712,7 +4712,7 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": "",
         "CraftMaterialQuantity5": 0,
-        "Name": "\u30d5\u30a1\u30a4\u30a2\u30d5\u30a1\u30f3\u30ac\u30b9"
+        "Name": "ファイアファンガス"
     },
     {
         "Id": 30140106,
@@ -4753,7 +4753,7 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": "",
         "CraftMaterialQuantity5": 0,
-        "Name": "\u30b0\u30ec\u30a4\u30c6\u30b9\u30c8\u30d5\u30ec\u30a4\u30e0"
+        "Name": "グレイテストフレイム"
     },
     {
         "Id": 30340105,
@@ -4835,7 +4835,7 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": "",
         "CraftMaterialQuantity5": 0,
-        "Name": "\u30d5\u30ea\u30fc\u30d5\u30a1\u30a4\u30a2\u30aa\u30fc\u30c0\u30fc"
+        "Name": "フリーファイアオーダー"
     },
     {
         "Id": 30550102,
@@ -4876,7 +4876,7 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": "",
         "CraftMaterialQuantity5": 0,
-        "Name": "\u708e\u8f5f\u4e71\u821e\u306e\u69cd"
+        "Name": "炎轟乱舞の槍"
     },
     {
         "Id": 30540101,
@@ -4917,7 +4917,7 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": 0,
         "CraftMaterialQuantity5": 0,
-        "Name": "\u7114\u5927\u86c7"
+        "Name": "焔大蛇"
     },
     {
         "Id": 30240101,
@@ -4958,7 +4958,7 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": 0,
         "CraftMaterialQuantity5": 0,
-        "Name": "\u7dcb\u708e\u5200"
+        "Name": "緋炎刀"
     },
     {
         "Id": 30330103,
@@ -4999,7 +4999,7 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": "",
         "CraftMaterialQuantity5": 0,
-        "Name": "\u30d5\u30ec\u30a4\u30e0\u30d8\u30f4\u30a3"
+        "Name": "フレイムヘヴィ"
     },
     {
         "Id": 30330102,
@@ -5040,7 +5040,7 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": "",
         "CraftMaterialQuantity5": 0,
-        "Name": "\u30a2\u30c1\u30a2\u30c1\u30ad\u30ce\u30b3\u306e\u77ed\u5263"
+        "Name": "アチアチキノコの短剣"
     },
     {
         "Id": 30430401,
@@ -5204,13 +5204,13 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": 0,
         "CraftMaterialQuantity5": 0,
-        "Name": "\u30d5\u30e9\u30a4\u30c8\u30d5\u30a1\u30a4\u30a2"
+        "Name": "フライトファイア"
     },
     {
         "Id": 30150403,
         "BaseId": 301081,
         "FormId": 50401,
-        "WeaponName": "F\u00f3lkvangr",
+        "WeaponName": "Fólkvangr",
         "Type": "Sword",
         "TypeId": 1,
         "Rarity": 5,
@@ -5245,7 +5245,7 @@
         "CraftMaterialType5": "",
         "CraftMaterial5": "",
         "CraftMaterialQuantity5": "",
-        "Name": "\u30d5\u30a9\u30eb\u30af\u30f4\u30a1\u30f3\u30b0"
+        "Name": "フォルクヴァング"
     },
     {
         "Id": 30849904,
@@ -5409,7 +5409,7 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": "",
         "CraftMaterialQuantity5": 0,
-        "Name": "\u30d5\u30ea\u30b8\u30c3\u30c8\u30b9\u30c6\u30a3\u30f3\u30ac\u30fc"
+        "Name": "フリジットスティンガー"
     },
     {
         "Id": 30340205,
@@ -5450,7 +5450,7 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": "",
         "CraftMaterialQuantity5": 0,
-        "Name": "\u30d5\u30eb\u30b9\u30c8\u30b9\u30c6\u30a3\u30f3\u30ac\u30fc"
+        "Name": "フルストスティンガー"
     },
     {
         "Id": 30640203,
@@ -5491,7 +5491,7 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": "",
         "CraftMaterialQuantity5": 0,
-        "Name": "\u971c\u6d9b\u306e\u5f13"
+        "Name": "霜涛の弓"
     },
     {
         "Id": 30630202,
@@ -5655,7 +5655,7 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": "",
         "CraftMaterialQuantity5": 0,
-        "Name": "\u6c37\u96ea\u306e\u9b54\u5263"
+        "Name": "氷雪の魔剣"
     },
     {
         "Id": 30449905,
@@ -5983,7 +5983,7 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": "",
         "CraftMaterialQuantity5": 0,
-        "Name": "\u958b\u95e2\u3092\u904b\u3076\u3082\u306e"
+        "Name": "開闢を運ぶもの"
     },
     {
         "Id": 30240501,
@@ -6393,7 +6393,7 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": "",
         "CraftMaterialQuantity5": 0,
-        "Name": "\u5de8\u9df2\u306e\u69cd"
+        "Name": "巨鷲の槍"
     },
     {
         "Id": 30249901,
@@ -6721,7 +6721,7 @@
         "CraftMaterialType5": 8,
         "CraftMaterial5": "Royal Vermilion Insignia",
         "CraftMaterialQuantity5": 200,
-        "Name": "\u5929\u4e4b\u5c3e\u7fbd\u5f35"
+        "Name": "天之尾羽張"
     },
     {
         "Id": 30640404,
@@ -6803,7 +6803,7 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": "",
         "CraftMaterialQuantity5": 0,
-        "Name": "\u5929\u708e\u30b0\u30e9\u30f3\u30b5\u30a4\u30c8"
+        "Name": "天炎グランサイト"
     },
     {
         "Id": 30250302,
@@ -6926,7 +6926,7 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": "",
         "CraftMaterialQuantity5": 0,
-        "Name": "\u5929\u708e\u30b0\u30e9\u30f3\u30b5\u30a4\u30c8\u30fb\u30ec\u30a4\u30b8"
+        "Name": "天炎グランサイト・レイジ"
     },
     {
         "Id": 30359903,
@@ -7131,7 +7131,7 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": "",
         "CraftMaterialQuantity5": 0,
-        "Name": "\u30d8\u30eb\u30b9\u30c6\u30a3\u30f3\u30ac\u30fc"
+        "Name": "ヘルスティンガー"
     },
     {
         "Id": 30159901,
@@ -7254,7 +7254,7 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": "",
         "CraftMaterialQuantity5": 0,
-        "Name": "\u6c34\u5203\u30fb\u6ce2\u6fe4\u4e38"
+        "Name": "水刃・波濤丸"
     },
     {
         "Id": 30250202,
@@ -7295,7 +7295,7 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": "",
         "CraftMaterialQuantity5": 0,
-        "Name": "\u6d6a\u5203\u30fb\u6ce2\u6fe4\u4e00\u6587\u5b57"
+        "Name": "浪刃・波濤一文字"
     },
     {
         "Id": 30640403,
@@ -7541,7 +7541,7 @@
         "CraftMaterialType5": 8,
         "CraftMaterial5": "Stream Orb",
         "CraftMaterialQuantity5": 2,
-        "Name": "\u30a2\u30a4\u30b9\u30a4\u30f3\u30b4\u30c3\u30c8"
+        "Name": "アイスインゴット"
     },
     {
         "Id": 30850103,
@@ -7664,7 +7664,7 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": "",
         "CraftMaterialQuantity5": 0,
-        "Name": "\u30b9\u30e9\u30b9\u30c8\u30da\u30a4\u30f3"
+        "Name": "スラストペイン"
     },
     {
         "Id": 30150102,
@@ -7705,7 +7705,7 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": "",
         "CraftMaterialQuantity5": 0,
-        "Name": "\u30b0\u30ec\u30a4\u30c6\u30b9\u30c8\u30a4\u30f3\u30d5\u30a7\u30eb\u30ce"
+        "Name": "グレイテストインフェルノ"
     },
     {
         "Id": 30249902,
@@ -8238,7 +8238,7 @@
         "CraftMaterialType5": 8,
         "CraftMaterial5": "Royal Vermilion Insignia",
         "CraftMaterialQuantity5": 200,
-        "Name": "\u30ec\u30fc\u30f4\u30a1\u30c6\u30a4\u30f3"
+        "Name": "レーヴァテイン"
     },
     {
         "Id": 30850401,
@@ -8566,7 +8566,7 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": "",
         "CraftMaterialQuantity5": 0,
-        "Name": "\u30d1\u30e9\u30bd\u30eb\u30d0\u30fc\u30ca\u30fc"
+        "Name": "パラソルバーナー"
     },
     {
         "Id": 30840403,
@@ -8689,7 +8689,7 @@
         "CraftMaterialType5": 8,
         "CraftMaterial5": "Royal Vermilion Insignia",
         "CraftMaterialQuantity5": 200,
-        "Name": "\u30a4\u30b0\u30cb\u30fc\u30c8\u30a6\u30eb\u30d5"
+        "Name": "イグニートウルフ"
     },
     {
         "Id": 30140402,
@@ -9345,7 +9345,7 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": "",
         "CraftMaterialQuantity5": 0,
-        "Name": "\u30f4\u30a9\u30eb\u30ab\u30ce\u30a4\u30f3\u30b4\u30c3\u30c8"
+        "Name": "ヴォルカノインゴット"
     },
     {
         "Id": 30749903,
@@ -9714,7 +9714,7 @@
         "CraftMaterialType5": 8,
         "CraftMaterial5": "Deluge Orb",
         "CraftMaterialQuantity5": 2,
-        "Name": "\u771f\u6253\u30fb\u7206\u6d41\u66dc\u4e38"
+        "Name": "真打・爆流曜丸"
     },
     {
         "Id": 30840204,
@@ -10575,7 +10575,7 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": "",
         "CraftMaterialQuantity5": 0,
-        "Name": "\u731b\u708e\u306e\u69cd"
+        "Name": "猛炎の槍"
     },
     {
         "Id": 30859902,
@@ -11108,7 +11108,7 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": "",
         "CraftMaterialQuantity5": 0,
-        "Name": "\u30b9\u30ab\u30fc\u30ec\u30c3\u30c8\u30da\u30a4\u30f3"
+        "Name": "スカーレットペイン"
     },
     {
         "Id": 30340101,
@@ -11149,7 +11149,7 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": 0,
         "CraftMaterialQuantity5": 0,
-        "Name": "\u7d05\u84ee\u306e\u77ed\u5263"
+        "Name": "紅蓮の短剣"
     },
     {
         "Id": 30830201,
@@ -11231,7 +11231,7 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": "",
         "CraftMaterialQuantity5": 0,
-        "Name": "\u7121\u5c3d\u8535\u306e\u5b9d\u7b0f"
+        "Name": "無尽蔵の宝笏"
     },
     {
         "Id": 30749905,
@@ -11272,7 +11272,7 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": "",
         "CraftMaterialQuantity5": 0,
-        "Name": "\u9b42\u306e\u5b9d\u7b0f"
+        "Name": "魂の宝笏"
     },
     {
         "Id": 30740303,
@@ -11395,7 +11395,7 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": "",
         "CraftMaterialQuantity5": 0,
-        "Name": "\u70c8\u65ac\u5200\u30fb\u5374\u706b"
+        "Name": "烈斬刀・却火"
     },
     {
         "Id": 30840203,
@@ -11641,7 +11641,7 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": "",
         "CraftMaterialQuantity5": 0,
-        "Name": "\u6226\u6144\u306e\u69cd"
+        "Name": "戦慄の槍"
     },
     {
         "Id": 30430301,
@@ -11723,7 +11723,7 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": "",
         "CraftMaterialQuantity5": 0,
-        "Name": "\u30b2\u30ad\u30a2\u30c4\u30ad\u30ce\u30b3\u306e\u77ed\u5263"
+        "Name": "ゲキアツキノコの短剣"
     },
     {
         "Id": 30250102,
@@ -11764,7 +11764,7 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": "",
         "CraftMaterialQuantity5": 0,
-        "Name": "\u70c8\u65ac\u5200\u30fb\u5929\u5909\u5374\u706b"
+        "Name": "烈斬刀・天変却火"
     },
     {
         "Id": 30349904,
@@ -11846,7 +11846,7 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": "",
         "CraftMaterialQuantity5": 0,
-        "Name": "\u971c\u96ea\u306e\u5f13"
+        "Name": "霜雪の弓"
     },
     {
         "Id": 30430202,
@@ -11887,7 +11887,7 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": "",
         "CraftMaterialQuantity5": 0,
-        "Name": "\u30b9\u30ce\u30fc\u30ec\u30ea\u30c3\u30af"
+        "Name": "スノーレリック"
     },
     {
         "Id": 30429903,
@@ -12133,7 +12133,7 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": "",
         "CraftMaterialQuantity5": 0,
-        "Name": "\u30b3\u30a2\u30fb\u30aa\u30d6\u30fb\u30aa\u30fc\u30b7\u30e3\u30f3"
+        "Name": "コア・オブ・オーシャン"
     },
     {
         "Id": 30259903,
@@ -12502,7 +12502,7 @@
         "CraftMaterialType5": 8,
         "CraftMaterial5": "Stream Orb",
         "CraftMaterialQuantity5": 2,
-        "Name": "\u30a2\u30af\u30a2\u3078\u30d3\u30a3"
+        "Name": "アクアへビィ"
     },
     {
         "Id": 30830302,
@@ -12748,7 +12748,7 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": 0,
         "CraftMaterialQuantity5": 0,
-        "Name": "\u731b\u304d\u708e\u306e\u6756"
+        "Name": "猛き炎の杖"
     },
     {
         "Id": 30839903,
@@ -12830,7 +12830,7 @@
         "CraftMaterialType5": 8,
         "CraftMaterial5": "Royal Vermilion Insignia",
         "CraftMaterialQuantity5": 200,
-        "Name": "\u8d64\u5e1d\u306e\u708e\u6756"
+        "Name": "赤帝の炎杖"
     },
     {
         "Id": 30659903,
@@ -13404,7 +13404,7 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": "",
         "CraftMaterialQuantity5": 0,
-        "Name": "\u6d77\u6e26\u69cd\u30b7\u30e5\u30c8\u30ed\u30e0"
+        "Name": "海渦槍シュトロム"
     },
     {
         "Id": 30550203,
@@ -13445,7 +13445,7 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": "",
         "CraftMaterialQuantity5": 0,
-        "Name": "\u6d77\u6e26\u69cd\u30b7\u30e5\u30c8\u30ed\u30e0\u30de\u30fc\u30ec"
+        "Name": "海渦槍シュトロムマーレ"
     },
     {
         "Id": 30549901,
@@ -13568,7 +13568,7 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": 0,
         "CraftMaterialQuantity5": 0,
-        "Name": "\u30b5\u30f3\u30e9\u30a4\u30ba\u30ed\u30c3\u30c9"
+        "Name": "サンライズロッド"
     },
     {
         "Id": 30240301,
@@ -13773,7 +13773,7 @@
         "CraftMaterialType5": 8,
         "CraftMaterial5": "Royal Vermilion Insignia",
         "CraftMaterialQuantity5": 200,
-        "Name": "\u30e9\u30f3\u30c9\u30e1\u30a4\u30ab\u30fc"
+        "Name": "ランドメイカー"
     },
     {
         "Id": 30730302,
@@ -14142,7 +14142,7 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": "",
         "CraftMaterialQuantity5": 0,
-        "Name": "\u30e1\u30eb\u30c6\u30a3\u30f3\u30b0\u30d8\u30c3\u30c9"
+        "Name": "メルティングヘッド"
     },
     {
         "Id": 30449902,
@@ -14224,7 +14224,7 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": "",
         "CraftMaterialQuantity5": 0,
-        "Name": "\u30d2\u30fc\u30c8\u30d8\u30c3\u30c9"
+        "Name": "ヒートヘッド"
     },
     {
         "Id": 30329902,
@@ -14962,7 +14962,7 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": "",
         "CraftMaterialQuantity5": 0,
-        "Name": "\u30d1\u30e9\u30bd\u30eb\u30a4\u30b0\u30cb\u30b7\u30e7\u30f3"
+        "Name": "パラソルイグニション"
     },
     {
         "Id": 30750203,
@@ -15085,7 +15085,7 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": "",
         "CraftMaterialQuantity5": 0,
-        "Name": "\u9ec4\u660f\u3092\u544a\u3052\u308b\u3082\u306e"
+        "Name": "黄昏を告げるもの"
     },
     {
         "Id": 30750401,
@@ -15290,7 +15290,7 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": 0,
         "CraftMaterialQuantity5": 0,
-        "Name": "\u540d\u3082\u306a\u304d\u52c7\u8005\u305f\u3061\u306e\u69cd"
+        "Name": "名もなき勇者たちの槍"
     },
     {
         "Id": 30240502,
@@ -15372,7 +15372,7 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": 0,
         "CraftMaterialQuantity5": 0,
-        "Name": "\u30d0\u30eb\u30ab\u30d6\u30ec\u30fc\u30c9"
+        "Name": "バルカブレード"
     },
     {
         "Id": 30830402,
@@ -15536,7 +15536,7 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": "",
         "CraftMaterialQuantity5": 0,
-        "Name": "\u30f4\u30a1\u30fc\u30df\u30ea\u30aa\u30f3\u30da\u30a4\u30f3"
+        "Name": "ヴァーミリオンペイン"
     },
     {
         "Id": 30459901,
@@ -15700,7 +15700,7 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": "",
         "CraftMaterialQuantity5": 0,
-        "Name": "\u7d05\u84ee\u5f13\u30fb\u30f4\u30a1\u30eb\u30ab\u30f3"
+        "Name": "紅蓮弓・ヴァルカン"
     },
     {
         "Id": 30650102,
@@ -15741,7 +15741,7 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": "",
         "CraftMaterialQuantity5": 0,
-        "Name": "\u7d05\u84ee\u5f13\u30fb\u30f4\u30a1\u30eb\u30ab\u30f3\u30ec\u30a4\u30b8"
+        "Name": "紅蓮弓・ヴァルカンレイジ"
     },
     {
         "Id": 30759901,
@@ -16069,7 +16069,7 @@
         "CraftMaterialType5": 0,
         "CraftMaterial5": "",
         "CraftMaterialQuantity5": 0,
-        "Name": "\u8352\u5203\u30fb\u6727"
+        "Name": "荒刃・朧"
     },
     {
         "Id": 30840302,
