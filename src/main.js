@@ -7,6 +7,7 @@ import DragonGifts from './components/DragonGifts.vue'
 import VoidBattles from './components/VoidBattles.vue'
 import StatusSimulator from './components/StatusSimulator.vue'
 import AdventurerMatrix from './components/AdventurerMatrix.vue'
+import AdventurerList from './components/AdventurerList.vue'
 import WyrmprintList from './components/WyrmprintList.vue'
 
 Vue.config.productionTip = false
@@ -21,6 +22,7 @@ const router = new VueRouter({
     { path: '/void-battle', component: VoidBattles },
     { path: '/status-simulator', component: StatusSimulator },
     { path: '/adventurer-matrix', component: AdventurerMatrix },
+    { path: '/adventurer-list', component: AdventurerList },
     { path: '/wyrmprint-list', component: WyrmprintList },
   ]
 })
