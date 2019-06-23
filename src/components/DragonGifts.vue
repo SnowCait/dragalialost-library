@@ -17,8 +17,8 @@
 </template>
 
 <script>
-import gifts from '../assets/json/Gifts.json';
-import dragons from '../assets/json/Dragons.json';
+import gifts from '../assets/json/Gifts.min.json';
+import dragons from '../assets/json/Dragons.min.json';
 
 export default {
     data () {

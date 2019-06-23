@@ -320,13 +320,13 @@
 </template>
 
 <script>
-import adventurersMaster from '../assets/json/Adventurers.json';
-import weaponsMaster from '../assets/json/Weapons.json';
-import wyrmprintsMaster from '../assets/json/Wyrmprints.json';
-import dragonsMaster from '../assets/json/Dragons.json';
-import abilitiesMaster from '../assets/json/Abilities.json';
-import coAbilitiesMaster from '../assets/json/CoAbilities.json';
-import skillsMaster from '../assets/json/Skills.json';
+import adventurersMaster from '../assets/json/Adventurers.min.json';
+import weaponsMaster from '../assets/json/Weapons.min.json';
+import wyrmprintsMaster from '../assets/json/Wyrmprints.min.json';
+import dragonsMaster from '../assets/json/Dragons.min.json';
+import abilitiesMaster from '../assets/json/Abilities.min.json';
+import coAbilitiesMaster from '../assets/json/CoAbilities.min.json';
+import skillsMaster from '../assets/json/Skills.min.json';
 const adventurerLevelsMaster = {
     5: 80,
     4: 70,

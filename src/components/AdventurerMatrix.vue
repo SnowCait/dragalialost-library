@@ -44,7 +44,7 @@
 </template>
 
 <script>
-import adventurersMaster from '../assets/json/Adventurers.json';
+import adventurersMaster from '../assets/json/Adventurers.min.json';
 
 adventurersMaster.forEach(adventurer => {
     adventurer.Image = require('@/assets/img/adventurer/' + adventurer.Id + '_' + ('0' + adventurer.VariationId).slice(-2) + '_r' + ('0' + adventurer.Rarity).slice(-2) + '.png');
