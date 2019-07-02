@@ -6,9 +6,6 @@
         <nav class="menu">
             <ul>
                 <li>
-                    <router-link to="/status-simulator">ステータスシミュ</router-link>
-                </li>
-                <li>
                     <router-link to="/adventurer-matrix">キャラクター表</router-link>
                 </li>
                 <li>
@@ -16,6 +13,9 @@
                 </li>
                 <li>
                     <router-link to="/wyrmprint-list">護符一覧</router-link>
+                </li>
+                <li>
+                    <router-link to="/status-simulator">ステータスシミュ</router-link>
                 </li>
             </ul>
         </nav>
@@ -38,5 +38,9 @@ export default {
 nav.menu ul {
     list-style: none;
     padding: 0;
+}
+nav.menu ul li {
+    font-size: 1.2em;
+    margin: 0.2em auto;
 }
 </style>
