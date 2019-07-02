@@ -1680,6 +1680,30 @@
         "AbilityLimitedGroupId3": 0
     },
     {
+        "Id": 272,
+        "GenericName": "(Shadow) Skill Damage",
+        "Name": "(Shadow) Skill Damage +50%",
+        "Details": "If the user is attuned to Shadow: increases attack skill damage by 50%.",
+        "AbilityIconName": "Icon_Ability_1010002",
+        "AbilityGroup": 10101,
+        "PartyPowerWeight": 60,
+        "AbilityLimitedGroupId1": 32,
+        "AbilityLimitedGroupId2": 0,
+        "AbilityLimitedGroupId3": 0
+    },
+    {
+        "Id": 273,
+        "GenericName": "(Shadow) Skill Damage",
+        "Name": "(Shadow) Skill Damage +70%",
+        "Details": "If the user is attuned to Shadow: increases attack skill damage by 70%.",
+        "AbilityIconName": "Icon_Ability_1010002",
+        "AbilityGroup": 10101,
+        "PartyPowerWeight": 70,
+        "AbilityLimitedGroupId1": 32,
+        "AbilityLimitedGroupId2": 0,
+        "AbilityLimitedGroupId3": 0
+    },
+    {
         "Id": 27,
         "GenericName": "(Shadow) Skill Haste",
         "Name": "(Shadow) Skill Haste +4%",
@@ -1832,6 +1856,42 @@
         "AbilityGroup": 10101,
         "PartyPowerWeight": 100,
         "AbilityLimitedGroupId1": 32,
+        "AbilityLimitedGroupId2": 0,
+        "AbilityLimitedGroupId3": 0
+    },
+    {
+        "Id": 259,
+        "GenericName": "(Water) Affliction Guard",
+        "Name": "(Water) Affliction Guard I",
+        "Details": "If the user is attuned to Water: resists afflictions once per quest.",
+        "AbilityIconName": "Icon_Ability_1030012",
+        "AbilityGroup": 10102,
+        "PartyPowerWeight": 60,
+        "AbilityLimitedGroupId1": 129,
+        "AbilityLimitedGroupId2": 0,
+        "AbilityLimitedGroupId3": 0
+    },
+    {
+        "Id": 260,
+        "GenericName": "(Water) Affliction Guard",
+        "Name": "(Water) Affliction Guard II",
+        "Details": "If the user is attuned to Water: resists afflictions up to two times per quest.",
+        "AbilityIconName": "Icon_Ability_1030012",
+        "AbilityGroup": 10102,
+        "PartyPowerWeight": 80,
+        "AbilityLimitedGroupId1": 129,
+        "AbilityLimitedGroupId2": 0,
+        "AbilityLimitedGroupId3": 0
+    },
+    {
+        "Id": 261,
+        "GenericName": "(Water) Affliction Guard",
+        "Name": "(Water) Affliction Guard III",
+        "Details": "If the user is attuned to Water: resists afflictions up to three times per quest.",
+        "AbilityIconName": "Icon_Ability_1030012",
+        "AbilityGroup": 10102,
+        "PartyPowerWeight": 100,
+        "AbilityLimitedGroupId1": 129,
         "AbilityLimitedGroupId2": 0,
         "AbilityLimitedGroupId3": 0
     },
@@ -2203,6 +2263,30 @@
         "AbilityIconName": "Icon_Ability_1020004",
         "AbilityGroup": 10104,
         "PartyPowerWeight": 60,
+        "AbilityLimitedGroupId1": 40,
+        "AbilityLimitedGroupId2": 0,
+        "AbilityLimitedGroupId3": 0
+    },
+    {
+        "Id": 262,
+        "GenericName": "(Water) Skill Haste",
+        "Name": "(Water) Skill Haste +7%",
+        "Details": "If the user is attuned to Water: increases skill gauge fill rate by 7%.",
+        "AbilityIconName": "Icon_Ability_1020004",
+        "AbilityGroup": 10104,
+        "PartyPowerWeight": 70,
+        "AbilityLimitedGroupId1": 40,
+        "AbilityLimitedGroupId2": 0,
+        "AbilityLimitedGroupId3": 0
+    },
+    {
+        "Id": 263,
+        "GenericName": "(Water) Skill Haste",
+        "Name": "(Water) Skill Haste +9%",
+        "Details": "If the user is attuned to Water: increases skill gauge fill rate by 9%.",
+        "AbilityIconName": "Icon_Ability_1020004",
+        "AbilityGroup": 10104,
+        "PartyPowerWeight": 80,
         "AbilityLimitedGroupId1": 40,
         "AbilityLimitedGroupId2": 0,
         "AbilityLimitedGroupId3": 0
@@ -3060,6 +3144,18 @@
         "AbilityLimitedGroupId3": 0
     },
     {
+        "Id": 319,
+        "GenericName": "Hits = Energy Level Up",
+        "Name": "30 Hits = Energy Level Up",
+        "Details": "Increases the user's energy level by one stage for every 30-hit combo.",
+        "AbilityIconName": "Icon_Ability_1010012",
+        "AbilityGroup": 10104,
+        "PartyPowerWeight": 80,
+        "AbilityLimitedGroupId1": 72,
+        "AbilityLimitedGroupId2": 0,
+        "AbilityLimitedGroupId3": 0
+    },
+    {
         "Id": 310001501,
         "GenericName": "Hits = Energy Level Up",
         "Name": "35 Hits = Energy Level Up",
@@ -3072,7 +3168,31 @@
         "AbilityLimitedGroupId3": 0
     },
     {
+        "Id": 318,
+        "GenericName": "Hits = Energy Level Up",
+        "Name": "35 Hits = Energy Level Up",
+        "Details": "Increases the user's energy level by one stage for every 35-hit combo.",
+        "AbilityIconName": "Icon_Ability_1010012",
+        "AbilityGroup": 10104,
+        "PartyPowerWeight": 70,
+        "AbilityLimitedGroupId1": 72,
+        "AbilityLimitedGroupId2": 0,
+        "AbilityLimitedGroupId3": 0
+    },
+    {
         "Id": 310001503,
+        "GenericName": "Hits = Energy Level Up",
+        "Name": "40 Hits = Energy Level Up",
+        "Details": "Increases the user's energy level by one stage for every 40-hit combo.",
+        "AbilityIconName": "Icon_Ability_1010012",
+        "AbilityGroup": 10104,
+        "PartyPowerWeight": 60,
+        "AbilityLimitedGroupId1": 72,
+        "AbilityLimitedGroupId2": 0,
+        "AbilityLimitedGroupId3": 0
+    },
+    {
+        "Id": 317,
         "GenericName": "Hits = Energy Level Up",
         "Name": "40 Hits = Energy Level Up",
         "Details": "Increases the user's energy level by one stage for every 40-hit combo.",
@@ -4320,6 +4440,30 @@
         "AbilityLimitedGroupId3": 0
     },
     {
+        "Id": 292,
+        "GenericName": "Energy = Strength & Critical Rate",
+        "Name": "Energy = Strength & Critical Rate II",
+        "Details": "Increases the user's strength and critical rate as their energy level increases. The maximum bonus, given when the user is energized, is strength +15% and critical rate +6%.",
+        "AbilityIconName": "Icon_Ability_1020029",
+        "AbilityGroup": 10101,
+        "PartyPowerWeight": 80,
+        "AbilityLimitedGroupId1": 0,
+        "AbilityLimitedGroupId2": 31,
+        "AbilityLimitedGroupId3": 0
+    },
+    {
+        "Id": 297,
+        "GenericName": "Energy = Strength & Critical Rate",
+        "Name": "Energy = Strength & Critical Rate III",
+        "Details": "Increases the user's strength and critical rate as their energy level increases. The maximum bonus, given when the user is energized, is strength +20% and critical rate +8%.",
+        "AbilityIconName": "Icon_Ability_1020029",
+        "AbilityGroup": 10101,
+        "PartyPowerWeight": 100,
+        "AbilityLimitedGroupId1": 0,
+        "AbilityLimitedGroupId2": 31,
+        "AbilityLimitedGroupId3": 0
+    },
+    {
         "Id": 210002701,
         "GenericName": "Energy Doublebuff",
         "Name": "Energy Doublebuff",
@@ -4386,6 +4530,30 @@
         "Details": "[Show] Grants the user an Attack Gauge and a Burst Gauge. The Attack Gauge fills when regular attacks connect with enemies, while the Burst Gauge is filled when force strikes successfully connect.  The user's defense is increased by 8% for 1 completely filled gauge and 15% if both gauges are completely filled. \nAny filled gauges are consumed when using the Cyclone Blade skill, increasing its power by 20% for 1 completely filled gauge and 80% if both gauges are completely filled.",
         "AbilityIconName": "Icon_Ability_1010013",
         "AbilityGroup": 19901,
+        "PartyPowerWeight": 100,
+        "AbilityLimitedGroupId1": 0,
+        "AbilityLimitedGroupId2": 0,
+        "AbilityLimitedGroupId3": 0
+    },
+    {
+        "Id": 288,
+        "GenericName": "Extra Energy",
+        "Name": "Extra Energy II",
+        "Details": "Grants a 50% chance that a user's energy level will increase by an additional stage upon being increased.",
+        "AbilityIconName": "Icon_Ability_1010012",
+        "AbilityGroup": 10104,
+        "PartyPowerWeight": 80,
+        "AbilityLimitedGroupId1": 0,
+        "AbilityLimitedGroupId2": 0,
+        "AbilityLimitedGroupId3": 0
+    },
+    {
+        "Id": 289,
+        "GenericName": "Extra Energy",
+        "Name": "Extra Energy III",
+        "Details": "Grants an 80% chance that a user's energy level will increase by an additional stage upon being increased.",
+        "AbilityIconName": "Icon_Ability_1010012",
+        "AbilityGroup": 10104,
         "PartyPowerWeight": 100,
         "AbilityLimitedGroupId1": 0,
         "AbilityLimitedGroupId2": 0,
@@ -5756,6 +5924,30 @@
         "AbilityGroup": 10101,
         "PartyPowerWeight": 60,
         "AbilityLimitedGroupId1": 42,
+        "AbilityLimitedGroupId2": 0,
+        "AbilityLimitedGroupId3": 0
+    },
+    {
+        "Id": 290,
+        "GenericName": "HP Below 30 = Strength & Attack Rate",
+        "Name": "HP Below 30% = Strength & Attack Rate II",
+        "Details": "Increases strength by 15% and attack rate by 10% when HP is 30% or below.",
+        "AbilityIconName": "Icon_Ability_1020030",
+        "AbilityGroup": 10101,
+        "PartyPowerWeight": 80,
+        "AbilityLimitedGroupId1": 0,
+        "AbilityLimitedGroupId2": 0,
+        "AbilityLimitedGroupId3": 0
+    },
+    {
+        "Id": 291,
+        "GenericName": "HP Below 30 = Strength & Attack Rate",
+        "Name": "HP Below 30% = Strength & Attack Rate III",
+        "Details": "Increases strength by 20% and attack rate by 10% when HP is 30% or below.",
+        "AbilityIconName": "Icon_Ability_1020030",
+        "AbilityGroup": 10101,
+        "PartyPowerWeight": 100,
+        "AbilityLimitedGroupId1": 0,
         "AbilityLimitedGroupId2": 0,
         "AbilityLimitedGroupId3": 0
     },
