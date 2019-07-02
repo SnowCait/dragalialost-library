@@ -243,6 +243,15 @@
         "SPLv2": 6770
     },
     {
+        "SkillId": 101401031,
+        "SkillLv1IconName": "Icon_Skill_006",
+        "SkillLv2IconName": "Icon_Skill_006",
+        "SkillLv3IconName": "Icon_Skill_006",
+        "HideLevel3": "",
+        "Sp": 2500,
+        "SPLv2": 2500
+    },
+    {
         "SkillId": 301404011,
         "SkillLv1IconName": "Icon_Skill_029",
         "SkillLv2IconName": "Icon_Skill_029",
@@ -396,6 +405,15 @@
         "SPLv2": 7330
     },
     {
+        "SkillId": 101401032,
+        "SkillLv1IconName": "Icon_Skill_011",
+        "SkillLv2IconName": "Icon_Skill_011",
+        "SkillLv3IconName": "Icon_Skill_011",
+        "HideLevel3": "Yes",
+        "Sp": 4593,
+        "SPLv2": 4593
+    },
+    {
         "SkillId": 200501031,
         "SkillLv1IconName": "Icon_Skill_018",
         "SkillLv2IconName": "Icon_Skill_018",
@@ -468,6 +486,15 @@
         "SPLv2": 7734
     },
     {
+        "SkillId": 102404011,
+        "SkillLv1IconName": "Icon_Skill_009",
+        "SkillLv2IconName": "Icon_Skill_009",
+        "SkillLv3IconName": "Icon_Skill_009",
+        "HideLevel3": "",
+        "Sp": 2567,
+        "SPLv2": 2567
+    },
+    {
         "SkillId": 101504021,
         "SkillLv1IconName": "Icon_Skill_042",
         "SkillLv2IconName": "Icon_Skill_042",
@@ -484,6 +511,15 @@
         "HideLevel3": "Yes",
         "Sp": 5422,
         "SPLv2": 5422
+    },
+    {
+        "SkillId": 101505012,
+        "SkillLv1IconName": "Icon_Skill_049",
+        "SkillLv2IconName": "Icon_Skill_049",
+        "SkillLv3IconName": "Icon_Skill_049",
+        "HideLevel3": "Yes",
+        "Sp": 3636,
+        "SPLv2": 3636
     },
     {
         "SkillId": 106404012,
@@ -529,6 +565,15 @@
         "HideLevel3": "",
         "Sp": 3817,
         "SPLv2": 3817
+    },
+    {
+        "SkillId": 200503081,
+        "SkillLv1IconName": "Icon_Skill_029",
+        "SkillLv2IconName": "Icon_Skill_029",
+        "SkillLv3IconName": "Icon_Skill_029",
+        "HideLevel3": "Yes",
+        "Sp": 30,
+        "SPLv2": 30
     },
     {
         "SkillId": 106501011,
@@ -745,6 +790,15 @@
         "HideLevel3": "",
         "Sp": 3083,
         "SPLv2": 3083
+    },
+    {
+        "SkillId": 102505022,
+        "SkillLv1IconName": "Icon_Skill_051",
+        "SkillLv2IconName": "Icon_Skill_051",
+        "SkillLv3IconName": "Icon_Skill_051",
+        "HideLevel3": "Yes",
+        "Sp": 6000,
+        "SPLv2": 6000
     },
     {
         "SkillId": 108404032,
@@ -981,6 +1035,24 @@
         "SPLv2": 5315
     },
     {
+        "SkillId": 200501071,
+        "SkillLv1IconName": "Icon_Skill_020",
+        "SkillLv2IconName": "Icon_Skill_020",
+        "SkillLv3IconName": "Icon_Skill_020",
+        "HideLevel3": "Yes",
+        "Sp": 30,
+        "SPLv2": 30
+    },
+    {
+        "SkillId": 102505021,
+        "SkillLv1IconName": "Icon_Skill_050",
+        "SkillLv2IconName": "Icon_Skill_050",
+        "SkillLv3IconName": "Icon_Skill_050",
+        "HideLevel3": "",
+        "Sp": 3247,
+        "SPLv2": 3247
+    },
+    {
         "SkillId": 200501011,
         "SkillLv1IconName": "Icon_Skill_006",
         "SkillLv2IconName": "Icon_Skill_006",
@@ -1017,6 +1089,15 @@
         "SPLv2": 8075
     },
     {
+        "SkillId": 105501011,
+        "SkillLv1IconName": "Icon_Skill_003",
+        "SkillLv2IconName": "Icon_Skill_003",
+        "SkillLv3IconName": "Icon_Skill_003",
+        "HideLevel3": "",
+        "Sp": 2914,
+        "SPLv2": 2914
+    },
+    {
         "SkillId": 105502011,
         "SkillLv1IconName": "Icon_Skill_004",
         "SkillLv2IconName": "Icon_Skill_004",
@@ -1024,6 +1105,15 @@
         "HideLevel3": "",
         "Sp": 2450,
         "SPLv2": 2450
+    },
+    {
+        "SkillId": 108403021,
+        "SkillLv1IconName": "Icon_Skill_029",
+        "SkillLv2IconName": "Icon_Skill_029",
+        "SkillLv3IconName": "Icon_Skill_029",
+        "HideLevel3": "",
+        "Sp": 7888,
+        "SPLv2": 7888
     },
     {
         "SkillId": 303499031,
@@ -1224,6 +1314,15 @@
         "SPLv2": 2257
     },
     {
+        "SkillId": 101505011,
+        "SkillLv1IconName": "Icon_Skill_047",
+        "SkillLv2IconName": "Icon_Skill_047",
+        "SkillLv3IconName": "Icon_Skill_047",
+        "HideLevel3": "",
+        "Sp": 2818,
+        "SPLv2": 2818
+    },
+    {
         "SkillId": 106404021,
         "SkillLv1IconName": "Icon_Skill_028",
         "SkillLv2IconName": "Icon_Skill_028",
@@ -1269,6 +1368,15 @@
         "SPLv2": 13822
     },
     {
+        "SkillId": 105401021,
+        "SkillLv1IconName": "Icon_Skill_012",
+        "SkillLv2IconName": "Icon_Skill_012",
+        "SkillLv3IconName": "Icon_Skill_012",
+        "HideLevel3": "",
+        "Sp": 2707,
+        "SPLv2": 2707
+    },
+    {
         "SkillId": 302401011,
         "SkillLv1IconName": "Icon_Skill_031",
         "SkillLv2IconName": "Icon_Skill_031",
@@ -1276,6 +1384,15 @@
         "HideLevel3": "Yes",
         "Sp": 6678,
         "SPLv2": 6678
+    },
+    {
+        "SkillId": 105501012,
+        "SkillLv1IconName": "Icon_Skill_025",
+        "SkillLv2IconName": "Icon_Skill_025",
+        "SkillLv3IconName": "Icon_Skill_025",
+        "HideLevel3": "Yes",
+        "Sp": 5736,
+        "SPLv2": 5736
     },
     {
         "SkillId": 103301011,
@@ -1665,6 +1782,15 @@
         "SPLv2": 7773
     },
     {
+        "SkillId": 107501012,
+        "SkillLv1IconName": "Icon_Skill_018",
+        "SkillLv2IconName": "Icon_Skill_018",
+        "SkillLv3IconName": "Icon_Skill_018",
+        "HideLevel3": "Yes",
+        "Sp": 8300,
+        "SPLv2": 8300
+    },
+    {
         "SkillId": 108301011,
         "SkillLv1IconName": "Icon_Skill_029",
         "SkillLv2IconName": "Icon_Skill_029",
@@ -1708,6 +1834,15 @@
         "HideLevel3": "",
         "Sp": 2311,
         "SPLv2": 2311
+    },
+    {
+        "SkillId": 105401022,
+        "SkillLv1IconName": "Icon_Skill_020",
+        "SkillLv2IconName": "Icon_Skill_020",
+        "SkillLv3IconName": "Icon_Skill_020",
+        "HideLevel3": "Yes",
+        "Sp": 6000,
+        "SPLv2": 6000
     },
     {
         "SkillId": 108404031,
@@ -1962,6 +2097,15 @@
         "SPLv2": 30
     },
     {
+        "SkillId": 299000011,
+        "SkillLv1IconName": "Icon_Skill_026",
+        "SkillLv2IconName": "Icon_Skill_026",
+        "SkillLv3IconName": "Icon_Skill_026",
+        "HideLevel3": "Yes",
+        "Sp": 30,
+        "SPLv2": 30
+    },
+    {
         "SkillId": 306401021,
         "SkillLv1IconName": "Icon_Skill_028",
         "SkillLv2IconName": "Icon_Skill_028",
@@ -2178,6 +2322,15 @@
         "SPLv2": 2213
     },
     {
+        "SkillId": 108403022,
+        "SkillLv1IconName": "Icon_Skill_031",
+        "SkillLv2IconName": "Icon_Skill_031",
+        "SkillLv3IconName": "Icon_Skill_031",
+        "HideLevel3": "Yes",
+        "Sp": 13804,
+        "SPLv2": 13804
+    },
+    {
         "SkillId": 106303012,
         "SkillLv1IconName": "Icon_Skill_028",
         "SkillLv2IconName": "Icon_Skill_028",
@@ -2293,6 +2446,15 @@
         "HideLevel3": "Yes",
         "Sp": 7185,
         "SPLv2": 7185
+    },
+    {
+        "SkillId": 108402021,
+        "SkillLv1IconName": "Icon_Skill_029",
+        "SkillLv2IconName": "Icon_Skill_029",
+        "SkillLv3IconName": "Icon_Skill_029",
+        "HideLevel3": "",
+        "Sp": 7888,
+        "SPLv2": 7888
     },
     {
         "SkillId": 308305011,
@@ -2430,6 +2592,15 @@
         "SPLv2": 30
     },
     {
+        "SkillId": 108402022,
+        "SkillLv1IconName": "Icon_Skill_029",
+        "SkillLv2IconName": "Icon_Skill_029",
+        "SkillLv3IconName": "Icon_Skill_029",
+        "HideLevel3": "Yes",
+        "Sp": 11832,
+        "SPLv2": 11832
+    },
+    {
         "SkillId": 306505011,
         "SkillLv1IconName": "Icon_Skill_017",
         "SkillLv2IconName": "Icon_Skill_017",
@@ -2464,6 +2635,24 @@
         "HideLevel3": "Yes",
         "Sp": 5346,
         "SPLv2": 5346
+    },
+    {
+        "SkillId": 103503012,
+        "SkillLv1IconName": "Icon_Skill_004",
+        "SkillLv2IconName": "Icon_Skill_004",
+        "SkillLv3IconName": "Icon_Skill_004",
+        "HideLevel3": "Yes",
+        "Sp": 4400,
+        "SPLv2": 4400
+    },
+    {
+        "SkillId": 103503011,
+        "SkillLv1IconName": "Icon_Skill_046",
+        "SkillLv2IconName": "Icon_Skill_046",
+        "SkillLv3IconName": "Icon_Skill_046",
+        "HideLevel3": "",
+        "Sp": 2401,
+        "SPLv2": 2401
     },
     {
         "SkillId": 200302031,
@@ -2563,6 +2752,15 @@
         "HideLevel3": "Yes",
         "Sp": 7316,
         "SPLv2": 7316
+    },
+    {
+        "SkillId": 102404012,
+        "SkillLv1IconName": "Icon_Skill_030",
+        "SkillLv2IconName": "Icon_Skill_030",
+        "SkillLv3IconName": "Icon_Skill_030",
+        "HideLevel3": "Yes",
+        "Sp": 4139,
+        "SPLv2": 4139
     },
     {
         "SkillId": 306503021,
@@ -2835,6 +3033,15 @@
         "SPLv2": 4500
     },
     {
+        "SkillId": 102504011,
+        "SkillLv1IconName": "Icon_Skill_925",
+        "SkillLv2IconName": "Icon_Skill_925",
+        "SkillLv3IconName": "Icon_Skill_925",
+        "HideLevel3": "",
+        "Sp": 3080,
+        "SPLv2": 3080
+    },
+    {
         "SkillId": 304305011,
         "SkillLv1IconName": "Icon_Skill_004",
         "SkillLv2IconName": "Icon_Skill_004",
@@ -2914,6 +3121,15 @@
         "HideLevel3": "",
         "Sp": 2450,
         "SPLv2": 2450
+    },
+    {
+        "SkillId": 101503021,
+        "SkillLv1IconName": "Icon_Skill_044",
+        "SkillLv2IconName": "Icon_Skill_044",
+        "SkillLv3IconName": "Icon_Skill_044",
+        "HideLevel3": "",
+        "Sp": 2902,
+        "SPLv2": 2902
     },
     {
         "SkillId": 101301022,
@@ -3150,6 +3366,15 @@
         "SPLv2": 5735
     },
     {
+        "SkillId": 200505091,
+        "SkillLv1IconName": "Icon_Skill_922",
+        "SkillLv2IconName": "Icon_Skill_922",
+        "SkillLv3IconName": "Icon_Skill_922",
+        "HideLevel3": "Yes",
+        "Sp": 30,
+        "SPLv2": 30
+    },
+    {
         "SkillId": 103405022,
         "SkillLv1IconName": "Icon_Skill_020",
         "SkillLv2IconName": "Icon_Skill_020",
@@ -3375,6 +3600,24 @@
         "SPLv2": 7288
     },
     {
+        "SkillId": 106405011,
+        "SkillLv1IconName": "Icon_Skill_015",
+        "SkillLv2IconName": "Icon_Skill_015",
+        "SkillLv3IconName": "Icon_Skill_015",
+        "HideLevel3": "",
+        "Sp": 2503,
+        "SPLv2": 2503
+    },
+    {
+        "SkillId": 107501011,
+        "SkillLv1IconName": "Icon_Skill_014",
+        "SkillLv2IconName": "Icon_Skill_014",
+        "SkillLv3IconName": "Icon_Skill_014",
+        "HideLevel3": "",
+        "Sp": 2649,
+        "SPLv2": 2649
+    },
+    {
         "SkillId": 105504011,
         "SkillLv1IconName": "Icon_Skill_922",
         "SkillLv2IconName": "Icon_Skill_922",
@@ -3382,6 +3625,24 @@
         "HideLevel3": "",
         "Sp": 3051,
         "SPLv2": 3051
+    },
+    {
+        "SkillId": 102504012,
+        "SkillLv1IconName": "Icon_Skill_932",
+        "SkillLv2IconName": "Icon_Skill_932",
+        "SkillLv3IconName": "Icon_Skill_932",
+        "HideLevel3": "Yes",
+        "Sp": 5000,
+        "SPLv2": 5000
+    },
+    {
+        "SkillId": 200503071,
+        "SkillLv1IconName": "Icon_Skill_018",
+        "SkillLv2IconName": "Icon_Skill_018",
+        "SkillLv3IconName": "Icon_Skill_018",
+        "HideLevel3": "Yes",
+        "Sp": 30,
+        "SPLv2": 30
     },
     {
         "SkillId": 200504041,
@@ -3462,7 +3723,7 @@
         "SkillLv3IconName": "Icon_Skill_032",
         "HideLevel3": "Yes",
         "Sp": 3909,
-        "SPLv2": 4648
+        "SPLv2": 3909
     },
     {
         "SkillId": 200403021,
@@ -3582,6 +3843,15 @@
         "SPLv2": 5973
     },
     {
+        "SkillId": 200504081,
+        "SkillLv1IconName": "Icon_Skill_013",
+        "SkillLv2IconName": "Icon_Skill_013",
+        "SkillLv3IconName": "Icon_Skill_013",
+        "HideLevel3": "Yes",
+        "Sp": 30,
+        "SPLv2": 30
+    },
+    {
         "SkillId": 101504012,
         "SkillLv1IconName": "Icon_Skill_030",
         "SkillLv2IconName": "Icon_Skill_030",
@@ -3679,6 +3949,15 @@
         "HideLevel3": "Yes",
         "Sp": 50,
         "SPLv2": 50
+    },
+    {
+        "SkillId": 106405012,
+        "SkillLv1IconName": "Icon_Skill_017",
+        "SkillLv2IconName": "Icon_Skill_017",
+        "SkillLv3IconName": "Icon_Skill_017",
+        "HideLevel3": "Yes",
+        "Sp": 4716,
+        "SPLv2": 4716
     },
     {
         "SkillId": 304405011,
@@ -3922,6 +4201,15 @@
         "HideLevel3": "Yes",
         "Sp": 5973,
         "SPLv2": 5973
+    },
+    {
+        "SkillId": 101503022,
+        "SkillLv1IconName": "Icon_Skill_045",
+        "SkillLv2IconName": "Icon_Skill_045",
+        "SkillLv3IconName": "Icon_Skill_045",
+        "HideLevel3": "Yes",
+        "Sp": 6243,
+        "SPLv2": 6243
     },
     {
         "SkillId": 307599021,

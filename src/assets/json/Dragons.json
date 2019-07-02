@@ -882,6 +882,24 @@
         "FavoriteType": 5
     },
     {
+        "BaseId": 210087,
+        "Id": 20050509,
+        "Name": "シノビ",
+        "Rarity": 5,
+        "ElementalType": "Shadow",
+        "ElementalTypeId": 5,
+        "MinHp": 36,
+        "MaxHp": 368,
+        "MinAtk": 12,
+        "MaxAtk": 128,
+        "Skill1": "",
+        "Abilities11": 120010229,
+        "Abilities12": 120010231,
+        "Abilities21": 272,
+        "Abilities22": 273,
+        "FavoriteType": 5
+    },
+    {
         "BaseId": 210078,
         "Id": 20050406,
         "Name": "シシマイ",
