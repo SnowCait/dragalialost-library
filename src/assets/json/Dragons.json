@@ -18,6 +18,24 @@
         "FavoriteType": 1
     },
     {
+        "BaseId": 210030,
+        "Id": 20050108,
+        "Name": "アルクトス",
+        "Rarity": 5,
+        "ElementalType": "Flame",
+        "ElementalTypeId": 1,
+        "MinHp": 37,
+        "MaxHp": 374,
+        "MinAtk": 12,
+        "MaxAtk": 121,
+        "Skill1": "",
+        "Abilities11": 315,
+        "Abilities12": 316,
+        "Abilities21": 0,
+        "Abilities22": 0,
+        "FavoriteType": 1
+    },
+    {
         "BaseId": 210069,
         "Id": 20030403,
         "Name": "スターインプ",
