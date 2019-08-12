@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import VueAnalytics from 'vue-analytics'
 import App from './App.vue'
 import Home from './components/Home.vue'
+import Login from './components/Login.vue'
 import DragonGifts from './components/DragonGifts.vue'
 import VoidBattles from './components/VoidBattles.vue'
 import StatusSimulator from './components/StatusSimulator.vue'
@@ -18,6 +19,8 @@ const router = new VueRouter({
   // mode: 'history',  // Home.vue がうまく表示されなかったのでコメントアウト
   routes: [
     { path: '/', component: Home },
+    { path: '/login', component: Login },
+    { path: '/user', component: Login },
     { path: '/dragon-gift', component: DragonGifts },
     { path: '/void-battle', component: VoidBattles },
     { path: '/status-simulator', component: StatusSimulator },

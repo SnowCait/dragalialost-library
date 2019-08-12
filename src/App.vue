@@ -1,10 +1,11 @@
 <template>
   <div id="app">
     <header>
-      <img src="Hildegarde.png" />
-      <h1>イリア教会 聖城分室</h1>
+      <img src="Hildegarde.png" v-on:click="$router.push('/')" />
+      <h1 v-on:click="$router.push('/')">イリア教会 聖城分室</h1>
       <nav>
-        <router-link to="/">ホーム</router-link>
+        <img :src="user.photoURL" :alt="user.displayName" :title="user.displayName" v-if="user !== null" v-on:click="$router.push('/user')" />
+        <router-link to="/login" v-if="user === null">ログイン</router-link>
       </nav>
     </header>
     <router-view />
@@ -29,7 +30,28 @@
 export default {
   name: 'app',
   components: {
-  }
+  },
+  data: function () {
+    // this.initApp();
+    return {
+      user: null,
+    }
+  },
+  methods: {
+    initApp: function() {
+      const self = this;
+      firebase.auth().onAuthStateChanged(function (user) {
+        self.user = user;
+        if (user) {
+          console.log(`uid: ${user.uid}`);
+        } else {
+        }
+      });
+    }
+  },
+  mounted () {
+    this.initApp();
+  },
 }
 </script>
 
