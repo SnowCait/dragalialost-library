@@ -360,7 +360,7 @@ adventurersMaster.sort((a, b) => {
     }
 });
 adventurersMaster.forEach(adventurer => {
-    adventurer.Image = require('@/assets/img/adventurer/' + adventurer.Id + '_' + ('0' + adventurer.VariationId).slice(-2) + '_r' + ('0' + adventurer.Rarity).slice(-2) + '.png');
+    adventurer.Image = require('@/assets/img/adventurer/' + adventurer.Id + '_0' + adventurer.VariationId + '_r' + ('0' + adventurer.Rarity).slice(-2) + '.png');
 });
 
 weaponsMaster.forEach(weapon => {
