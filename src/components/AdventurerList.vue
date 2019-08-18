@@ -57,7 +57,7 @@ import coAbilities from '@/assets/json/CoAbilities.min.json'
 
 adventurers.forEach(adventurer => {
     adventurer.Key = adventurer.Id.toString() + ('0' + adventurer.VariationId).slice(-2);
-    adventurer.Image = require('@/assets/img/adventurer/' + adventurer.Id + '_' + ('0' + adventurer.VariationId).slice(-2) + '_r' + ('0' + adventurer.Rarity).slice(-2) + '.png');
+    adventurer.Image = require('@/assets/img/adventurer/' + adventurer.Id + '_0' + adventurer.VariationId + '_r' + ('0' + adventurer.Rarity).slice(-2) + '.png');
 
     let hp = adventurer.MaxHp;
     hp += adventurer.PlusHp0;
