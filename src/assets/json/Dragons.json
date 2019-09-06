@@ -1170,6 +1170,24 @@
         "FavoriteType": 3
     },
     {
+        "BaseId": 210098,
+        "Id": 20050309,
+        "Name": "ヴァーユ",
+        "Rarity": 5,
+        "ElementalType": "Wind",
+        "ElementalTypeId": 3,
+        "MinHp": 36,
+        "MaxHp": 369,
+        "MinAtk": 12,
+        "MaxAtk": 126,
+        "Skill1": "",
+        "Abilities11": 120010215,
+        "Abilities12": 120010217,
+        "Abilities21": 402,
+        "Abilities22": 403,
+        "FavoriteType": 1
+    },
+    {
         "BaseId": 210058,
         "Id": 20040203,
         "Name": "ヴォジャノーイ",
