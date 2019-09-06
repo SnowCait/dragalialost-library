@@ -108,6 +108,42 @@
         "AbilityLimitedGroupId3": 0
     },
     {
+        "Id": 394,
+        "GenericName": "(Dagger) Skill Damage",
+        "Name": "(Dagger) Skill Damage +30%",
+        "Details": "If the user wields a Dagger: increases attack skill damage by 30%.",
+        "AbilityIconName": "Icon_Ability_1010002",
+        "AbilityGroup": 10101,
+        "PartyPowerWeight": 60,
+        "AbilityLimitedGroupId1": 32,
+        "AbilityLimitedGroupId2": 0,
+        "AbilityLimitedGroupId3": 0
+    },
+    {
+        "Id": 395,
+        "GenericName": "(Dagger) Skill Damage",
+        "Name": "(Dagger) Skill Damage +35%",
+        "Details": "If the user wields a Dagger: increases attack skill damage by 35%.",
+        "AbilityIconName": "Icon_Ability_1010002",
+        "AbilityGroup": 10101,
+        "PartyPowerWeight": 80,
+        "AbilityLimitedGroupId1": 32,
+        "AbilityLimitedGroupId2": 0,
+        "AbilityLimitedGroupId3": 0
+    },
+    {
+        "Id": 396,
+        "GenericName": "(Dagger) Skill Damage",
+        "Name": "(Dagger) Skill Damage +40%",
+        "Details": "If the user wields a Dagger: increases attack skill damage by 40%.",
+        "AbilityIconName": "Icon_Ability_1010002",
+        "AbilityGroup": 10101,
+        "PartyPowerWeight": 100,
+        "AbilityLimitedGroupId1": 32,
+        "AbilityLimitedGroupId2": 0,
+        "AbilityLimitedGroupId3": 0
+    },
+    {
         "Id": 5,
         "GenericName": "(Flame) Affliction Guard",
         "Name": "(Flame) Affliction Guard I",
@@ -468,6 +504,18 @@
         "AbilityLimitedGroupId3": 0
     },
     {
+        "Id": 389,
+        "GenericName": "(Flame) Petrify Res",
+        "Name": "(Flame) Petrify Res",
+        "Details": "If the user is attuned to Flame: completely prevents petrification.",
+        "AbilityIconName": "Icon_Ability_1030020",
+        "AbilityGroup": 10102,
+        "PartyPowerWeight": 50,
+        "AbilityLimitedGroupId1": 0,
+        "AbilityLimitedGroupId2": 0,
+        "AbilityLimitedGroupId3": 0
+    },
+    {
         "Id": 59,
         "GenericName": "(Flame) Physian's Bane",
         "Name": "(Flame) Physian's Bane +10%",
@@ -740,6 +788,30 @@
         "AbilityGroup": 10401,
         "PartyPowerWeight": 40,
         "AbilityLimitedGroupId1": 10,
+        "AbilityLimitedGroupId2": 0,
+        "AbilityLimitedGroupId3": 0
+    },
+    {
+        "Id": 387,
+        "GenericName": "(Flame) Undead's Bane",
+        "Name": "(Flame) Undead's Bane +10%",
+        "Details": "If the user is attuned to Flame:  increases damage to undead by 10%.",
+        "AbilityIconName": "Icon_Ability_1060005",
+        "AbilityGroup": 10401,
+        "PartyPowerWeight": 20,
+        "AbilityLimitedGroupId1": 14,
+        "AbilityLimitedGroupId2": 0,
+        "AbilityLimitedGroupId3": 0
+    },
+    {
+        "Id": 388,
+        "GenericName": "(Flame) Undead's Bane",
+        "Name": "(Flame) Undead's Bane +15%",
+        "Details": "If the user is attuned to Flame:  increases damage to undead by 15%.",
+        "AbilityIconName": "Icon_Ability_1060005",
+        "AbilityGroup": 10401,
+        "PartyPowerWeight": 40,
+        "AbilityLimitedGroupId1": 14,
         "AbilityLimitedGroupId2": 0,
         "AbilityLimitedGroupId3": 0
     },
@@ -1100,6 +1172,66 @@
         "AbilityGroup": 10102,
         "PartyPowerWeight": 100,
         "AbilityLimitedGroupId1": 41,
+        "AbilityLimitedGroupId2": 0,
+        "AbilityLimitedGroupId3": 0
+    },
+    {
+        "Id": 390,
+        "GenericName": "(Light) HP 50 = Defense",
+        "Name": "(Light) HP 50% = Defense +4%",
+        "Details": "If the user is attuned to Light:  increases defense by 4% when HP is 50% or above.",
+        "AbilityIconName": "Icon_Ability_1020003",
+        "AbilityGroup": 10102,
+        "PartyPowerWeight": 40,
+        "AbilityLimitedGroupId1": 43,
+        "AbilityLimitedGroupId2": 0,
+        "AbilityLimitedGroupId3": 0
+    },
+    {
+        "Id": 391,
+        "GenericName": "(Light) HP 50 = Defense",
+        "Name": "(Light) HP 50% = Defense +7%",
+        "Details": "If the user is attuned to Light: increases defense by 7% when HP is 50% or above.",
+        "AbilityIconName": "Icon_Ability_1020003",
+        "AbilityGroup": 10102,
+        "PartyPowerWeight": 60,
+        "AbilityLimitedGroupId1": 43,
+        "AbilityLimitedGroupId2": 0,
+        "AbilityLimitedGroupId3": 0
+    },
+    {
+        "Id": 393,
+        "GenericName": "(Light) HP 50 = Healing",
+        "Name": "(Light) HP 50% = Healing +12%",
+        "Details": "If the user is attuned to Light: increases the potency of recovery skills by 12% when HP is 50% or above.",
+        "AbilityIconName": "Icon_Ability_1020009",
+        "AbilityGroup": 10103,
+        "PartyPowerWeight": 60,
+        "AbilityLimitedGroupId1": 29,
+        "AbilityLimitedGroupId2": 0,
+        "AbilityLimitedGroupId3": 0
+    },
+    {
+        "Id": 392,
+        "GenericName": "(Light) HP 50 = Healing",
+        "Name": "(Light) HP 50% = Healing +7%",
+        "Details": "If the user is attuned to Light: increases the potency of recovery skills by 7% when HP is 50% or above.",
+        "AbilityIconName": "Icon_Ability_1020009",
+        "AbilityGroup": 10103,
+        "PartyPowerWeight": 40,
+        "AbilityLimitedGroupId1": 29,
+        "AbilityLimitedGroupId2": 0,
+        "AbilityLimitedGroupId3": 0
+    },
+    {
+        "Id": 415,
+        "GenericName": "(Light) HP 50 = Strength",
+        "Name": "(Light) HP 50% = Strength +7%",
+        "Details": "If the user is attuned to Light: increases strength by 7% when HP is 50% or above.",
+        "AbilityIconName": "Icon_Ability_1020002",
+        "AbilityGroup": 10101,
+        "PartyPowerWeight": 40,
+        "AbilityLimitedGroupId1": 42,
         "AbilityLimitedGroupId2": 0,
         "AbilityLimitedGroupId3": 0
     },
@@ -1553,6 +1685,18 @@
         "Name": "(Shadow) Dull Res",
         "Details": "If the user is attuned to Shadow: completely prevents dulling.",
         "AbilityIconName": "Icon_Ability_1030013",
+        "AbilityGroup": 10102,
+        "PartyPowerWeight": 50,
+        "AbilityLimitedGroupId1": 0,
+        "AbilityLimitedGroupId2": 0,
+        "AbilityLimitedGroupId3": 0
+    },
+    {
+        "Id": 401,
+        "GenericName": "(Shadow) Fury Penetrator",
+        "Name": "(Shadow) Fury Penetrator",
+        "Details": "If the user is attuned to Shadow: ignores the effects of fury when attacking enemies.",
+        "AbilityIconName": "Icon_Ability_1140001",
         "AbilityGroup": 10102,
         "PartyPowerWeight": 50,
         "AbilityLimitedGroupId1": 0,
@@ -2084,6 +2228,30 @@
         "AbilityGroup": 10101,
         "PartyPowerWeight": 100,
         "AbilityLimitedGroupId1": 42,
+        "AbilityLimitedGroupId2": 0,
+        "AbilityLimitedGroupId3": 0
+    },
+    {
+        "Id": 385,
+        "GenericName": "(Shadow) Thaumian's Bane",
+        "Name": "(Shadow) Thaumian's Bane +10%",
+        "Details": "If the user is attuned to Shadow:  increases damage to thaumians by 10%.",
+        "AbilityIconName": "Icon_Ability_1060001",
+        "AbilityGroup": 10401,
+        "PartyPowerWeight": 20,
+        "AbilityLimitedGroupId1": 10,
+        "AbilityLimitedGroupId2": 0,
+        "AbilityLimitedGroupId3": 0
+    },
+    {
+        "Id": 386,
+        "GenericName": "(Shadow) Thaumian's Bane",
+        "Name": "(Shadow) Thaumian's Bane +15%",
+        "Details": "If the user is attuned to Shadow:  increases damage to thaumians by 15%.",
+        "AbilityIconName": "Icon_Ability_1060001",
+        "AbilityGroup": 10401,
+        "PartyPowerWeight": 40,
+        "AbilityLimitedGroupId1": 10,
         "AbilityLimitedGroupId2": 0,
         "AbilityLimitedGroupId3": 0
     },
@@ -2916,6 +3084,42 @@
         "AbilityLimitedGroupId3": 0
     },
     {
+        "Id": 397,
+        "GenericName": "(Wind) Critical Damage",
+        "Name": "(Wind) Critical Damage +10%",
+        "Details": "If the user is attuned to Wind: adds 10% to the modifier applied to critical damage.",
+        "AbilityIconName": "Icon_Ability_1020011",
+        "AbilityGroup": 10101,
+        "PartyPowerWeight": 40,
+        "AbilityLimitedGroupId1": 94,
+        "AbilityLimitedGroupId2": 0,
+        "AbilityLimitedGroupId3": 0
+    },
+    {
+        "Id": 398,
+        "GenericName": "(Wind) Critical Damage",
+        "Name": "(Wind) Critical Damage +13%",
+        "Details": "If the user is attuned to Wind: adds 13% to the modifier applied to critical damage.",
+        "AbilityIconName": "Icon_Ability_1020011",
+        "AbilityGroup": 10101,
+        "PartyPowerWeight": 60,
+        "AbilityLimitedGroupId1": 94,
+        "AbilityLimitedGroupId2": 0,
+        "AbilityLimitedGroupId3": 0
+    },
+    {
+        "Id": 399,
+        "GenericName": "(Wind) Critical Damage",
+        "Name": "(Wind) Critical Damage +15%",
+        "Details": "If the user is attuned to Wind: adds 15% to the modifier applied to critical damage.",
+        "AbilityIconName": "Icon_Ability_1020011",
+        "AbilityGroup": 10101,
+        "PartyPowerWeight": 80,
+        "AbilityLimitedGroupId1": 94,
+        "AbilityLimitedGroupId2": 0,
+        "AbilityLimitedGroupId3": 0
+    },
+    {
         "Id": 230,
         "GenericName": "(Wind) Fury Penetrator",
         "Name": "(Wind) Fury Penetrator",
@@ -3188,6 +3392,30 @@
         "AbilityGroup": 10103,
         "PartyPowerWeight": 40,
         "AbilityLimitedGroupId1": 29,
+        "AbilityLimitedGroupId2": 0,
+        "AbilityLimitedGroupId3": 0
+    },
+    {
+        "Id": 402,
+        "GenericName": "(Wind) Skill Damage",
+        "Name": "(Wind) Skill Damage +70%",
+        "Details": "If the user is attuned to Wind: increases attack skill damage by 70%.",
+        "AbilityIconName": "Icon_Ability_1010002",
+        "AbilityGroup": 10101,
+        "PartyPowerWeight": 60,
+        "AbilityLimitedGroupId1": 32,
+        "AbilityLimitedGroupId2": 0,
+        "AbilityLimitedGroupId3": 0
+    },
+    {
+        "Id": 403,
+        "GenericName": "(Wind) Skill Damage",
+        "Name": "(Wind) Skill Damage +90%",
+        "Details": "If the user is attuned to Wind: increases attack skill damage by 90%.",
+        "AbilityIconName": "Icon_Ability_1010002",
+        "AbilityGroup": 10101,
+        "PartyPowerWeight": 70,
+        "AbilityLimitedGroupId1": 32,
         "AbilityLimitedGroupId2": 0,
         "AbilityLimitedGroupId3": 0
     },
@@ -4620,6 +4848,18 @@
         "AbilityLimitedGroupId3": 0
     },
     {
+        "Id": 400,
+        "GenericName": "Dragon Damage (Ability)",
+        "Name": "Dragon Damage +8%",
+        "Details": "Adds 8% to the modifier applied to damage when in dragon form.",
+        "AbilityIconName": "Icon_Ability_1020002",
+        "AbilityGroup": 10101,
+        "PartyPowerWeight": 50,
+        "AbilityLimitedGroupId1": 113,
+        "AbilityLimitedGroupId2": 0,
+        "AbilityLimitedGroupId3": 0
+    },
+    {
         "Id": 110010804,
         "GenericName": "Dragon Time",
         "Name": "Dragon Time +10%",
@@ -5168,6 +5408,18 @@
         "AbilityGroup": 10699,
         "PartyPowerWeight": 40,
         "AbilityLimitedGroupId1": 92,
+        "AbilityLimitedGroupId2": 0,
+        "AbilityLimitedGroupId3": 0
+    },
+    {
+        "Id": 210000503,
+        "GenericName": "Flurry Strength",
+        "Name": "Flurry Strength +10%",
+        "Details": "Increases strength by 10% when the combo count is 15 or higher.",
+        "AbilityIconName": "Icon_Ability_1020002",
+        "AbilityGroup": 10101,
+        "PartyPowerWeight": 40,
+        "AbilityLimitedGroupId1": 42,
         "AbilityLimitedGroupId2": 0,
         "AbilityLimitedGroupId3": 0
     },
