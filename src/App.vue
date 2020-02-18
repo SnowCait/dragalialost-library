@@ -11,12 +11,12 @@
     <footer>
       <ul>
         <li class="github">
-          <a href="https://github.com/SnowCait/dragalialost-library" target="_blank">
+          <a href="https://github.com/SnowCait/dragalialost-library" target="_blank" rel="noopener">
             <img src="@/assets/img/ui/logo/GitHub-Mark-120px-plus.png" alt="GitHub" />
           </a>
         </li>
         <li class="twitter">
-          <a href="https://twitter.com/snow_cait" target="_blank">
+          <a href="https://twitter.com/snow_cait" target="_blank" rel="noopener">
             <img src="@/assets/img/ui/logo/Twitter_Social_Icon_Circle_Color.png" alt="Twitter" />
           </a>
         </li>
